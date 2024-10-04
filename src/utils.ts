@@ -1,3 +1,6 @@
+import process from 'node:process'
+import consola from 'consola'
+
 export function performanceUtils(): () => number {
   let startedAt = performance.now()
   const cost = (): number => {
@@ -7,4 +10,15 @@ export function performanceUtils(): () => number {
     return cost
   }
   return cost
+}
+
+/**
+ * Wrapper to exit the process if the user presses CTRL+C.
+ */
+export async function prompt(message: string, options: any): Promise<any> {
+  const response = await consola.prompt(message, options)
+  if (response.toString() === 'Symbol(clack:cancel)') {
+    process.exit(0)
+  }
+  return response
 }

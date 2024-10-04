@@ -1,7 +1,7 @@
 import fs from 'node:fs/promises'
 import process from 'node:process'
 import { consola } from 'consola'
-import { performanceUtils } from './utils'
+import { performanceUtils, prompt } from './utils'
 import type { Payload } from './type'
 
 consola.start('開始分析資料')
@@ -9,16 +9,23 @@ const cost = performanceUtils()
 
 consola.info('檢查檔案是否存在')
 
-try {
-  await fs.access(new URL('../data/airaConnect.machineryMessages.json', import.meta.url))
-}
-catch {
+const files = await fs
+  .readdir(new URL('../data', import.meta.url))
+const filterFiles = files.filter(file => file.startsWith('airaConnect.machineryMessages') && file.endsWith('.json'))
+if (filterFiles.length === 0) {
   consola.error('檔案不存在')
   process.exit(1)
 }
 
+const selectFile = await prompt('請選擇分析的檔案：', {
+  type: 'select',
+  options: filterFiles,
+})
+
+const filePath = new URL(`../data/${selectFile}`, import.meta.url)
+
 const payload = JSON.parse(await fs.readFile(
-  new URL('../data/airaConnect.machineryMessages.json', import.meta.url),
+  new URL(filePath, import.meta.url),
   'utf-8',
 )) as Payload[]
 consola.info(`共有 ${payload.length} 筆資料，共花費 ${(cost() / 1000).toFixed(2)} 秒`)

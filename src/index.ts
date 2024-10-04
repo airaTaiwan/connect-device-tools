@@ -18,17 +18,18 @@ async function main(): Promise<void> {
     process.exit(1)
   }
 
-  const selectFile = await prompt('請選擇分析的檔案：', {
-    type: 'select',
+  const selectedFiles = await prompt('請選擇分析的檔案（可多選）：', {
+    type: 'multiselect',
     options: filterFiles,
   })
 
-  const filePath = new URL(`../data/${selectFile}`, import.meta.url)
+  let payload: Payload[] = []
 
-  const payload = JSON.parse(await fs.readFile(
-    new URL(filePath, import.meta.url),
-    'utf-8',
-  )) as Payload[]
+  for (const selectFile of selectedFiles) {
+    const filePath = new URL(`../data/${selectFile}`, import.meta.url)
+    const fileContent = JSON.parse(await fs.readFile(filePath, 'utf-8')) as Payload[]
+    payload = payload.concat(fileContent)
+  }
   consola.info(`共有 ${payload.length} 筆資料，共花費 ${(cost() / 1000).toFixed(2)} 秒`)
 
   const channels = [...new Set(payload.map(item => item.source.channel))]

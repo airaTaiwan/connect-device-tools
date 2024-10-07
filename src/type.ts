@@ -15,6 +15,7 @@ export interface Device {
   model: string
   name: string
   signal: Signal[]
+  updatedAt: number
 }
 
 export interface Signal {

@@ -1,10 +1,9 @@
 import fs from 'node:fs/promises'
 import process from 'node:process'
-import { pathToFileURL } from 'node:url'
 import { consola } from 'consola'
 import dotenv from 'dotenv'
 import type { Device } from '~/type'
-import { exit, formatDate, performanceUtils, prompt, readFileContent, readFolderNames } from '~/utils'
+import { exit, formatDate, performanceUtils, prompt, readFileContent, readFolderNames, writeFile } from '~/utils'
 import { preprocessData, type serializableData } from './prepare'
 import type { Payload, ProcessedResult, ProcessedSignal } from './dtos'
 
@@ -14,7 +13,7 @@ export async function generateReportNotWorking(): Promise<void> {
   consola.start('開始產生未正常運作機具報表')
   const cost = performanceUtils()
 
-  consola.info('檢查檔案中')
+  consola.info('檢查檔案中...')
 
   const nameMessagePrefix = process.env.Name_Message || 'airaConnect.machineryMessages.test'
 
@@ -61,11 +60,11 @@ export async function generateReportNotWorking(): Promise<void> {
 
   const { areaMap, devicesMap } = preprocessedData
 
-  const resultString = formatOutput(areaMap, devicesMap, transformedPayloads, startTime, endTime)
+  const result = formatOutput(areaMap, devicesMap, transformedPayloads, startTime, endTime)
 
   consola.info(`已處理完畢，正在寫入檔案，共花費 ${(cost() / 1000).toFixed(2)} 秒`)
 
-  await writeOutput(resultString)
+  await writeOutput(result)
 
   consola.success('已寫入檔案，共花費')
 }
@@ -133,9 +132,9 @@ function formatOutput(
 ): string {
   const startDate = new Date(startTime)
   const endDate = new Date(endTime)
-  const formattedDate = `${startDate.getMonth() + 1}/${startDate.getDate()} - ${endDate.getMonth() + 1}/${endDate.getDate()}`
+  const dateRange = `${startDate.getMonth() + 1}/${startDate.getDate()} - ${endDate.getMonth() + 1}/${endDate.getDate()}`
 
-  const header = `日期\t${formattedDate}\nGateway\t通訊設備\tDI\t區域\t名稱\t燈號\t最後更新時間\n`
+  const header = `\t${dateRange}\n#\tGateway\t通訊設備\tDI\t區域\t名稱\t燈號\t最後更新時間\n`
   const lines: string[] = []
 
   processedSignals.forEach((signal) => {
@@ -143,21 +142,19 @@ function formatOutput(
     const deviceKey = `${signal.gatewayId}/${signal.communicationEquipmentId}`
 
     const matchingDevices = Object.entries(devicesMap)
-      .filter(([key]) => {
-        return key.startsWith(deviceKey)
-      })
+      .filter(([key]) => key.startsWith(deviceKey))
       .map(([_, device]) => device)
 
     matchingDevices.forEach((device) => {
       const areaName = areaMap[device.areaId] || '--'
       const formattedLastUpdateTime = formatDate(signal.lastUpdateTime)
 
-      signal.diResults.forEach((diKey) => {
+      signal.diResults.forEach((diKey, idx) => {
         const diNumber = diKey.replace('DI', '')
         const matchingSignal = device.signal.find(s => s.pin.replace('R', '') === diNumber)
 
         if (matchingSignal) {
-          lines.push(`${gateway}\t${communicationEquipment}\t${diKey}\t${areaName}\t${device.name}\t${matchingSignal.light}\t${formattedLastUpdateTime}`)
+          lines.push(`${idx + 1}\t${gateway}\t${communicationEquipment}\t${diKey}\t${areaName}\t${device.name}\t${matchingSignal.light}\t${formattedLastUpdateTime}`)
         }
       })
     })
@@ -174,5 +171,5 @@ async function writeOutput(resultString: string): Promise<void> {
   const formattedDate = `${date.getFullYear()}-${(date.getMonth() + 1).toString().padStart(2, '0')}-${date.getDate().toString().padStart(2, '0')}`
   const outputFileName = `./output/${formattedDate}-report-not-working.txt`
 
-  await fs.writeFile(pathToFileURL(outputFileName), resultString, 'utf-8')
+  await writeFile(outputFileName, resultString)
 }

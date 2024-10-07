@@ -8,7 +8,7 @@ const cli = cac()
 cli
   .command('report', 'generate report')
   .option('--type <type>', 'Set report type', {
-    default: 'not-working',
+    default: 'last-update',
   })
   .action((options) => {
     if (options.type === 'not-working') {

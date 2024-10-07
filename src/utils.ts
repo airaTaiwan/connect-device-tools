@@ -55,3 +55,10 @@ export async function readFileContent<T>(filePath: PathLike = 'data'): Promise<T
     return []
   }
 }
+
+/**
+ * 寫入檔案
+ */
+export async function writeFile(filePath: string, content: string): Promise<void> {
+  await fs.writeFile(filePath, content, 'utf-8')
+}

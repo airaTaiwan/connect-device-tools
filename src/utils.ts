@@ -18,7 +18,11 @@ export function performanceUtils(): () => number {
 export async function prompt(message: string, options: any): Promise<any> {
   const response = await consola.prompt(message, options)
   if (response.toString() === 'Symbol(clack:cancel)') {
-    process.exit(0)
+    exit()
   }
   return response
+}
+
+export function exit(): void {
+  process.exit(0)
 }

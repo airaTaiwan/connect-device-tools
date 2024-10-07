@@ -43,7 +43,7 @@ async function main(): Promise<void> {
 
   for (const [channel, items] of Object.entries(groupedPayload)) {
     diResults[channel] = []
-    for (let i = 0; i <= 12; i++) {
+    for (let i = 0; i <= 16; i++) {
       const diKey = `DI${i}` as keyof Payload['data']
       if (items.every(item => item.data[diKey] === 0)) {
         diResults[channel].push(diKey)
@@ -57,7 +57,7 @@ async function main(): Promise<void> {
 
   consola.info(`已處理完畢，正在寫入檔案，共花費 ${(cost() / 1000).toFixed(2)} 秒`)
 
-  await fs.writeFile('/Users/cofcat/i/connect-device-tools/.output.txt', resultString, 'utf-8')
+  await fs.writeFile(new URL('../.output.txt', import.meta.url), resultString, 'utf-8')
   consola.success('已寫入檔案，共花費')
 }
 

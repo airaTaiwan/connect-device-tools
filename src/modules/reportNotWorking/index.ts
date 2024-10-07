@@ -17,7 +17,7 @@ export async function generateReportNotWorking(): Promise<void> {
 
   const nameMessagePrefix = process.env.Name_Message || 'airaConnect.machineryMessages.test'
 
-  const files = await readFolderNames(new URL('./data', import.meta.url))
+  const files = await readFolderNames()
 
   const filterMessageFiles = files
     .filter(file => file.startsWith(nameMessagePrefix!) && file.endsWith('.json'))
@@ -36,14 +36,14 @@ export async function generateReportNotWorking(): Promise<void> {
 
   consola.info('讀取檔案中')
   for (const selectFile of selectedFiles) {
-    const fileContent = await readFileContent<Payload>(new URL(`./data/${selectFile}.json`, import.meta.url))
+    const fileContent = await readFileContent<Payload[]>(selectFile)
     payload = payload.concat(fileContent)
   }
   consola.info(`共有 ${payload.length} 筆資料，共花費 ${(cost() / 1000).toFixed(2)} 秒`)
 
   let preprocessedData: serializableData
   try {
-    await fs.access(new URL('./data/preprocessed_data.json', import.meta.url))
+    await fs.access('./data/preprocessed_data.json')
   }
   catch {
     consola.info('預處理數據不存在，將重新生成')
@@ -51,8 +51,7 @@ export async function generateReportNotWorking(): Promise<void> {
     preprocessData()
   }
   finally {
-    const data = await fs.readFile(new URL('./data/preprocessed_data.json', import.meta.url), 'utf-8')
-    preprocessedData = JSON.parse(data)
+    preprocessedData = await readFileContent<serializableData>('preprocessed_data')
   }
 
   const { signals: transformedPayloads, startTime, endTime } = processPayload(payload)
@@ -66,7 +65,7 @@ export async function generateReportNotWorking(): Promise<void> {
 
   await writeOutput(result)
 
-  consola.success('已寫入檔案，共花費')
+  consola.success('已完成！')
 }
 
 export function processPayload(payload: Payload[]): ProcessedResult {

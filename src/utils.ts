@@ -37,23 +37,16 @@ export function formatDate(timestamp: number): string {
 /**
  * 讀取目錄下的檔案名稱
  */
-export async function readFolderNames(folderPath: PathLike = 'data'): Promise<string[]> {
+export async function readFolderNames(folderPath: PathLike = './data'): Promise<string[]> {
   return await fs.readdir(folderPath)
 }
 
 /**
  * 讀取檔案內容
  */
-export async function readFileContent<T>(filePath: PathLike = 'data'): Promise<T[]> {
-  try {
-    const fileContent = await fs.readFile(filePath, 'utf-8')
-    return JSON.parse(fileContent)
-  }
-  catch (error) {
-    consola.error(`讀取檔案 ${filePath} 時發生錯誤:`, error)
-    exit()
-    return []
-  }
+export async function readFileContent<T>(fileName: string): Promise<T> {
+  const fileContent = await fs.readFile(`./data/${fileName}.json`, 'utf-8')
+  return JSON.parse(fileContent)
 }
 
 /**

@@ -9,7 +9,7 @@ export async function generateReportLastUpdate(): Promise<void> {
 
   consola.info('讀取檔案中')
   const nameDevicePrefix = process.env.Name_Device || 'airaConnect.devices'
-  const devices: Device[] = await readFileContent(`./data/${nameDevicePrefix}.json`)
+  const devices: Device[] = await readFileContent(nameDevicePrefix)
 
   consola.info(`讀取檔案完成，共花費 ${(cost() / 1000).toFixed(2)} 秒`)
 
@@ -19,7 +19,7 @@ export async function generateReportLastUpdate(): Promise<void> {
 
   await writeOutput(result)
 
-  consola.success(`已寫入檔案，共花費 ${(cost() / 1000).toFixed(2)} 秒`)
+  consola.success('已完成！')
 }
 
 /**

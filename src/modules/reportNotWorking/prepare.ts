@@ -44,8 +44,8 @@ export async function preprocessData(): Promise<PreprocessedData> {
   const mapName = process.env.Name_Map || 'airaConnect.maps'
   const deviceName = process.env.Name_Device || 'airaConnect.devices'
 
-  const maps: ConnectMap[] = await readFileContent(new URL(`./data/${mapName}.json`, import.meta.url))
-  const devices: Device[] = await readFileContent(new URL(`./data/${deviceName}.json`, import.meta.url))
+  const maps: ConnectMap[] = await readFileContent(mapName)
+  const devices: Device[] = await readFileContent(deviceName)
 
   const areaMap = preprocessAreaMap(maps)
   const devicesMap = preprocessDevicesMap(devices)

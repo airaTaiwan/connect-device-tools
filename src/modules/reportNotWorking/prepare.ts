@@ -2,8 +2,8 @@ import fs from 'node:fs/promises'
 import process from 'node:process'
 import { consola } from 'consola'
 import dotenv from 'dotenv'
-import { readFileContent } from './utils'
-import type { ConnectMap, Device } from './type'
+import { readFileContent } from '../../utils'
+import type { ConnectMap, Device } from '../../type'
 
 export interface PreprocessedData {
   devicesMap: Map<string, Device>
@@ -41,8 +41,11 @@ export async function preprocessData(): Promise<PreprocessedData> {
 
   consola.start('開始預處理數據')
 
-  const maps: ConnectMap[] = await readFileContent(process.env.Name_Map || 'airaConnect.maps')
-  const devices: Device[] = await readFileContent(process.env.Name_Device || 'airaConnect.devices')
+  const mapName = process.env.Name_Map || 'airaConnect.maps'
+  const deviceName = process.env.Name_Device || 'airaConnect.devices'
+
+  const maps: ConnectMap[] = await readFileContent(new URL(`./data/${mapName}.json`, import.meta.url))
+  const devices: Device[] = await readFileContent(new URL(`./data/${deviceName}.json`, import.meta.url))
 
   const areaMap = preprocessAreaMap(maps)
   const devicesMap = preprocessDevicesMap(devices)
@@ -54,11 +57,9 @@ export async function preprocessData(): Promise<PreprocessedData> {
     devicesMap: Object.fromEntries(devicesMap),
   }
 
-  await fs.writeFile('preprocessed_data.json', JSON.stringify(serializableData, null, 2))
+  await fs.writeFile('./data/preprocessed_data.json', JSON.stringify(serializableData, null, 2))
 
   consola.success('預處理數據完成')
 
   return result
 }
-
-preprocessData()

@@ -1,6 +1,7 @@
 import fs from 'node:fs/promises'
 import process from 'node:process'
 import consola from 'consola'
+import type { PathLike } from 'node:fs'
 
 export function performanceUtils(): () => number {
   let startedAt = performance.now()
@@ -36,21 +37,20 @@ export function formatDate(timestamp: number): string {
 /**
  * 讀取目錄下的檔案名稱
  */
-export async function readFolderNames(): Promise<string[]> {
-  return await fs
-    .readdir(new URL(`../data`, import.meta.url))
+export async function readFolderNames(folderPath: PathLike = 'data'): Promise<string[]> {
+  return await fs.readdir(folderPath)
 }
 
 /**
  * 讀取檔案內容
  */
-export async function readFileContent<T>(fileName: string): Promise<T[]> {
+export async function readFileContent<T>(filePath: PathLike = 'data'): Promise<T[]> {
   try {
-    const fileContent = await fs.readFile(new URL(`../data/${fileName}.json`, import.meta.url), 'utf-8')
+    const fileContent = await fs.readFile(filePath, 'utf-8')
     return JSON.parse(fileContent)
   }
   catch (error) {
-    consola.error(`讀取檔案 ${fileName} 時發生錯誤:`, error)
+    consola.error(`讀取檔案 ${filePath} 時發生錯誤:`, error)
     exit()
     return []
   }

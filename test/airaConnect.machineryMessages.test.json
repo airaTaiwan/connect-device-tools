@@ -1,0 +1,62 @@
+[
+  {
+    "_id": "f7282d50-22d9-57df-af96-6a0022ee625b",
+    "source": {
+      "host": "172.168.3.80",
+      "port": 1883,
+      "gatewayId": "5a596048-110d-5d52-9421-27d33cfe751a",
+      "communicationEquipmentId": "0a97ebd7-22d6-5ac4-9ec3-dda11c9e6e2a",
+      "channel": "GW-001/RM-003"
+    },
+    "data": {
+      "Time": "2024-09-01 00:00:12",
+      "DI0": 0,
+      "DI1": 0,
+      "DI2": 0,
+      "DI3": 1,
+      "DI4": 0,
+      "DI5": 0,
+      "DI6": 0,
+      "DI7": 0,
+      "DI8": 1,
+      "DI9": 0,
+      "DI10": 0,
+      "DI11": 0,
+      "DI12": 0,
+      "DI13": 0,
+      "DI14": 0,
+      "DI15": 0
+    },
+    "timestamp": 1725120013632
+  },
+  {
+    "_id": "f7282d50-22d9-57df-af96-6a0022ee625b",
+    "source": {
+      "host": "172.168.3.80",
+      "port": 1883,
+      "gatewayId": "5a596048-110d-5d52-9421-27d33cfe751a",
+      "communicationEquipmentId": "0a97ebd7-22d6-5ac4-9ec3-dda11c9e6e2a",
+      "channel": "GW-001/RM-003"
+    },
+    "data": {
+      "Time": "2024-09-01 00:00:12",
+      "DI0": 0,
+      "DI1": 0,
+      "DI2": 0,
+      "DI3": 0,
+      "DI4": 0,
+      "DI5": 0,
+      "DI6": 0,
+      "DI7": 0,
+      "DI8": 0,
+      "DI9": 0,
+      "DI10": 0,
+      "DI11": 0,
+      "DI12": 0,
+      "DI13": 0,
+      "DI14": 0,
+      "DI15": 0
+    },
+    "timestamp": 1725120013632
+  }
+]

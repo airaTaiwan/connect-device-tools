@@ -40,8 +40,7 @@
     "lint": "eslint .",
     "release": "bumpp",
     "start": "esno src/index.ts",
-    "preprocess": "esno src/preprocess.ts",
-    "verify": "esno src/verify.ts",
+    "report": "esno src/index.ts report",
     "test": "vitest",
     "typecheck": "tsc --noEmit",
     "clean": "find output -type f ! -name 'README.md' -delete"
@@ -55,6 +54,7 @@
     "@antfu/utils": "^0.7.10",
     "@types/node": "^22.5.4",
     "bumpp": "^9.5.2",
+    "cac": "^6.7.14",
     "consola": "^3.2.3",
     "eslint": "^9.9.1",
     "esno": "^4.7.0",

@@ -10,6 +10,6 @@ logs
 node_modules
 temp
 
-data/airaConnect.machineryMessages*.json
+airaConnect.machineryMessages*.json
 output/*.txt
 preprocessed_data.json

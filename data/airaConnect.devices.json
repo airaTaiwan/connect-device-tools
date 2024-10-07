@@ -1,0 +1,5452 @@
+[{
+  "_id": "76487650-b6c1-5372-a1d0-6b0d75801818",
+  "areaId": "344479fe-c061-4da5-b12a-347fd0306a5f",
+  "cameras": [
+    "3129464e-6afc-8a50-2ccf-285af8d35dfd",
+    "cfe0cf5c-7f25-14ed-0e4b-8d62ecb22fbf"
+  ],
+  "category": "mac",
+  "communicationEquipmentId": "0e5f9c16-a34d-558f-8440-dd1bcf6b9df8",
+  "connectionProfileId": "1",
+  "createdAt": 1721386967024,
+  "deletedAt": 0,
+  "gatewayId": "5a596048-110d-5d52-9421-27d33cfe751a",
+  "model": "MELF全檢1x3.15",
+  "name": "全檢No.11",
+  "serial": 2,
+  "signal": [
+    {
+      "pin": "R0",
+      "state": "0>1",
+      "light": "R",
+      "note": "危險",
+      "uuid": "row_139"
+    }
+  ],
+  "typeId": null,
+  "updatedAt": 1727317307147,
+  "coordinates": {
+    "x": 0.6299932961216566,
+    "y": 0.22567665747957535
+  },
+  "syncedAt": 1728275986385,
+  "metrics": {}
+}, {
+  "_id": "43fb4f8a-f7e7-5329-9417-471f35f5cea2",
+  "areaId": "344479fe-c061-4da5-b12a-347fd0306a5f",
+  "cameras": [
+    "3129464e-6afc-8a50-2ccf-285af8d35dfd",
+    "cfe0cf5c-7f25-14ed-0e4b-8d62ecb22fbf"
+  ],
+  "category": "mac",
+  "communicationEquipmentId": "0e5f9c16-a34d-558f-8440-dd1bcf6b9df8",
+  "connectionProfileId": "1",
+  "createdAt": 1721542351709,
+  "deletedAt": 0,
+  "gatewayId": "5a596048-110d-5d52-9421-27d33cfe751a",
+  "model": "No10 MELF全檢1x3.15",
+  "name": "全檢No.10",
+  "serial": 3,
+  "signal": [
+    {
+      "pin": "R1",
+      "state": "0>1",
+      "light": "R",
+      "note": "危險",
+      "uuid": "row_1161"
+    }
+  ],
+  "typeId": null,
+  "updatedAt": 1727176002030,
+  "coordinates": {
+    "x": 0.6184008390760763,
+    "y": 0.2240424066220687
+  },
+  "syncedAt": 1728275985638,
+  "metrics": {}
+}, {
+  "_id": "a516fb95-f7a9-56c8-a174-90ce5a3e4f1a",
+  "areaId": "344479fe-c061-4da5-b12a-347fd0306a5f",
+  "cameras": [
+    "3129464e-6afc-8a50-2ccf-285af8d35dfd",
+    "cfe0cf5c-7f25-14ed-0e4b-8d62ecb22fbf"
+  ],
+  "category": "mac",
+  "communicationEquipmentId": "0e5f9c16-a34d-558f-8440-dd1bcf6b9df8",
+  "connectionProfileId": "1",
+  "createdAt": 1721542468598,
+  "deletedAt": 0,
+  "gatewayId": "5a596048-110d-5d52-9421-27d33cfe751a",
+  "model": "No9 MELF全檢1x3.15",
+  "name": "全檢No.9",
+  "serial": 3,
+  "signal": [
+    {
+      "pin": "R2",
+      "state": "0>1",
+      "light": "R",
+      "note": "危險",
+      "uuid": "row_1161"
+    }
+  ],
+  "typeId": null,
+  "updatedAt": 1727176144434,
+  "coordinates": {
+    "x": 0.6071056245188444,
+    "y": 0.2251319071937398
+  },
+  "syncedAt": 1728275985679,
+  "metrics": {}
+}, {
+  "_id": "29e826fa-3264-5469-8a79-16bca137fd44",
+  "areaId": "344479fe-c061-4da5-b12a-347fd0306a5f",
+  "cameras": [
+    "3129464e-6afc-8a50-2ccf-285af8d35dfd",
+    "cfe0cf5c-7f25-14ed-0e4b-8d62ecb22fbf"
+  ],
+  "category": "mac",
+  "communicationEquipmentId": "0e5f9c16-a34d-558f-8440-dd1bcf6b9df8",
+  "connectionProfileId": "1",
+  "createdAt": 1721542515360,
+  "deletedAt": 0,
+  "gatewayId": "5a596048-110d-5d52-9421-27d33cfe751a",
+  "model": "No8 MELF全檢1x3.15",
+  "name": "全檢No.8",
+  "serial": 4,
+  "signal": [
+    {
+      "pin": "R3",
+      "state": "0>1",
+      "light": "R",
+      "note": "危險",
+      "uuid": "row_1161"
+    }
+  ],
+  "typeId": null,
+  "updatedAt": 1727177486482,
+  "coordinates": {
+    "x": 0.5967021374266571,
+    "y": 0.22567665747957535
+  },
+  "syncedAt": 1728275985721,
+  "metrics": {}
+}, {
+  "_id": "95e29e87-ef08-5ade-b4dd-da308a82df5f",
+  "areaId": "344479fe-c061-4da5-b12a-347fd0306a5f",
+  "cameras": [
+    "3129464e-6afc-8a50-2ccf-285af8d35dfd",
+    "cfe0cf5c-7f25-14ed-0e4b-8d62ecb22fbf"
+  ],
+  "category": "mac",
+  "communicationEquipmentId": "0e5f9c16-a34d-558f-8440-dd1bcf6b9df8",
+  "connectionProfileId": "1",
+  "createdAt": 1721542540884,
+  "deletedAt": 0,
+  "gatewayId": "5a596048-110d-5d52-9421-27d33cfe751a",
+  "model": "No15 MELF全檢1.7x5.4",
+  "name": "全檢No.15",
+  "serial": 5,
+  "signal": [
+    {
+      "pin": "R4",
+      "state": "0>1",
+      "light": "R",
+      "note": "危險",
+      "uuid": "row_1161"
+    }
+  ],
+  "typeId": null,
+  "updatedAt": 1727177573290,
+  "coordinates": {
+    "x": 0.6175091116110317,
+    "y": 0.2033418957603181
+  },
+  "syncedAt": 1728275985763,
+  "metrics": {}
+}, {
+  "_id": "dba34918-7404-50fd-897a-a251a712d69a",
+  "areaId": "344479fe-c061-4da5-b12a-347fd0306a5f",
+  "cameras": [
+    "3129464e-6afc-8a50-2ccf-285af8d35dfd",
+    "cfe0cf5c-7f25-14ed-0e4b-8d62ecb22fbf"
+  ],
+  "category": "mac",
+  "communicationEquipmentId": "0e5f9c16-a34d-558f-8440-dd1bcf6b9df8",
+  "connectionProfileId": "1",
+  "createdAt": 1721542587674,
+  "deletedAt": 0,
+  "gatewayId": "5a596048-110d-5d52-9421-27d33cfe751a",
+  "model": "No16 MELF全檢1.7x5.4",
+  "name": "全檢No.16",
+  "serial": 6,
+  "signal": [
+    {
+      "pin": "R5",
+      "state": "0>1",
+      "light": "R",
+      "note": "危險",
+      "uuid": "row_1161"
+    }
+  ],
+  "typeId": null,
+  "updatedAt": 1727177609378,
+  "coordinates": {
+    "x": 0.6071056245188444,
+    "y": 0.2033418957603181
+  },
+  "syncedAt": 1728275985806,
+  "metrics": {}
+}, {
+  "_id": "401b70c0-e9de-524a-9fa6-7ea854a83730",
+  "areaId": "344479fe-c061-4da5-b12a-347fd0306a5f",
+  "cameras": [
+    "3129464e-6afc-8a50-2ccf-285af8d35dfd",
+    "cfe0cf5c-7f25-14ed-0e4b-8d62ecb22fbf"
+  ],
+  "category": "mac",
+  "communicationEquipmentId": "0e5f9c16-a34d-558f-8440-dd1bcf6b9df8",
+  "connectionProfileId": "1",
+  "createdAt": 1721542610215,
+  "deletedAt": 0,
+  "gatewayId": "5a596048-110d-5d52-9421-27d33cfe751a",
+  "model": "No17 MELF全檢1.7x5.4",
+  "name": "全檢No.17",
+  "serial": 7,
+  "signal": [
+    {
+      "pin": "R6",
+      "state": "0>1",
+      "light": "R",
+      "note": "危險",
+      "uuid": "row_1161"
+    }
+  ],
+  "typeId": null,
+  "updatedAt": 1727177778381,
+  "coordinates": {
+    "x": 0.5972966224033535,
+    "y": 0.20279714547448255
+  },
+  "syncedAt": 1728275985847,
+  "metrics": {}
+}, {
+  "_id": "7a14a2eb-ea84-5d9c-8816-cf20121e80b8",
+  "areaId": "344479fe-c061-4da5-b12a-347fd0306a5f",
+  "cameras": [
+    "3129464e-6afc-8a50-2ccf-285af8d35dfd",
+    "cfe0cf5c-7f25-14ed-0e4b-8d62ecb22fbf"
+  ],
+  "category": "mac",
+  "communicationEquipmentId": "0e5f9c16-a34d-558f-8440-dd1bcf6b9df8",
+  "connectionProfileId": "1",
+  "createdAt": 1721542633657,
+  "deletedAt": 0,
+  "gatewayId": "5a596048-110d-5d52-9421-27d33cfe751a",
+  "model": "No18 MELF全檢1.7x5.4",
+  "name": "全檢No.18",
+  "serial": 8,
+  "signal": [
+    {
+      "pin": "R7",
+      "state": "0>1",
+      "light": "R",
+      "note": "危險",
+      "uuid": "row_1161"
+    }
+  ],
+  "typeId": null,
+  "updatedAt": 1727177797359,
+  "coordinates": {
+    "x": 0.5862986503344698,
+    "y": 0.20225239518864704
+  },
+  "syncedAt": 1728275985889,
+  "metrics": {}
+}, {
+  "_id": "c1a4f7c6-9f1a-5906-afa5-a5ccff5b65e4",
+  "areaId": "344479fe-c061-4da5-b12a-347fd0306a5f",
+  "cameras": [
+    "3129464e-6afc-8a50-2ccf-285af8d35dfd",
+    "cfe0cf5c-7f25-14ed-0e4b-8d62ecb22fbf"
+  ],
+  "category": "mac",
+  "communicationEquipmentId": "0e5f9c16-a34d-558f-8440-dd1bcf6b9df8",
+  "connectionProfileId": "1",
+  "createdAt": 1721542663375,
+  "deletedAt": 0,
+  "gatewayId": "5a596048-110d-5d52-9421-27d33cfe751a",
+  "model": "No28 MELF全檢1x3.15",
+  "name": "全檢No.28",
+  "serial": 9,
+  "signal": [
+    {
+      "pin": "R8",
+      "state": "0>1",
+      "light": "R",
+      "note": "危險",
+      "uuid": "row_1161"
+    }
+  ],
+  "typeId": null,
+  "updatedAt": 1727177814606,
+  "coordinates": {
+    "x": 0.596404894938309,
+    "y": 0.15091870375900643
+  },
+  "syncedAt": 1728275985931,
+  "metrics": {}
+}, {
+  "_id": "c2d10f12-32cd-5d51-8e60-04b5fb102a26",
+  "areaId": "344479fe-c061-4da5-b12a-347fd0306a5f",
+  "cameras": [
+    "3129464e-6afc-8a50-2ccf-285af8d35dfd",
+    "cfe0cf5c-7f25-14ed-0e4b-8d62ecb22fbf"
+  ],
+  "category": "mac",
+  "communicationEquipmentId": "0e5f9c16-a34d-558f-8440-dd1bcf6b9df8",
+  "connectionProfileId": "1",
+  "createdAt": 1721542689033,
+  "deletedAt": 0,
+  "gatewayId": "5a596048-110d-5d52-9421-27d33cfe751a",
+  "model": "No14 MELF全檢1.7x5.4",
+  "name": "全檢No.14",
+  "serial": 10,
+  "signal": [
+    {
+      "pin": "R9",
+      "state": "0>1",
+      "light": "R",
+      "note": "危險",
+      "uuid": "row_1161"
+    }
+  ],
+  "typeId": null,
+  "updatedAt": 1727178045551,
+  "coordinates": {
+    "x": 0.5853649620712178,
+    "y": 0.151463454044842
+  },
+  "syncedAt": 1728275985974,
+  "metrics": {}
+}, {
+  "_id": "c0b9d4a4-079f-50f5-ba28-8571fb2fcd5c",
+  "areaId": "344479fe-c061-4da5-b12a-347fd0306a5f",
+  "cameras": [
+    "3129464e-6afc-8a50-2ccf-285af8d35dfd",
+    "cfe0cf5c-7f25-14ed-0e4b-8d62ecb22fbf"
+  ],
+  "category": "mac",
+  "communicationEquipmentId": "0e5f9c16-a34d-558f-8440-dd1bcf6b9df8",
+  "connectionProfileId": "1",
+  "createdAt": 1721542727164,
+  "deletedAt": 0,
+  "gatewayId": "5a596048-110d-5d52-9421-27d33cfe751a",
+  "model": "No13 MELF全檢1x3.15",
+  "name": "全檢No.13",
+  "serial": 11,
+  "signal": [
+    {
+      "pin": "R10",
+      "state": "0>1",
+      "light": "R",
+      "note": "危險",
+      "uuid": "row_1161"
+    }
+  ],
+  "typeId": null,
+  "updatedAt": 1727178079705,
+  "coordinates": {
+    "x": 0.6299932961216566,
+    "y": 0.2638091774880633
+  },
+  "syncedAt": 1728275986015,
+  "metrics": {}
+}, {
+  "_id": "eff5929e-149a-5b45-bfd0-94a55c87aa00",
+  "areaId": "344479fe-c061-4da5-b12a-347fd0306a5f",
+  "cameras": [
+    "3129464e-6afc-8a50-2ccf-285af8d35dfd",
+    "cfe0cf5c-7f25-14ed-0e4b-8d62ecb22fbf"
+  ],
+  "category": "mac",
+  "communicationEquipmentId": "0e5f9c16-a34d-558f-8440-dd1bcf6b9df8",
+  "connectionProfileId": "1",
+  "createdAt": 1721542759810,
+  "deletedAt": 0,
+  "gatewayId": "5a596048-110d-5d52-9421-27d33cfe751a",
+  "model": "No33 MELF全檢1x3.15",
+  "name": "全檢No.33",
+  "serial": 12,
+  "signal": [
+    {
+      "pin": "R11",
+      "state": "0>1",
+      "light": "R",
+      "note": "危險",
+      "uuid": "row_1161"
+    }
+  ],
+  "typeId": null,
+  "updatedAt": 1727178095738,
+  "coordinates": {
+    "x": 0.619292566541121,
+    "y": 0.2621749266305567
+  },
+  "syncedAt": 1728275986099,
+  "metrics": {}
+}, {
+  "_id": "8704438f-b837-553a-bb8a-c78d21f35a4a",
+  "areaId": "344479fe-c061-4da5-b12a-347fd0306a5f",
+  "cameras": [
+    "3129464e-6afc-8a50-2ccf-285af8d35dfd",
+    "cfe0cf5c-7f25-14ed-0e4b-8d62ecb22fbf"
+  ],
+  "category": "mac",
+  "communicationEquipmentId": "0e5f9c16-a34d-558f-8440-dd1bcf6b9df8",
+  "connectionProfileId": "1",
+  "createdAt": 1721542871278,
+  "deletedAt": 0,
+  "gatewayId": "5a596048-110d-5d52-9421-27d33cfe751a",
+  "model": "No32 MELF全檢1x3.15",
+  "name": "全檢No.32",
+  "serial": 13,
+  "signal": [
+    {
+      "pin": "R12",
+      "state": "0>1",
+      "light": "R",
+      "note": "危險",
+      "uuid": "row_1161"
+    }
+  ],
+  "typeId": null,
+  "updatedAt": 1727178111441,
+  "coordinates": {
+    "x": 0.607997351983889,
+    "y": 0.26054067577305007
+  },
+  "syncedAt": 1728275986140,
+  "metrics": {}
+}, {
+  "_id": "e193a3dd-22a0-5a6d-b035-2e37d7b2cf70",
+  "areaId": "344479fe-c061-4da5-b12a-347fd0306a5f",
+  "cameras": [
+    "3129464e-6afc-8a50-2ccf-285af8d35dfd",
+    "cfe0cf5c-7f25-14ed-0e4b-8d62ecb22fbf"
+  ],
+  "category": "mac",
+  "communicationEquipmentId": "0e5f9c16-a34d-558f-8440-dd1bcf6b9df8",
+  "connectionProfileId": "1",
+  "createdAt": 1721542895983,
+  "deletedAt": 0,
+  "gatewayId": "5a596048-110d-5d52-9421-27d33cfe751a",
+  "model": "No31 MELF全檢RS1200A 1x3.15",
+  "name": "全檢No.31",
+  "serial": 14,
+  "signal": [
+    {
+      "pin": "R13",
+      "state": "0>1",
+      "light": "R",
+      "note": "危險",
+      "uuid": "row_1161"
+    }
+  ],
+  "typeId": null,
+  "updatedAt": 1727178128949,
+  "coordinates": {
+    "x": 0.5972966224033535,
+    "y": 0.26054067577305007
+  },
+  "syncedAt": 1728275986223,
+  "metrics": {}
+}, {
+  "_id": "ee197291-784c-5c69-b17d-9d71c204a8a1",
+  "areaId": "344479fe-c061-4da5-b12a-347fd0306a5f",
+  "cameras": [
+    "3129464e-6afc-8a50-2ccf-285af8d35dfd",
+    "cfe0cf5c-7f25-14ed-0e4b-8d62ecb22fbf"
+  ],
+  "category": "mac",
+  "communicationEquipmentId": "0e5f9c16-a34d-558f-8440-dd1bcf6b9df8",
+  "connectionProfileId": "1",
+  "createdAt": 1721542915100,
+  "deletedAt": 0,
+  "gatewayId": "5a596048-110d-5d52-9421-27d33cfe751a",
+  "model": "1",
+  "name": "全檢室15",
+  "serial": 15,
+  "signal": [
+    {
+      "pin": "R14",
+      "state": "0>1",
+      "light": "R",
+      "note": "危險",
+      "uuid": "row_1161"
+    }
+  ],
+  "typeId": null,
+  "updatedAt": 1726826258850,
+  "coordinates": {
+    "x": 0.5868931353111662,
+    "y": 0.26163017634472113
+  },
+  "syncedAt": 1728275986263,
+  "metrics": {}
+}, {
+  "_id": "5d6d75b5-e72c-59cf-ac80-e43703cf0aae",
+  "areaId": "344479fe-c061-4da5-b12a-347fd0306a5f",
+  "cameras": [
+    "3129464e-6afc-8a50-2ccf-285af8d35dfd",
+    "cfe0cf5c-7f25-14ed-0e4b-8d62ecb22fbf"
+  ],
+  "category": "mac",
+  "communicationEquipmentId": "0e5f9c16-a34d-558f-8440-dd1bcf6b9df8",
+  "connectionProfileId": "1",
+  "createdAt": 1721542941950,
+  "deletedAt": 0,
+  "gatewayId": "5a596048-110d-5d52-9421-27d33cfe751a",
+  "model": "1",
+  "name": "全檢室16",
+  "serial": 16,
+  "signal": [
+    {
+      "pin": "R15",
+      "state": "0>1",
+      "light": "R",
+      "note": "危險",
+      "uuid": "row_1161"
+    }
+  ],
+  "typeId": null,
+  "updatedAt": 1726826268008,
+  "coordinates": {
+    "x": 0.5761924057306306,
+    "y": 0.26163017634472113
+  },
+  "syncedAt": 1728275986306,
+  "metrics": {}
+}, {
+  "_id": "35edd0b7-177e-58af-accb-617a70c0ca2e",
+  "areaId": "344479fe-c061-4da5-b12a-347fd0306a5f",
+  "cameras": [
+    "3129464e-6afc-8a50-2ccf-285af8d35dfd",
+    "cfe0cf5c-7f25-14ed-0e4b-8d62ecb22fbf"
+  ],
+  "category": "mac",
+  "communicationEquipmentId": "9924b7a4-c87d-504a-af7a-0198585c779e",
+  "connectionProfileId": "1",
+  "createdAt": 1721542971587,
+  "deletedAt": 0,
+  "gatewayId": "5a596048-110d-5d52-9421-27d33cfe751a",
+  "model": "No12 MELF全檢1x3.15",
+  "name": "全檢No.12",
+  "serial": 17,
+  "signal": [
+    {
+      "pin": "R0",
+      "state": "0>1",
+      "light": "R",
+      "note": "危險",
+      "uuid": "row_1161"
+    }
+  ],
+  "typeId": null,
+  "updatedAt": 1727178163468,
+  "coordinates": {
+    "x": 0.5186042507856994,
+    "y": 0.2285898112006679
+  },
+  "syncedAt": 1728275990245,
+  "metrics": {}
+}, {
+  "_id": "136edd2a-fd6f-53ed-b67a-901d18259cd9",
+  "areaId": "344479fe-c061-4da5-b12a-347fd0306a5f",
+  "cameras": [
+    "3129464e-6afc-8a50-2ccf-285af8d35dfd",
+    "cfe0cf5c-7f25-14ed-0e4b-8d62ecb22fbf"
+  ],
+  "category": "mac",
+  "communicationEquipmentId": "9924b7a4-c87d-504a-af7a-0198585c779e",
+  "connectionProfileId": "1",
+  "createdAt": 1721543025074,
+  "deletedAt": 0,
+  "gatewayId": "5a596048-110d-5d52-9421-27d33cfe751a",
+  "model": "No30 全檢機 GSP-2500G 0.8x1.9",
+  "name": "全檢No.30",
+  "serial": 18,
+  "signal": [
+    {
+      "pin": "R1",
+      "state": "0>1",
+      "light": "R",
+      "note": "危險",
+      "uuid": "row_1161"
+    }
+  ],
+  "typeId": null,
+  "updatedAt": 1727178185538,
+  "coordinates": {
+    "x": 0.5315605547792953,
+    "y": 0.2281645632004333
+  },
+  "syncedAt": 1728275990000,
+  "metrics": {}
+}, {
+  "_id": "916c22c2-bc1c-53d3-a4aa-def3b7f6ed8f",
+  "areaId": "344479fe-c061-4da5-b12a-347fd0306a5f",
+  "cameras": [
+    "3129464e-6afc-8a50-2ccf-285af8d35dfd",
+    "cfe0cf5c-7f25-14ed-0e4b-8d62ecb22fbf"
+  ],
+  "category": "mac",
+  "communicationEquipmentId": "9924b7a4-c87d-504a-af7a-0198585c779e",
+  "connectionProfileId": "1",
+  "createdAt": 1721543078768,
+  "deletedAt": 0,
+  "gatewayId": "5a596048-110d-5d52-9421-27d33cfe751a",
+  "model": "No29 全檢機 GSP-2500G 0.8x1.9",
+  "name": "全檢No.29",
+  "serial": 19,
+  "signal": [
+    {
+      "pin": "R2",
+      "state": "0>1",
+      "light": "G",
+      "note": "Running",
+      "uuid": "row_1161"
+    },
+    {
+      "pin": "R3",
+      "state": "0>1",
+      "light": "R",
+      "note": "Danger"
+    }
+  ],
+  "typeId": null,
+  "updatedAt": 1727403398759,
+  "coordinates": {
+    "x": 0.48883804115267104,
+    "y": 0.22944030720113714
+  },
+  "syncedAt": 1728275990080,
+  "metrics": {}
+}, {
+  "_id": "8e332fe4-8920-5a49-8f69-20d3512e80ea",
+  "areaId": "344479fe-c061-4da5-b12a-347fd0306a5f",
+  "cameras": [
+    "3129464e-6afc-8a50-2ccf-285af8d35dfd",
+    "cfe0cf5c-7f25-14ed-0e4b-8d62ecb22fbf"
+  ],
+  "category": "mac",
+  "communicationEquipmentId": "9924b7a4-c87d-504a-af7a-0198585c779e",
+  "connectionProfileId": "1",
+  "createdAt": 1721543163065,
+  "deletedAt": 1727178256313,
+  "gatewayId": "5a596048-110d-5d52-9421-27d33cfe751a",
+  "model": "1",
+  "name": "全檢室20",
+  "serial": 20,
+  "signal": [
+    {
+      "pin": "R3",
+      "state": "0>1",
+      "light": "R",
+      "note": "危險",
+      "uuid": "row_1161"
+    }
+  ],
+  "typeId": null,
+  "updatedAt": 1726826394325,
+  "coordinates": {
+    "x": 0.502046109935511,
+    "y": 0.22955980948673801
+  },
+  "syncedAt": 1727178249385,
+  "metrics": {}
+}, {
+  "_id": "d84b93ca-4e6d-558b-8b88-b8fd9dc26887",
+  "areaId": "344479fe-c061-4da5-b12a-347fd0306a5f",
+  "cameras": [
+    "3129464e-6afc-8a50-2ccf-285af8d35dfd",
+    "cfe0cf5c-7f25-14ed-0e4b-8d62ecb22fbf"
+  ],
+  "category": "mac",
+  "communicationEquipmentId": "9924b7a4-c87d-504a-af7a-0198585c779e",
+  "connectionProfileId": "1",
+  "createdAt": 1721543209886,
+  "deletedAt": 0,
+  "gatewayId": "5a596048-110d-5d52-9421-27d33cfe751a",
+  "model": "No22 MELF全檢2.5x8",
+  "name": "全檢No.22",
+  "serial": 21,
+  "signal": [
+    {
+      "pin": "R4",
+      "state": "0>1",
+      "light": "R",
+      "note": "危險",
+      "uuid": "row_1161"
+    }
+  ],
+  "typeId": null,
+  "updatedAt": 1727178331117,
+  "coordinates": {
+    "x": 0.530927625905288,
+    "y": 0.1518048220374999
+  },
+  "syncedAt": 1728275990123,
+  "metrics": {}
+}, {
+  "_id": "d0f60dd9-0da8-5f2c-a399-f9bde822a792",
+  "areaId": "344479fe-c061-4da5-b12a-347fd0306a5f",
+  "cameras": [
+    "3129464e-6afc-8a50-2ccf-285af8d35dfd",
+    "cfe0cf5c-7f25-14ed-0e4b-8d62ecb22fbf"
+  ],
+  "category": "mac",
+  "communicationEquipmentId": "9924b7a4-c87d-504a-af7a-0198585c779e",
+  "connectionProfileId": "1",
+  "createdAt": 1721543286389,
+  "deletedAt": 0,
+  "gatewayId": "5a596048-110d-5d52-9421-27d33cfe751a",
+  "model": "No23 MELF全檢3.5x10",
+  "name": "全檢No.23",
+  "serial": 22,
+  "signal": [
+    {
+      "pin": "R5",
+      "state": "0>1",
+      "light": "R",
+      "note": "危險",
+      "uuid": "row_1161"
+    }
+  ],
+  "typeId": null,
+  "updatedAt": 1727178368209,
+  "coordinates": {
+    "x": 0.5191218479677744,
+    "y": 0.1512600717516644
+  },
+  "syncedAt": 1728275990164,
+  "metrics": {}
+}, {
+  "_id": "d9f16df1-cc29-5750-9b37-e78e505a8a92",
+  "areaId": "344479fe-c061-4da5-b12a-347fd0306a5f",
+  "cameras": [
+    "3129464e-6afc-8a50-2ccf-285af8d35dfd",
+    "cfe0cf5c-7f25-14ed-0e4b-8d62ecb22fbf"
+  ],
+  "category": "mac",
+  "communicationEquipmentId": "9924b7a4-c87d-504a-af7a-0198585c779e",
+  "connectionProfileId": "1",
+  "createdAt": 1721543318425,
+  "deletedAt": 0,
+  "gatewayId": "5a596048-110d-5d52-9421-27d33cfe751a",
+  "model": "1",
+  "name": "全檢室23",
+  "serial": 23,
+  "signal": [
+    {
+      "pin": "R6",
+      "state": "0>1",
+      "light": "R",
+      "note": "危險",
+      "uuid": "row_1161"
+    }
+  ],
+  "typeId": null,
+  "updatedAt": 1726826428978,
+  "coordinates": {
+    "x": 0.5068055066499791,
+    "y": 0.15175206089533083
+  },
+  "syncedAt": 1728275990207,
+  "metrics": {}
+}, {
+  "_id": "fc801ccb-4a3d-5883-878f-8ce2ad3e8787",
+  "areaId": "4eba9fe4-67ab-4e7e-b57a-70d456febd2c",
+  "cameras": [
+    "758e66e1-bebc-4c4b-fa58-5438578c64a9",
+    ""
+  ],
+  "category": "mac",
+  "communicationEquipmentId": "0a97ebd7-22d6-5ac4-9ec3-dda11c9e6e2a",
+  "connectionProfileId": "1",
+  "createdAt": 1721543343749,
+  "deletedAt": 0,
+  "gatewayId": "5a596048-110d-5d52-9421-27d33cfe751a",
+  "model": "2.5x8",
+  "name": "2.5x8",
+  "serial": 24,
+  "signal": [
+    {
+      "pin": "R0",
+      "state": "0>1",
+      "light": "R",
+      "note": "危險",
+      "uuid": "row_1161"
+    }
+  ],
+  "typeId": null,
+  "updatedAt": 1727178604934,
+  "coordinates": {
+    "x": 0.5073585202988616,
+    "y": 0.4103754746406857
+  },
+  "syncedAt": 1728275985453,
+  "metrics": {}
+}, {
+  "_id": "574f65e8-1d9f-5d04-95c4-28581cad87dc",
+  "areaId": "4eba9fe4-67ab-4e7e-b57a-70d456febd2c",
+  "cameras": [
+    "758e66e1-bebc-4c4b-fa58-5438578c64a9",
+    ""
+  ],
+  "category": "mac",
+  "communicationEquipmentId": "0a97ebd7-22d6-5ac4-9ec3-dda11c9e6e2a",
+  "connectionProfileId": "1",
+  "createdAt": 1721543565036,
+  "deletedAt": 0,
+  "gatewayId": "5a596048-110d-5d52-9421-27d33cfe751a",
+  "model": "No1 外檢機 1.7x5.4",
+  "name": "外檢1",
+  "serial": 25,
+  "signal": [
+    {
+      "pin": "R1",
+      "state": "0>1",
+      "light": "R",
+      "note": "危險",
+      "uuid": "row_1161"
+    }
+  ],
+  "typeId": null,
+  "updatedAt": 1727178620783,
+  "coordinates": {
+    "x": 0.507786523455442,
+    "y": 0.46316433394022644
+  },
+  "syncedAt": 1728275985205,
+  "metrics": {}
+}, {
+  "_id": "036c2a72-8e44-53e3-8949-03914940b919",
+  "areaId": "4eba9fe4-67ab-4e7e-b57a-70d456febd2c",
+  "cameras": [
+    "758e66e1-bebc-4c4b-fa58-5438578c64a9",
+    ""
+  ],
+  "category": "mac",
+  "communicationEquipmentId": "0a97ebd7-22d6-5ac4-9ec3-dda11c9e6e2a",
+  "connectionProfileId": "1",
+  "createdAt": 1721543589646,
+  "deletedAt": 0,
+  "gatewayId": "5a596048-110d-5d52-9421-27d33cfe751a",
+  "model": "No2 外檢機 1.7x5.4",
+  "name": "外檢2",
+  "serial": 26,
+  "signal": [
+    {
+      "pin": "R2",
+      "state": "0>1",
+      "light": "R",
+      "note": "危險",
+      "uuid": "row_1161"
+    }
+  ],
+  "typeId": null,
+  "updatedAt": 1727178636735,
+  "coordinates": {
+    "x": 0.5074298660314372,
+    "y": 0.5097564516388231
+  },
+  "syncedAt": 1728275985245,
+  "metrics": {}
+}, {
+  "_id": "c58c4cb2-36a8-5661-b31d-caaa06075073",
+  "areaId": "4eba9fe4-67ab-4e7e-b57a-70d456febd2c",
+  "cameras": [
+    "758e66e1-bebc-4c4b-fa58-5438578c64a9",
+    ""
+  ],
+  "category": "mac",
+  "communicationEquipmentId": "0a97ebd7-22d6-5ac4-9ec3-dda11c9e6e2a",
+  "connectionProfileId": "1",
+  "createdAt": 1721543608837,
+  "deletedAt": 0,
+  "gatewayId": "5a596048-110d-5d52-9421-27d33cfe751a",
+  "model": "No5 外檢機 1.7x5.4",
+  "name": "外檢5",
+  "serial": 27,
+  "signal": [
+    {
+      "pin": "R3",
+      "state": "0>1",
+      "light": "R",
+      "note": "危險",
+      "uuid": "row_1161"
+    }
+  ],
+  "typeId": null,
+  "updatedAt": 1727178650113,
+  "coordinates": {
+    "x": 0.5291720416957941,
+    "y": 0.5097564516388231
+  },
+  "syncedAt": 1728275985286,
+  "metrics": {}
+}, {
+  "_id": "a63f0fea-7e44-52e2-a1e2-fbe50d188d3d",
+  "areaId": "4eba9fe4-67ab-4e7e-b57a-70d456febd2c",
+  "cameras": [
+    "758e66e1-bebc-4c4b-fa58-5438578c64a9",
+    ""
+  ],
+  "category": "mac",
+  "communicationEquipmentId": "0a97ebd7-22d6-5ac4-9ec3-dda11c9e6e2a",
+  "connectionProfileId": "1",
+  "createdAt": 1721543632471,
+  "deletedAt": 0,
+  "gatewayId": "5a596048-110d-5d52-9421-27d33cfe751a",
+  "model": "No4 大外檢機 1x3.15",
+  "name": "外檢4",
+  "serial": 28,
+  "signal": [
+    {
+      "pin": "R4",
+      "state": "0>1",
+      "light": "R",
+      "note": "危險",
+      "uuid": "row_1161"
+    }
+  ],
+  "typeId": null,
+  "updatedAt": 1727178666389,
+  "coordinates": {
+    "x": 0.5401432201463139,
+    "y": 0.410480051631897
+  },
+  "syncedAt": 1728275985329,
+  "metrics": {}
+}, {
+  "_id": "d02d2a04-90ea-595d-b6e4-18db5adb3b2d",
+  "areaId": "4eba9fe4-67ab-4e7e-b57a-70d456febd2c",
+  "cameras": [
+    "758e66e1-bebc-4c4b-fa58-5438578c64a9",
+    ""
+  ],
+  "category": "mac",
+  "communicationEquipmentId": "0a97ebd7-22d6-5ac4-9ec3-dda11c9e6e2a",
+  "connectionProfileId": "1",
+  "createdAt": 1721543655666,
+  "deletedAt": 0,
+  "gatewayId": "5a596048-110d-5d52-9421-27d33cfe751a",
+  "model": "No3 外觀篩選機 0.8x1.9",
+  "name": "外檢3",
+  "serial": 29,
+  "signal": [
+    {
+      "pin": "R5",
+      "state": "0>1",
+      "light": "R",
+      "note": "危險",
+      "uuid": "row_1161"
+    }
+  ],
+  "typeId": null,
+  "updatedAt": 1727178681025,
+  "coordinates": {
+    "x": 0.5273888970535201,
+    "y": 0.4106892056143195
+  },
+  "syncedAt": 1728275985372,
+  "metrics": {}
+}, {
+  "_id": "b6e69010-0ac5-5149-917a-04698055eddf",
+  "areaId": "4eba9fe4-67ab-4e7e-b57a-70d456febd2c",
+  "cameras": [
+    "758e66e1-bebc-4c4b-fa58-5438578c64a9",
+    ""
+  ],
+  "category": "mac",
+  "communicationEquipmentId": "0a97ebd7-22d6-5ac4-9ec3-dda11c9e6e2a",
+  "connectionProfileId": "1",
+  "createdAt": 1721543680305,
+  "deletedAt": 0,
+  "gatewayId": "5a596048-110d-5d52-9421-27d33cfe751a",
+  "model": "No6外檢機 1x3.15",
+  "name": "外檢6",
+  "serial": 30,
+  "signal": [
+    {
+      "pin": "R6",
+      "state": "0>1",
+      "light": "R",
+      "note": "危險",
+      "uuid": "row_1161"
+    }
+  ],
+  "typeId": null,
+  "updatedAt": 1727178695352,
+  "coordinates": {
+    "x": 0.5524695400825275,
+    "y": 0.40972183580610483
+  },
+  "syncedAt": 1728275985413,
+  "metrics": {}
+}, {
+  "_id": "6d20e339-6ee4-5107-85a0-bae0d3d3eb33",
+  "areaId": "4440233b-2161-4530-a214-e733716c78e5",
+  "cameras": [
+    "c6c04577-e485-f40f-2f53-d16774b38d97",
+    ""
+  ],
+  "category": "mac",
+  "communicationEquipmentId": "6df8f0d9-e101-5f76-9314-e474aba99e05",
+  "connectionProfileId": "1",
+  "createdAt": 1721543715847,
+  "deletedAt": 0,
+  "gatewayId": "5a596048-110d-5d52-9421-27d33cfe751a",
+  "model": "No01 加壓機 0.8x1.9 G",
+  "name": "加壓0.8x1.9-1 G",
+  "serial": 31,
+  "signal": [
+    {
+      "pin": "R0",
+      "state": "0>1",
+      "light": "G",
+      "note": "Running",
+      "uuid": "row_1161"
+    },
+    {
+      "pin": "R1",
+      "state": "0>1",
+      "light": "R",
+      "note": "危險"
+    }
+  ],
+  "typeId": null,
+  "updatedAt": 1727403520086,
+  "coordinates": {
+    "x": 0.4086657659780911,
+    "y": 0.2030182874257113
+  },
+  "syncedAt": 1728275985536,
+  "metrics": {}
+}, {
+  "_id": "87eec998-e9b5-5e97-8c24-af921a5c1f78",
+  "areaId": "4440233b-2161-4530-a214-e733716c78e5",
+  "cameras": [
+    "c6c04577-e485-f40f-2f53-d16774b38d97",
+    ""
+  ],
+  "category": "mac",
+  "communicationEquipmentId": "6df8f0d9-e101-5f76-9314-e474aba99e05",
+  "connectionProfileId": "1",
+  "createdAt": 1721543856898,
+  "deletedAt": 1727229850796,
+  "gatewayId": "5a596048-110d-5d52-9421-27d33cfe751a",
+  "model": "No01 加壓機 0.8x1.9 R",
+  "name": "加壓0.8x1.9-1 R",
+  "serial": 32,
+  "signal": [
+    {
+      "pin": "R1",
+      "state": "0>1",
+      "light": "R",
+      "note": "危險",
+      "uuid": "row_1161"
+    }
+  ],
+  "typeId": null,
+  "updatedAt": 1727178745260,
+  "coordinates": {
+    "x": 0.40836268857678554,
+    "y": 0.187188588737644
+  },
+  "syncedAt": 1727229847601,
+  "metrics": {}
+}, {
+  "_id": "1f07c031-26a7-5089-8952-f7861c11f083",
+  "areaId": "4440233b-2161-4530-a214-e733716c78e5",
+  "cameras": [
+    "c6c04577-e485-f40f-2f53-d16774b38d97",
+    ""
+  ],
+  "category": "mac",
+  "communicationEquipmentId": "6df8f0d9-e101-5f76-9314-e474aba99e05",
+  "connectionProfileId": "1",
+  "createdAt": 1721543879472,
+  "deletedAt": 0,
+  "gatewayId": "5a596048-110d-5d52-9421-27d33cfe751a",
+  "model": "No01 MELF加壓機 1x3.15",
+  "name": "加壓1x3.15-1",
+  "serial": 33,
+  "signal": [
+    {
+      "pin": "R2",
+      "state": "0>1",
+      "light": "R",
+      "note": "危險",
+      "uuid": "row_1161"
+    }
+  ],
+  "typeId": null,
+  "updatedAt": 1727178767721,
+  "coordinates": {
+    "x": 0.428972455601139,
+    "y": 0.20276585440015746
+  },
+  "syncedAt": 1728275985372,
+  "metrics": {}
+}, {
+  "_id": "db52a379-daee-5df2-9f24-087077a293f7",
+  "areaId": "4440233b-2161-4530-a214-e733716c78e5",
+  "cameras": [
+    "c6c04577-e485-f40f-2f53-d16774b38d97",
+    ""
+  ],
+  "category": "mac",
+  "communicationEquipmentId": "6df8f0d9-e101-5f76-9314-e474aba99e05",
+  "connectionProfileId": "1",
+  "createdAt": 1721543900981,
+  "deletedAt": 0,
+  "gatewayId": "5a596048-110d-5d52-9421-27d33cfe751a",
+  "model": "No03 MELF加壓機 1x3.15",
+  "name": "加壓1x3.15-3",
+  "serial": 34,
+  "signal": [
+    {
+      "pin": "R3",
+      "state": "0>1",
+      "light": "R",
+      "note": "危險",
+      "uuid": "row_1161"
+    }
+  ],
+  "typeId": null,
+  "updatedAt": 1727179554452,
+  "coordinates": {
+    "x": 0.44355088159239675,
+    "y": 0.2022699309042363
+  },
+  "syncedAt": 1728275985413,
+  "metrics": {}
+}, {
+  "_id": "2acf2c25-ee76-5910-afa1-b7ca878a4704",
+  "areaId": "4440233b-2161-4530-a214-e733716c78e5",
+  "cameras": [
+    "c6c04577-e485-f40f-2f53-d16774b38d97",
+    ""
+  ],
+  "category": "mac",
+  "communicationEquipmentId": "6df8f0d9-e101-5f76-9314-e474aba99e05",
+  "connectionProfileId": "1",
+  "createdAt": 1721543929869,
+  "deletedAt": 0,
+  "gatewayId": "5a596048-110d-5d52-9421-27d33cfe751a",
+  "model": "No02 旋轉靜電機 (全尺寸)",
+  "name": "加壓旋轉靜電",
+  "serial": 35,
+  "signal": [
+    {
+      "pin": "R4",
+      "state": "0>1",
+      "light": "R",
+      "note": "危險",
+      "uuid": "row_1161"
+    }
+  ],
+  "typeId": null,
+  "updatedAt": 1727179578768,
+  "coordinates": {
+    "x": 0.4286807373056877,
+    "y": 0.16556838577495014
+  },
+  "syncedAt": 1728275985455,
+  "metrics": {}
+}, {
+  "_id": "bf1d0b2b-a36e-5992-9ab5-0d6c1cb589ba",
+  "areaId": "4440233b-2161-4530-a214-e733716c78e5",
+  "cameras": [
+    "c6c04577-e485-f40f-2f53-d16774b38d97",
+    ""
+  ],
+  "category": "mac",
+  "communicationEquipmentId": "6df8f0d9-e101-5f76-9314-e474aba99e05",
+  "connectionProfileId": "1",
+  "createdAt": 1721543948368,
+  "deletedAt": 0,
+  "gatewayId": "5a596048-110d-5d52-9421-27d33cfe751a",
+  "model": "1",
+  "name": "加壓6",
+  "serial": 36,
+  "signal": [
+    {
+      "pin": "R5",
+      "state": "0>1",
+      "light": "R",
+      "note": "危險",
+      "uuid": "row_1161"
+    }
+  ],
+  "typeId": null,
+  "updatedAt": 1726817614624,
+  "coordinates": {
+    "x": 0.443001522319057,
+    "y": 0.16506799100143577
+  },
+  "syncedAt": 1728275985497,
+  "metrics": {}
+}, {
+  "_id": "6519ca8f-66c0-5bd2-80c4-1c2200464f53",
+  "areaId": "431d1741-6d07-48db-8417-a36c0426f644",
+  "cameras": [
+    "f8976d88-ee70-2ec2-2a4a-6f3b7be085dc",
+    "11af9d65-1980-8108-c484-44d9bc692946"
+  ],
+  "category": "mac",
+  "communicationEquipmentId": "61201b8c-3451-5abe-8693-180813724808",
+  "connectionProfileId": "1",
+  "createdAt": 1721543976092,
+  "deletedAt": 0,
+  "gatewayId": "501507be-be01-5ab3-8d81-aef3837a410d",
+  "model": "底漆 1x3.15 CO-M003",
+  "name": "底漆 1x3.15 CO-M003",
+  "serial": 37,
+  "signal": [
+    {
+      "pin": "R0",
+      "state": "0>1",
+      "light": "R",
+      "note": "危險",
+      "uuid": "row_1161"
+    }
+  ],
+  "typeId": null,
+  "updatedAt": 1727179599205,
+  "coordinates": {
+    "x": 0.1539299093896735,
+    "y": 0.31014186825012136
+  },
+  "syncedAt": 1728275991137,
+  "metrics": {}
+}, {
+  "_id": "bdacba90-3230-596b-9602-c42398e1b85f",
+  "areaId": "431d1741-6d07-48db-8417-a36c0426f644",
+  "cameras": [
+    "f8976d88-ee70-2ec2-2a4a-6f3b7be085dc",
+    "11af9d65-1980-8108-c484-44d9bc692946"
+  ],
+  "category": "mac",
+  "communicationEquipmentId": "61201b8c-3451-5abe-8693-180813724808",
+  "connectionProfileId": "1",
+  "createdAt": 1721544264463,
+  "deletedAt": 0,
+  "gatewayId": "501507be-be01-5ab3-8d81-aef3837a410d",
+  "model": "底漆 1x3.15 CO-M001",
+  "name": "底漆 1x3.15 CO-M001",
+  "serial": 38,
+  "signal": [
+    {
+      "pin": "R1",
+      "state": "0>1",
+      "light": "R",
+      "note": "危險",
+      "uuid": "row_1161"
+    }
+  ],
+  "typeId": null,
+  "updatedAt": 1727179621277,
+  "coordinates": {
+    "x": 0.1544590787029401,
+    "y": 0.21369606722414888
+  },
+  "syncedAt": 1728275990889,
+  "metrics": {}
+}, {
+  "_id": "511e8712-94b7-5ab2-89e6-e950469e5cb3",
+  "areaId": "431d1741-6d07-48db-8417-a36c0426f644",
+  "cameras": [
+    "f8976d88-ee70-2ec2-2a4a-6f3b7be085dc",
+    "11af9d65-1980-8108-c484-44d9bc692946"
+  ],
+  "category": "mac",
+  "communicationEquipmentId": "61201b8c-3451-5abe-8693-180813724808",
+  "connectionProfileId": "1",
+  "createdAt": 1721544287782,
+  "deletedAt": 0,
+  "gatewayId": "501507be-be01-5ab3-8d81-aef3837a410d",
+  "model": "底漆 0.8x1.9 CO-Q001",
+  "name": "底漆 0.8x1.9 CO-Q001",
+  "serial": 39,
+  "signal": [
+    {
+      "pin": "R2",
+      "state": "0>1",
+      "light": "R",
+      "note": "危險",
+      "uuid": "row_1161"
+    }
+  ],
+  "typeId": null,
+  "updatedAt": 1727179680269,
+  "coordinates": {
+    "x": 0.2889745739028459,
+    "y": 0.19020650528954722
+  },
+  "syncedAt": 1728275990930,
+  "metrics": {}
+}, {
+  "_id": "9178fe62-1717-523d-8504-b7f2f44f87f1",
+  "areaId": "431d1741-6d07-48db-8417-a36c0426f644",
+  "cameras": [
+    "f8976d88-ee70-2ec2-2a4a-6f3b7be085dc",
+    "11af9d65-1980-8108-c484-44d9bc692946"
+  ],
+  "category": "mac",
+  "communicationEquipmentId": "61201b8c-3451-5abe-8693-180813724808",
+  "connectionProfileId": "1",
+  "createdAt": 1721544309465,
+  "deletedAt": 0,
+  "gatewayId": "501507be-be01-5ab3-8d81-aef3837a410d",
+  "model": "底漆 0.8x1.9 CO-M001",
+  "name": "底漆 0.8x1.9 CO-M001",
+  "serial": 40,
+  "signal": [
+    {
+      "pin": "R3",
+      "state": "0>1",
+      "light": "R",
+      "note": "危險",
+      "uuid": "row_1161"
+    }
+  ],
+  "typeId": null,
+  "updatedAt": 1727179730231,
+  "coordinates": {
+    "x": 0.2893972535859246,
+    "y": 0.2362640063669719
+  },
+  "syncedAt": 1728275990970,
+  "metrics": {}
+}, {
+  "_id": "1f4cf354-281a-5739-a667-1b9550271d18",
+  "areaId": "431d1741-6d07-48db-8417-a36c0426f644",
+  "cameras": [
+    "f8976d88-ee70-2ec2-2a4a-6f3b7be085dc",
+    "11af9d65-1980-8108-c484-44d9bc692946"
+  ],
+  "category": "mac",
+  "communicationEquipmentId": "61201b8c-3451-5abe-8693-180813724808",
+  "connectionProfileId": "1",
+  "createdAt": 1721544331745,
+  "deletedAt": 0,
+  "gatewayId": "501507be-be01-5ab3-8d81-aef3837a410d",
+  "model": "底漆 1x3.15 CO-M004",
+  "name": "底漆 1x3.15 CO-M004",
+  "serial": 41,
+  "signal": [
+    {
+      "pin": "R4",
+      "state": "0>1",
+      "light": "R",
+      "note": "危險",
+      "uuid": "row_1161"
+    }
+  ],
+  "typeId": null,
+  "updatedAt": 1727179743903,
+  "coordinates": {
+    "x": 0.28886808427265803,
+    "y": 0.27766291209462773
+  },
+  "syncedAt": 1728275991014,
+  "metrics": {}
+}, {
+  "_id": "dcd5419e-91dd-57dd-8f00-cbc5fc787d44",
+  "areaId": "431d1741-6d07-48db-8417-a36c0426f644",
+  "cameras": [
+    "f8976d88-ee70-2ec2-2a4a-6f3b7be085dc",
+    "11af9d65-1980-8108-c484-44d9bc692946"
+  ],
+  "category": "mac",
+  "communicationEquipmentId": "61201b8c-3451-5abe-8693-180813724808",
+  "connectionProfileId": "1",
+  "createdAt": 1721544352398,
+  "deletedAt": 0,
+  "gatewayId": "501507be-be01-5ab3-8d81-aef3837a410d",
+  "model": "底漆 1.7x5.4 CO-5001",
+  "name": "底漆 1.7x5.4 CO-5001",
+  "serial": 42,
+  "signal": [
+    {
+      "pin": "R5",
+      "state": "0>1",
+      "light": "R",
+      "note": "危險",
+      "uuid": "row_1161"
+    }
+  ],
+  "typeId": null,
+  "updatedAt": 1727179756375,
+  "coordinates": {
+    "x": 0.2893972535859246,
+    "y": 0.3224761125713422
+  },
+  "syncedAt": 1728275991057,
+  "metrics": {}
+}, {
+  "_id": "4bc9a714-4299-5a5a-aac4-78d635f3b1ca",
+  "areaId": "431d1741-6d07-48db-8417-a36c0426f644",
+  "cameras": [
+    "f8976d88-ee70-2ec2-2a4a-6f3b7be085dc",
+    "11af9d65-1980-8108-c484-44d9bc692946"
+  ],
+  "category": "mac",
+  "communicationEquipmentId": "61201b8c-3451-5abe-8693-180813724808",
+  "connectionProfileId": "1",
+  "createdAt": 1721544382013,
+  "deletedAt": 0,
+  "gatewayId": "501507be-be01-5ab3-8d81-aef3837a410d",
+  "model": "底漆 1.7x5.4 CO-5002",
+  "name": "底漆 1.7x5.4 CO-5002",
+  "serial": 43,
+  "signal": [
+    {
+      "pin": "R6",
+      "state": "0>1",
+      "light": "R",
+      "note": "危險",
+      "uuid": "row_1161"
+    }
+  ],
+  "typeId": null,
+  "updatedAt": 1727179828738,
+  "coordinates": {
+    "x": 0.28932160300556964,
+    "y": 0.3678672056705821
+  },
+  "syncedAt": 1728275991099,
+  "metrics": {}
+}, {
+  "_id": "481f62d0-97bb-5b25-bf37-84eccb28c3c5",
+  "areaId": "2e09d717-9497-4a0d-a299-fa73850d2b41",
+  "cameras": [
+    "30e4aa4c-4b2a-72e8-ea47-1b76e276d784",
+    "c7fe6f53-215f-db8c-88ef-85c76b108736"
+  ],
+  "category": "mac",
+  "communicationEquipmentId": "abde9d84-f158-5d27-aa04-c88e5945b407",
+  "connectionProfileId": "1",
+  "createdAt": 1721544401827,
+  "deletedAt": 0,
+  "gatewayId": "501507be-be01-5ab3-8d81-aef3837a410d",
+  "model": "No5 組帽機 YM-900A 2x5.2",
+  "name": "組帽NO.50.8x1.9-28",
+  "serial": 44,
+  "signal": [
+    {
+      "pin": "R0",
+      "state": "0>1",
+      "light": "R",
+      "note": "危險",
+      "uuid": "row_1161"
+    }
+  ],
+  "typeId": null,
+  "updatedAt": 1727179852879,
+  "coordinates": {
+    "x": 0.553628992600039,
+    "y": 0.39654181272779504
+  },
+  "syncedAt": 1728275993050,
+  "metrics": {}
+}, {
+  "_id": "938adc20-50aa-5340-8e52-499bb7aaaeff",
+  "areaId": "2e09d717-9497-4a0d-a299-fa73850d2b41",
+  "cameras": [
+    "30e4aa4c-4b2a-72e8-ea47-1b76e276d784",
+    "c7fe6f53-215f-db8c-88ef-85c76b108736"
+  ],
+  "category": "mac",
+  "communicationEquipmentId": "abde9d84-f158-5d27-aa04-c88e5945b407",
+  "connectionProfileId": "1",
+  "createdAt": 1721544499269,
+  "deletedAt": 0,
+  "gatewayId": "501507be-be01-5ab3-8d81-aef3837a410d",
+  "model": "5-01 組帽機 KCA-900 1.7x5.4",
+  "name": "組帽5010.8x1.9-13",
+  "serial": 45,
+  "signal": [
+    {
+      "pin": "R1",
+      "state": "0>1",
+      "light": "R",
+      "note": "危險",
+      "uuid": "row_1161"
+    }
+  ],
+  "typeId": null,
+  "updatedAt": 1727179869562,
+  "coordinates": {
+    "x": 0.5533572199560886,
+    "y": 0.414553803621733
+  },
+  "syncedAt": 1728275993091,
+  "metrics": {}
+}, {
+  "_id": "4964bad8-00c4-5ba0-8da8-f6ae8bde9c5a",
+  "areaId": "2e09d717-9497-4a0d-a299-fa73850d2b41",
+  "cameras": [
+    "30e4aa4c-4b2a-72e8-ea47-1b76e276d784",
+    "c7fe6f53-215f-db8c-88ef-85c76b108736"
+  ],
+  "category": "mac",
+  "communicationEquipmentId": "abde9d84-f158-5d27-aa04-c88e5945b407",
+  "connectionProfileId": "1",
+  "createdAt": 1721544530987,
+  "deletedAt": 0,
+  "gatewayId": "501507be-be01-5ab3-8d81-aef3837a410d",
+  "model": "5-02 組帽機 KCA-900 1.7x5.4",
+  "name": "組帽5020.8x1.9-14",
+  "serial": 46,
+  "signal": [
+    {
+      "pin": "R2",
+      "state": "0>1",
+      "light": "R",
+      "note": "危險",
+      "uuid": "row_1161"
+    }
+  ],
+  "typeId": null,
+  "updatedAt": 1727179936383,
+  "coordinates": {
+    "x": 0.5533572199560886,
+    "y": 0.4325657945156709
+  },
+  "syncedAt": 1728275993133,
+  "metrics": {}
+}, {
+  "_id": "a538fb24-1899-506f-b062-140031733cca",
+  "areaId": "2e09d717-9497-4a0d-a299-fa73850d2b41",
+  "cameras": [
+    "30e4aa4c-4b2a-72e8-ea47-1b76e276d784",
+    "c7fe6f53-215f-db8c-88ef-85c76b108736"
+  ],
+  "category": "mac",
+  "communicationEquipmentId": "abde9d84-f158-5d27-aa04-c88e5945b407",
+  "connectionProfileId": "1",
+  "createdAt": 1721544561408,
+  "deletedAt": 0,
+  "gatewayId": "501507be-be01-5ab3-8d81-aef3837a410d",
+  "model": "5-03 組帽機 KCA-900 1.7x5.4",
+  "name": "組帽5030.8x1.9-15",
+  "serial": 47,
+  "signal": [
+    {
+      "pin": "R3",
+      "state": "0>1",
+      "light": "R",
+      "note": "危險",
+      "uuid": "row_1161"
+    }
+  ],
+  "typeId": null,
+  "updatedAt": 1727179955740,
+  "coordinates": {
+    "x": 0.5533572199560886,
+    "y": 0.45057778540960886
+  },
+  "syncedAt": 1728275993176,
+  "metrics": {}
+}, {
+  "_id": "7accb023-cd16-52cc-b5b1-e86480f830b2",
+  "areaId": "2e09d717-9497-4a0d-a299-fa73850d2b41",
+  "cameras": [
+    "30e4aa4c-4b2a-72e8-ea47-1b76e276d784",
+    "c7fe6f53-215f-db8c-88ef-85c76b108736"
+  ],
+  "category": "mac",
+  "communicationEquipmentId": "abde9d84-f158-5d27-aa04-c88e5945b407",
+  "connectionProfileId": "1",
+  "createdAt": 1721544579205,
+  "deletedAt": 0,
+  "gatewayId": "501507be-be01-5ab3-8d81-aef3837a410d",
+  "model": "Q-01 組帽機 GC-880 0.8x1.9",
+  "name": "組帽Q010.8x1.9-29",
+  "serial": 48,
+  "signal": [
+    {
+      "pin": "R4",
+      "state": "0>1",
+      "light": "R",
+      "note": "危險",
+      "uuid": "row_1161"
+    }
+  ],
+  "typeId": null,
+  "updatedAt": 1727179971319,
+  "coordinates": {
+    "x": 0.5443887227057225,
+    "y": 0.3960414796474079
+  },
+  "syncedAt": 1728275993217,
+  "metrics": {}
+}, {
+  "_id": "40e14651-de14-5345-bb1f-ecb2f747ee22",
+  "areaId": "2e09d717-9497-4a0d-a299-fa73850d2b41",
+  "cameras": [
+    "30e4aa4c-4b2a-72e8-ea47-1b76e276d784",
+    "c7fe6f53-215f-db8c-88ef-85c76b108736"
+  ],
+  "category": "mac",
+  "communicationEquipmentId": "abde9d84-f158-5d27-aa04-c88e5945b407",
+  "connectionProfileId": "1",
+  "createdAt": 1721544598314,
+  "deletedAt": 0,
+  "gatewayId": "501507be-be01-5ab3-8d81-aef3837a410d",
+  "model": "Q-03 組帽機 TC-1000A 0.8x1.9",
+  "name": "組帽Q020.8x1.9-30",
+  "serial": 49,
+  "signal": [
+    {
+      "pin": "R5",
+      "state": "0>1",
+      "light": "R",
+      "note": "危險",
+      "uuid": "row_1161"
+    }
+  ],
+  "typeId": null,
+  "updatedAt": 1727179996618,
+  "coordinates": {
+    "x": 0.544116950061772,
+    "y": 0.4150541367021202
+  },
+  "syncedAt": 1728275993258,
+  "metrics": {}
+}, {
+  "_id": "6801ee18-c299-50d3-8d3e-3a7d99cc7a2e",
+  "areaId": "2e09d717-9497-4a0d-a299-fa73850d2b41",
+  "cameras": [
+    "30e4aa4c-4b2a-72e8-ea47-1b76e276d784",
+    "c7fe6f53-215f-db8c-88ef-85c76b108736"
+  ],
+  "category": "mac",
+  "communicationEquipmentId": "abde9d84-f158-5d27-aa04-c88e5945b407",
+  "connectionProfileId": "1",
+  "createdAt": 1721544622713,
+  "deletedAt": 0,
+  "gatewayId": "501507be-be01-5ab3-8d81-aef3837a410d",
+  "model": "Q-02 組帽機 TC-1000A 0.8x1.9",
+  "name": "組帽Q030.8x1.9-31",
+  "serial": 50,
+  "signal": [
+    {
+      "pin": "R6",
+      "state": "0>1",
+      "light": "R",
+      "note": "危險",
+      "uuid": "row_1161"
+    }
+  ],
+  "typeId": null,
+  "updatedAt": 1727180013509,
+  "coordinates": {
+    "x": 0.5438451774178215,
+    "y": 0.43306612759605806
+  },
+  "syncedAt": 1728275993298,
+  "metrics": {}
+}, {
+  "_id": "e1c9d9c3-0c0e-54e3-9f86-e1a86054437d",
+  "areaId": "2e09d717-9497-4a0d-a299-fa73850d2b41",
+  "cameras": [
+    "30e4aa4c-4b2a-72e8-ea47-1b76e276d784",
+    "c7fe6f53-215f-db8c-88ef-85c76b108736"
+  ],
+  "category": "mac",
+  "communicationEquipmentId": "abde9d84-f158-5d27-aa04-c88e5945b407",
+  "connectionProfileId": "1",
+  "createdAt": 1721544638940,
+  "deletedAt": 0,
+  "gatewayId": "501507be-be01-5ab3-8d81-aef3837a410d",
+  "model": "No9   4x14",
+  "name": "No9   4x14",
+  "serial": 51,
+  "signal": [
+    {
+      "pin": "R7",
+      "state": "0>1",
+      "light": "R",
+      "note": "危險",
+      "uuid": "row_1161"
+    }
+  ],
+  "typeId": null,
+  "updatedAt": 1727180062306,
+  "coordinates": {
+    "x": 0.5438451774178215,
+    "y": 0.45057778540960886
+  },
+  "syncedAt": 1728275993340,
+  "metrics": {}
+}, {
+  "_id": "c4a04414-e54a-5739-9c56-7f6fda46c01e",
+  "areaId": "2e09d717-9497-4a0d-a299-fa73850d2b41",
+  "cameras": [
+    "30e4aa4c-4b2a-72e8-ea47-1b76e276d784",
+    "c7fe6f53-215f-db8c-88ef-85c76b108736"
+  ],
+  "category": "mac",
+  "communicationEquipmentId": "abde9d84-f158-5d27-aa04-c88e5945b407",
+  "connectionProfileId": "1",
+  "createdAt": 1721544660004,
+  "deletedAt": 0,
+  "gatewayId": "501507be-be01-5ab3-8d81-aef3837a410d",
+  "model": "CP401 壓帽機 Cap",
+  "name": "CP401 壓帽機 Cap",
+  "serial": 52,
+  "signal": [
+    {
+      "pin": "R8",
+      "state": "0>1",
+      "light": "R",
+      "note": "危險",
+      "uuid": "row_1161"
+    }
+  ],
+  "typeId": null,
+  "updatedAt": 1727180082721,
+  "coordinates": {
+    "x": 0.5808381145586672,
+    "y": 0.370579101349749
+  },
+  "syncedAt": 1728275993384,
+  "metrics": {}
+}, {
+  "_id": "e094fe7f-af86-5d1f-9cc4-d0295f728776",
+  "areaId": "2e09d717-9497-4a0d-a299-fa73850d2b41",
+  "cameras": [
+    "30e4aa4c-4b2a-72e8-ea47-1b76e276d784",
+    "c7fe6f53-215f-db8c-88ef-85c76b108736"
+  ],
+  "category": "mac",
+  "communicationEquipmentId": "abde9d84-f158-5d27-aa04-c88e5945b407",
+  "connectionProfileId": "1",
+  "createdAt": 1721544682886,
+  "deletedAt": 0,
+  "gatewayId": "501507be-be01-5ab3-8d81-aef3837a410d",
+  "model": "CP402 壓帽機 Cap",
+  "name": "CP402 壓帽機 Cap",
+  "serial": 53,
+  "signal": [
+    {
+      "pin": "R9",
+      "state": "0>1",
+      "light": "R",
+      "note": "危險",
+      "uuid": "row_1161"
+    }
+  ],
+  "typeId": null,
+  "updatedAt": 1727180097535,
+  "coordinates": {
+    "x": 0.5709737049568149,
+    "y": 0.37012404090934936
+  },
+  "syncedAt": 1728275993426,
+  "metrics": {}
+}, {
+  "_id": "f4b4f7a3-e659-519c-bdf3-c13fd9028b09",
+  "areaId": "2e09d717-9497-4a0d-a299-fa73850d2b41",
+  "cameras": [
+    "30e4aa4c-4b2a-72e8-ea47-1b76e276d784",
+    "c7fe6f53-215f-db8c-88ef-85c76b108736"
+  ],
+  "category": "mac",
+  "communicationEquipmentId": "abde9d84-f158-5d27-aa04-c88e5945b407",
+  "connectionProfileId": "1",
+  "createdAt": 1721544703819,
+  "deletedAt": 0,
+  "gatewayId": "501507be-be01-5ab3-8d81-aef3837a410d",
+  "model": "CP701 壓帽機 Cap",
+  "name": "CP701 壓帽機 Cap",
+  "serial": 54,
+  "signal": [
+    {
+      "pin": "R10",
+      "state": "0>1",
+      "light": "R",
+      "note": "危險",
+      "uuid": "row_1161"
+    }
+  ],
+  "typeId": null,
+  "updatedAt": 1727180110047,
+  "coordinates": {
+    "x": 0.5612198791596438,
+    "y": 0.370579101349749
+  },
+  "syncedAt": 1728275993468,
+  "metrics": {}
+}, {
+  "_id": "e911541d-85f2-5c74-9606-eca0e772f27b",
+  "areaId": "2e09d717-9497-4a0d-a299-fa73850d2b41",
+  "cameras": [
+    "30e4aa4c-4b2a-72e8-ea47-1b76e276d784",
+    "c7fe6f53-215f-db8c-88ef-85c76b108736"
+  ],
+  "category": "mac",
+  "communicationEquipmentId": "abde9d84-f158-5d27-aa04-c88e5945b407",
+  "connectionProfileId": "1",
+  "createdAt": 1721544716120,
+  "deletedAt": 0,
+  "gatewayId": "501507be-be01-5ab3-8d81-aef3837a410d",
+  "model": "CP702 壓帽機 Cap",
+  "name": "CP702 壓帽機 Cap",
+  "serial": 55,
+  "signal": [
+    {
+      "pin": "R11",
+      "state": "0>1",
+      "light": "R",
+      "note": "危險",
+      "uuid": "row_1161"
+    }
+  ],
+  "typeId": null,
+  "updatedAt": 1727180128549,
+  "coordinates": {
+    "x": 0.5516272422017419,
+    "y": 0.37089756585667794
+  },
+  "syncedAt": 1728275993509,
+  "metrics": {}
+}, {
+  "_id": "f7e7f344-8772-5fea-8f73-d362451b339a",
+  "areaId": "2e09d717-9497-4a0d-a299-fa73850d2b41",
+  "cameras": [
+    "30e4aa4c-4b2a-72e8-ea47-1b76e276d784",
+    "c7fe6f53-215f-db8c-88ef-85c76b108736"
+  ],
+  "category": "mac",
+  "communicationEquipmentId": "abde9d84-f158-5d27-aa04-c88e5945b407",
+  "connectionProfileId": "1",
+  "createdAt": 1721544740571,
+  "deletedAt": 0,
+  "gatewayId": "501507be-be01-5ab3-8d81-aef3837a410d",
+  "model": "No 6 組帽機TC-1000A 2.5x8",
+  "name": "組帽60.8x1.9-16",
+  "serial": 56,
+  "signal": [
+    {
+      "pin": "R12",
+      "state": "0>1",
+      "light": "R",
+      "note": "危險",
+      "uuid": "row_1161"
+    }
+  ],
+  "typeId": null,
+  "updatedAt": 1727180146858,
+  "coordinates": {
+    "x": 0.5420346052438403,
+    "y": 0.37135262629707766
+  },
+  "syncedAt": 1728275993550,
+  "metrics": {}
+}, {
+  "_id": "d94ad476-14b6-549b-9575-aa7e01c25b06",
+  "areaId": "2e09d717-9497-4a0d-a299-fa73850d2b41",
+  "cameras": [
+    "30e4aa4c-4b2a-72e8-ea47-1b76e276d784",
+    "c7fe6f53-215f-db8c-88ef-85c76b108736"
+  ],
+  "category": "mac",
+  "communicationEquipmentId": "abde9d84-f158-5d27-aa04-c88e5945b407",
+  "connectionProfileId": "1",
+  "createdAt": 1721544765603,
+  "deletedAt": 0,
+  "gatewayId": "501507be-be01-5ab3-8d81-aef3837a410d",
+  "model": "No 7 組帽機TC-1000A 3x10",
+  "name": "組帽70.8x1.9-17",
+  "serial": 57,
+  "signal": [
+    {
+      "pin": "R13",
+      "state": "0>1",
+      "light": "R",
+      "note": "危險",
+      "uuid": "row_1161"
+    }
+  ],
+  "typeId": null,
+  "updatedAt": 1727180165707,
+  "coordinates": {
+    "x": 0.5333678700224709,
+    "y": 0.3714892222305484
+  },
+  "syncedAt": 1728275993593,
+  "metrics": {}
+}, {
+  "_id": "9a7f09b8-853e-5d01-80c9-bfaa53a3c08a",
+  "areaId": "2e09d717-9497-4a0d-a299-fa73850d2b41",
+  "cameras": [
+    "30e4aa4c-4b2a-72e8-ea47-1b76e276d784",
+    "c7fe6f53-215f-db8c-88ef-85c76b108736"
+  ],
+  "category": "mac",
+  "communicationEquipmentId": "abde9d84-f158-5d27-aa04-c88e5945b407",
+  "connectionProfileId": "1",
+  "createdAt": 1721544781042,
+  "deletedAt": 0,
+  "gatewayId": "501507be-be01-5ab3-8d81-aef3837a410d",
+  "model": "No 8 組帽機TC-1000A 3.5x10",
+  "name": "組帽80.8x1.9-18",
+  "serial": 58,
+  "signal": [
+    {
+      "pin": "R14",
+      "state": "0>1",
+      "light": "R",
+      "note": "危險",
+      "uuid": "row_1161"
+    }
+  ],
+  "typeId": null,
+  "updatedAt": 1727180179510,
+  "coordinates": {
+    "x": 0.5243993727721049,
+    "y": 0.3719895553109356
+  },
+  "syncedAt": 1728275993633,
+  "metrics": {}
+}, {
+  "_id": "a015c29d-b1ae-58dd-bc98-11e64ef24057",
+  "areaId": "2e09d717-9497-4a0d-a299-fa73850d2b41",
+  "cameras": [
+    "30e4aa4c-4b2a-72e8-ea47-1b76e276d784",
+    "c7fe6f53-215f-db8c-88ef-85c76b108736"
+  ],
+  "category": "mac",
+  "communicationEquipmentId": "abde9d84-f158-5d27-aa04-c88e5945b407",
+  "connectionProfileId": "1",
+  "createdAt": 1721544798317,
+  "deletedAt": 0,
+  "gatewayId": "501507be-be01-5ab3-8d81-aef3837a410d",
+  "model": "No 9 組帽機 7x18",
+  "name": "組帽90.8x1.9-19",
+  "serial": 59,
+  "signal": [
+    {
+      "pin": "R15",
+      "state": "0>1",
+      "light": "R",
+      "note": "危險",
+      "uuid": "row_1161"
+    }
+  ],
+  "typeId": null,
+  "updatedAt": 1727180197611,
+  "coordinates": {
+    "x": 0.514060770387949,
+    "y": 0.40377984117472726
+  },
+  "syncedAt": 1728275993674,
+  "metrics": {}
+}, {
+  "_id": "2fde18a5-dd2d-5988-90a4-47a2a712b5ab",
+  "areaId": "2e09d717-9497-4a0d-a299-fa73850d2b41",
+  "cameras": [
+    "30e4aa4c-4b2a-72e8-ea47-1b76e276d784",
+    "c7fe6f53-215f-db8c-88ef-85c76b108736"
+  ],
+  "category": "mac",
+  "communicationEquipmentId": "b63095c0-b481-5d46-b5ed-91ffffc299f1",
+  "connectionProfileId": "1",
+  "createdAt": 1721544877053,
+  "deletedAt": 0,
+  "gatewayId": "501507be-be01-5ab3-8d81-aef3837a410d",
+  "model": "No 6 分類機 7x51",
+  "name": "分類No.6",
+  "serial": 60,
+  "signal": [
+    {
+      "pin": "R0",
+      "state": "0>1",
+      "light": "R",
+      "note": "危險",
+      "uuid": "row_1161"
+    }
+  ],
+  "typeId": null,
+  "updatedAt": 1727180218068,
+  "coordinates": {
+    "x": 0.5141413648075837,
+    "y": 0.41810685391898855
+  },
+  "syncedAt": 1728275992640,
+  "metrics": {}
+}, {
+  "_id": "4b3bdf8d-7493-5af2-9df8-1c86970beaa8",
+  "areaId": "2e09d717-9497-4a0d-a299-fa73850d2b41",
+  "cameras": [
+    "30e4aa4c-4b2a-72e8-ea47-1b76e276d784",
+    "c7fe6f53-215f-db8c-88ef-85c76b108736"
+  ],
+  "category": "mac",
+  "communicationEquipmentId": "b63095c0-b481-5d46-b5ed-91ffffc299f1",
+  "connectionProfileId": "1",
+  "createdAt": 1721544918329,
+  "deletedAt": 0,
+  "gatewayId": "501507be-be01-5ab3-8d81-aef3837a410d",
+  "model": "No 8 組帽機 5x18",
+  "name": "No 8 組帽機 5x18",
+  "serial": 61,
+  "signal": [
+    {
+      "pin": "R1",
+      "state": "0>1",
+      "light": "R",
+      "note": "危險",
+      "uuid": "row_1161"
+    }
+  ],
+  "typeId": null,
+  "updatedAt": 1727180237959,
+  "coordinates": {
+    "x": 0.5141413648075837,
+    "y": 0.43393486590441127
+  },
+  "syncedAt": 1728275992520,
+  "metrics": {}
+}, {
+  "_id": "533fa524-d440-5c49-aae0-7b1b6e16b89c",
+  "areaId": "2e09d717-9497-4a0d-a299-fa73850d2b41",
+  "cameras": [
+    "30e4aa4c-4b2a-72e8-ea47-1b76e276d784",
+    "c7fe6f53-215f-db8c-88ef-85c76b108736"
+  ],
+  "category": "mac",
+  "communicationEquipmentId": "b63095c0-b481-5d46-b5ed-91ffffc299f1",
+  "connectionProfileId": "1",
+  "createdAt": 1721544945359,
+  "deletedAt": 0,
+  "gatewayId": "501507be-be01-5ab3-8d81-aef3837a410d",
+  "model": "No11 TC-1000A 組帽 7x23",
+  "name": "No11 TC-1000A 組帽 7x23",
+  "serial": 62,
+  "signal": [
+    {
+      "pin": "R2",
+      "state": "0>1",
+      "light": "R",
+      "note": "危險",
+      "uuid": "row_1161"
+    }
+  ],
+  "typeId": null,
+  "updatedAt": 1727180252877,
+  "coordinates": {
+    "x": 0.5143325430318995,
+    "y": 0.44876221172905983
+  },
+  "syncedAt": 1728275992561,
+  "metrics": {}
+}, {
+  "_id": "44dce9c7-e011-558e-9b7d-ad9376a7e640",
+  "areaId": "2e09d717-9497-4a0d-a299-fa73850d2b41",
+  "cameras": [
+    "30e4aa4c-4b2a-72e8-ea47-1b76e276d784",
+    "c7fe6f53-215f-db8c-88ef-85c76b108736"
+  ],
+  "category": "mac",
+  "communicationEquipmentId": "b63095c0-b481-5d46-b5ed-91ffffc299f1",
+  "connectionProfileId": "1",
+  "createdAt": 1721544962465,
+  "deletedAt": 0,
+  "gatewayId": "501507be-be01-5ab3-8d81-aef3837a410d",
+  "model": "No10 TC-1000A 組帽 4.5x14",
+  "name": "No10 TC-1000A 組帽 4.5x14",
+  "serial": 63,
+  "signal": [
+    {
+      "pin": "R3",
+      "state": "0>1",
+      "light": "R",
+      "note": "危險",
+      "uuid": "row_1161"
+    }
+  ],
+  "typeId": null,
+  "updatedAt": 1727180271034,
+  "coordinates": {
+    "x": 0.5143325430318995,
+    "y": 0.46331636568676676
+  },
+  "syncedAt": 1728275992602,
+  "metrics": {}
+}, {
+  "_id": "856f9ac2-426a-57be-9ab2-2fd64de285fc",
+  "areaId": "2e09d717-9497-4a0d-a299-fa73850d2b41",
+  "cameras": [
+    "30e4aa4c-4b2a-72e8-ea47-1b76e276d784",
+    "c7fe6f53-215f-db8c-88ef-85c76b108736"
+  ],
+  "category": "mac",
+  "communicationEquipmentId": "8e0c71a3-66bc-5452-9de3-8dcfe15d367c",
+  "connectionProfileId": "1",
+  "createdAt": 1721544987052,
+  "deletedAt": 0,
+  "gatewayId": "501507be-be01-5ab3-8d81-aef3837a410d",
+  "model": "No2 分類機 GS-2500 0.8x1.9",
+  "name": "分類No.2",
+  "serial": 64,
+  "signal": [
+    {
+      "pin": "R0",
+      "state": "0>1",
+      "light": "R",
+      "note": "危險",
+      "uuid": "row_1161"
+    }
+  ],
+  "typeId": null,
+  "updatedAt": 1727180288275,
+  "coordinates": {
+    "x": 0.5142256139520507,
+    "y": 0.4768898224822064
+  },
+  "syncedAt": 1728275987489,
+  "metrics": {}
+}, {
+  "_id": "1dc8d6e4-290b-56ec-9b5e-e6d61cecf988",
+  "areaId": "2e09d717-9497-4a0d-a299-fa73850d2b41",
+  "cameras": [
+    "30e4aa4c-4b2a-72e8-ea47-1b76e276d784",
+    "c7fe6f53-215f-db8c-88ef-85c76b108736"
+  ],
+  "category": "mac",
+  "communicationEquipmentId": "8e0c71a3-66bc-5452-9de3-8dcfe15d367c",
+  "connectionProfileId": "1",
+  "createdAt": 1721545047239,
+  "deletedAt": 0,
+  "gatewayId": "501507be-be01-5ab3-8d81-aef3837a410d",
+  "model": "No12 分類機 GS-2500 1x3.15",
+  "name": "分類No.12",
+  "serial": 65,
+  "signal": [
+    {
+      "pin": "R1",
+      "state": "0>1",
+      "light": "R",
+      "note": "危險",
+      "uuid": "row_1161"
+    }
+  ],
+  "typeId": null,
+  "updatedAt": 1727180306241,
+  "coordinates": {
+    "x": 0.5138875917227862,
+    "y": 0.4938426251799824
+  },
+  "syncedAt": 1728275986666,
+  "metrics": {}
+}, {
+  "_id": "c8fcd1e4-ca2f-5780-b297-73430ba3dedf",
+  "areaId": "2e09d717-9497-4a0d-a299-fa73850d2b41",
+  "cameras": [
+    "30e4aa4c-4b2a-72e8-ea47-1b76e276d784",
+    "c7fe6f53-215f-db8c-88ef-85c76b108736"
+  ],
+  "category": "mac",
+  "communicationEquipmentId": "8e0c71a3-66bc-5452-9de3-8dcfe15d367c",
+  "connectionProfileId": "1",
+  "createdAt": 1721545069617,
+  "deletedAt": 0,
+  "gatewayId": "501507be-be01-5ab3-8d81-aef3837a410d",
+  "model": "No14 分類機 GS-2500 1.7x5.4",
+  "name": "分類No.14",
+  "serial": 66,
+  "signal": [
+    {
+      "pin": "R2",
+      "state": "0>1",
+      "light": "R",
+      "note": "危險",
+      "uuid": "row_1161"
+    }
+  ],
+  "typeId": null,
+  "updatedAt": 1727180322420,
+  "coordinates": {
+    "x": 0.5437732938961365,
+    "y": 0.5264611863994336
+  },
+  "syncedAt": 1728275986708,
+  "metrics": {}
+}, {
+  "_id": "f9b032bd-6f09-5807-8581-de8cc9ed83e1",
+  "areaId": "2e09d717-9497-4a0d-a299-fa73850d2b41",
+  "cameras": [
+    "30e4aa4c-4b2a-72e8-ea47-1b76e276d784",
+    "c7fe6f53-215f-db8c-88ef-85c76b108736"
+  ],
+  "category": "mac",
+  "communicationEquipmentId": "8e0c71a3-66bc-5452-9de3-8dcfe15d367c",
+  "connectionProfileId": "1",
+  "createdAt": 1721545085296,
+  "deletedAt": 0,
+  "gatewayId": "501507be-be01-5ab3-8d81-aef3837a410d",
+  "model": "No15 分類機 GS-2500 1.7x5.4",
+  "name": "No15 分類機 GS-2500 1.7x5.4",
+  "serial": 67,
+  "signal": [
+    {
+      "pin": "R3",
+      "state": "0>1",
+      "light": "R",
+      "note": "危險",
+      "uuid": "row_1161"
+    }
+  ],
+  "typeId": null,
+  "updatedAt": 1727180342423,
+  "coordinates": {
+    "x": 0.5440674681109474,
+    "y": 0.5448747140581723
+  },
+  "syncedAt": 1728275986750,
+  "metrics": {}
+}, {
+  "_id": "7e174891-9558-5144-8236-acc8e2abb0cf",
+  "areaId": "2e09d717-9497-4a0d-a299-fa73850d2b41",
+  "cameras": [
+    "30e4aa4c-4b2a-72e8-ea47-1b76e276d784",
+    "c7fe6f53-215f-db8c-88ef-85c76b108736"
+  ],
+  "category": "mac",
+  "communicationEquipmentId": "8e0c71a3-66bc-5452-9de3-8dcfe15d367c",
+  "connectionProfileId": "1",
+  "createdAt": 1721545097993,
+  "deletedAt": 0,
+  "gatewayId": "501507be-be01-5ab3-8d81-aef3837a410d",
+  "model": "No10 分類機 RS-1200A 4x12(14)",
+  "name": "分類No.10",
+  "serial": 68,
+  "signal": [
+    {
+      "pin": "R4",
+      "state": "0>1",
+      "light": "R",
+      "note": "危險",
+      "uuid": "row_1161"
+    }
+  ],
+  "typeId": null,
+  "updatedAt": 1727180359942,
+  "coordinates": {
+    "x": 0.5440674681109474,
+    "y": 0.5643713904027192
+  },
+  "syncedAt": 1728275986790,
+  "metrics": {}
+}, {
+  "_id": "f84cf6c0-2b9e-55c3-aad0-c3c38c4180bb",
+  "areaId": "2e09d717-9497-4a0d-a299-fa73850d2b41",
+  "cameras": [
+    "30e4aa4c-4b2a-72e8-ea47-1b76e276d784",
+    "c7fe6f53-215f-db8c-88ef-85c76b108736"
+  ],
+  "category": "mac",
+  "communicationEquipmentId": "8e0c71a3-66bc-5452-9de3-8dcfe15d367c",
+  "connectionProfileId": "1",
+  "createdAt": 1721545114788,
+  "deletedAt": 0,
+  "gatewayId": "501507be-be01-5ab3-8d81-aef3837a410d",
+  "model": "No10 分類機 RS-1200A 3(3.5)x10",
+  "name": "No10 分類機 RS-1200A 3(3.5)x10",
+  "serial": 69,
+  "signal": [
+    {
+      "pin": "R5",
+      "state": "0>1",
+      "light": "R",
+      "note": "危險",
+      "uuid": "row_1161"
+    }
+  ],
+  "typeId": null,
+  "updatedAt": 1727180374813,
+  "coordinates": {
+    "x": 0.5440674681109474,
+    "y": 0.5838680667472661
+  },
+  "syncedAt": 1728275986831,
+  "metrics": {}
+}, {
+  "_id": "d87addf2-93d4-5a0c-88c4-cb38cae3b1d0",
+  "areaId": "2e09d717-9497-4a0d-a299-fa73850d2b41",
+  "cameras": [
+    "30e4aa4c-4b2a-72e8-ea47-1b76e276d784",
+    "c7fe6f53-215f-db8c-88ef-85c76b108736"
+  ],
+  "category": "mac",
+  "communicationEquipmentId": "8e0c71a3-66bc-5452-9de3-8dcfe15d367c",
+  "connectionProfileId": "1",
+  "createdAt": 1721545131201,
+  "deletedAt": 0,
+  "gatewayId": "501507be-be01-5ab3-8d81-aef3837a410d",
+  "model": "1",
+  "name": "組分27",
+  "serial": 70,
+  "signal": [
+    {
+      "pin": "R6",
+      "state": "0>1",
+      "light": "R",
+      "note": "危險",
+      "uuid": "row_1161"
+    }
+  ],
+  "typeId": null,
+  "updatedAt": 1727180539651,
+  "coordinates": {
+    "x": 0.5929003877695489,
+    "y": 0.52862748377105
+  },
+  "syncedAt": 1728275986873,
+  "metrics": {}
+}, {
+  "_id": "6cad97f3-afad-5272-b8c1-65d8398c78a7",
+  "areaId": "2e09d717-9497-4a0d-a299-fa73850d2b41",
+  "cameras": [
+    "30e4aa4c-4b2a-72e8-ea47-1b76e276d784",
+    "c7fe6f53-215f-db8c-88ef-85c76b108736"
+  ],
+  "category": "mac",
+  "communicationEquipmentId": "8e0c71a3-66bc-5452-9de3-8dcfe15d367c",
+  "connectionProfileId": "1",
+  "createdAt": 1721545150780,
+  "deletedAt": 0,
+  "gatewayId": "501507be-be01-5ab3-8d81-aef3837a410d",
+  "model": "1",
+  "name": "組分28",
+  "serial": 71,
+  "signal": [
+    {
+      "pin": "R7",
+      "state": "0>1",
+      "light": "R",
+      "note": "危險",
+      "uuid": "row_1161"
+    }
+  ],
+  "typeId": null,
+  "updatedAt": 1726992706800,
+  "coordinates": {
+    "x": 0.5931945619843597,
+    "y": 0.5481241601155968
+  },
+  "syncedAt": 1728275986914,
+  "metrics": {}
+}, {
+  "_id": "e9276a00-af6f-5f43-959a-0edf5b6ebb23",
+  "areaId": "2e09d717-9497-4a0d-a299-fa73850d2b41",
+  "cameras": [
+    "30e4aa4c-4b2a-72e8-ea47-1b76e276d784",
+    "c7fe6f53-215f-db8c-88ef-85c76b108736"
+  ],
+  "category": "mac",
+  "communicationEquipmentId": "8e0c71a3-66bc-5452-9de3-8dcfe15d367c",
+  "connectionProfileId": "1",
+  "createdAt": 1721545174900,
+  "deletedAt": 0,
+  "gatewayId": "501507be-be01-5ab3-8d81-aef3837a410d",
+  "model": "1",
+  "name": "組分29",
+  "serial": 72,
+  "signal": [
+    {
+      "pin": "R8",
+      "state": "0>1",
+      "light": "R",
+      "note": "危險",
+      "uuid": "row_1161"
+    }
+  ],
+  "typeId": null,
+  "updatedAt": 1726992724645,
+  "coordinates": {
+    "x": 0.5892137740973278,
+    "y": 0.4017263975226001
+  },
+  "syncedAt": 1728275986955,
+  "metrics": {}
+}, {
+  "_id": "30ca65ff-af1a-59c7-8860-bd6a1cb06f54",
+  "areaId": "2e09d717-9497-4a0d-a299-fa73850d2b41",
+  "cameras": [
+    "30e4aa4c-4b2a-72e8-ea47-1b76e276d784",
+    "c7fe6f53-215f-db8c-88ef-85c76b108736"
+  ],
+  "category": "mac",
+  "communicationEquipmentId": "8e0c71a3-66bc-5452-9de3-8dcfe15d367c",
+  "connectionProfileId": "1",
+  "createdAt": 1721545188528,
+  "deletedAt": 0,
+  "gatewayId": "501507be-be01-5ab3-8d81-aef3837a410d",
+  "model": "1",
+  "name": "組分30",
+  "serial": 73,
+  "signal": [
+    {
+      "pin": "R9",
+      "state": "0>1",
+      "light": "R",
+      "note": "危險",
+      "uuid": "row_1161"
+    }
+  ],
+  "typeId": null,
+  "updatedAt": 1726992752416,
+  "coordinates": {
+    "x": 0.5847253663437454,
+    "y": 0.4454030621973604
+  },
+  "syncedAt": 1728275986997,
+  "metrics": {}
+}, {
+  "_id": "b6e34b2b-da58-5326-8816-b27c0114ef4f",
+  "areaId": "2e09d717-9497-4a0d-a299-fa73850d2b41",
+  "cameras": [
+    "30e4aa4c-4b2a-72e8-ea47-1b76e276d784",
+    "c7fe6f53-215f-db8c-88ef-85c76b108736"
+  ],
+  "category": "mac",
+  "communicationEquipmentId": "8e0c71a3-66bc-5452-9de3-8dcfe15d367c",
+  "connectionProfileId": "1",
+  "createdAt": 1721545205124,
+  "deletedAt": 0,
+  "gatewayId": "501507be-be01-5ab3-8d81-aef3837a410d",
+  "model": "1",
+  "name": "組分31",
+  "serial": 74,
+  "signal": [
+    {
+      "pin": "R10",
+      "state": "0>1",
+      "light": "R",
+      "note": "危險",
+      "uuid": "row_1161"
+    }
+  ],
+  "typeId": null,
+  "updatedAt": 1726992767116,
+  "coordinates": {
+    "x": 0.5779927547133719,
+    "y": 0.4017263975226001
+  },
+  "syncedAt": 1728275987037,
+  "metrics": {}
+}, {
+  "_id": "5f2f6107-5b56-52bf-9679-edd91bf9c3df",
+  "areaId": "2e09d717-9497-4a0d-a299-fa73850d2b41",
+  "cameras": [
+    "30e4aa4c-4b2a-72e8-ea47-1b76e276d784",
+    "c7fe6f53-215f-db8c-88ef-85c76b108736"
+  ],
+  "category": "mac",
+  "communicationEquipmentId": "8e0c71a3-66bc-5452-9de3-8dcfe15d367c",
+  "connectionProfileId": "1",
+  "createdAt": 1721545217417,
+  "deletedAt": 0,
+  "gatewayId": "501507be-be01-5ab3-8d81-aef3837a410d",
+  "model": "1",
+  "name": "組分32",
+  "serial": 75,
+  "signal": [
+    {
+      "pin": "R11",
+      "state": "0>1",
+      "light": "R",
+      "note": "危險",
+      "uuid": "row_1161"
+    }
+  ],
+  "typeId": null,
+  "updatedAt": 1726992780998,
+  "coordinates": {
+    "x": 0.5786339558210265,
+    "y": 0.4235647298599803
+  },
+  "syncedAt": 1728275987079,
+  "metrics": {}
+}, {
+  "_id": "8302e1b4-9818-53f1-ad79-8556ebadcd03",
+  "areaId": "2e09d717-9497-4a0d-a299-fa73850d2b41",
+  "cameras": [
+    "30e4aa4c-4b2a-72e8-ea47-1b76e276d784",
+    "c7fe6f53-215f-db8c-88ef-85c76b108736"
+  ],
+  "category": "mac",
+  "communicationEquipmentId": "8e0c71a3-66bc-5452-9de3-8dcfe15d367c",
+  "connectionProfileId": "1",
+  "createdAt": 1721545222858,
+  "deletedAt": 0,
+  "gatewayId": "501507be-be01-5ab3-8d81-aef3837a410d",
+  "model": "1",
+  "name": "組分33",
+  "serial": 76,
+  "signal": [
+    {
+      "pin": "R12",
+      "state": "0>1",
+      "light": "R",
+      "note": "危險",
+      "uuid": "row_1161"
+    }
+  ],
+  "typeId": null,
+  "updatedAt": 1726992794881,
+  "coordinates": {
+    "x": 0.5542683137301508,
+    "y": 0.4731436465178164
+  },
+  "syncedAt": 1728275987122,
+  "metrics": {}
+}, {
+  "_id": "bd34df86-e6cc-58b0-b06a-c8cf417d1c16",
+  "areaId": "2e09d717-9497-4a0d-a299-fa73850d2b41",
+  "cameras": [
+    "30e4aa4c-4b2a-72e8-ea47-1b76e276d784",
+    "c7fe6f53-215f-db8c-88ef-85c76b108736"
+  ],
+  "category": "mac",
+  "communicationEquipmentId": "8e0c71a3-66bc-5452-9de3-8dcfe15d367c",
+  "connectionProfileId": "1",
+  "createdAt": 1721545278758,
+  "deletedAt": 0,
+  "gatewayId": "501507be-be01-5ab3-8d81-aef3837a410d",
+  "model": "1",
+  "name": "組分34",
+  "serial": 77,
+  "signal": [
+    {
+      "pin": "R13",
+      "state": "0>1",
+      "light": "R",
+      "note": "危險",
+      "uuid": "row_1161"
+    }
+  ],
+  "typeId": null,
+  "updatedAt": 1726992810379,
+  "coordinates": {
+    "x": 0.5440090960076769,
+    "y": 0.47255342131950884
+  },
+  "syncedAt": 1728275987162,
+  "metrics": {}
+}, {
+  "_id": "1fcb62b6-0ef8-5a3a-9189-ed4721064772",
+  "areaId": "",
+  "cameras": [
+    "30e4aa4c-4b2a-72e8-ea47-1b76e276d784",
+    "c7fe6f53-215f-db8c-88ef-85c76b108736"
+  ],
+  "category": "mac",
+  "communicationEquipmentId": "8e0c71a3-66bc-5452-9de3-8dcfe15d367c",
+  "connectionProfileId": "1",
+  "createdAt": 1721545298740,
+  "deletedAt": 0,
+  "gatewayId": "501507be-be01-5ab3-8d81-aef3837a410d",
+  "model": "1",
+  "name": "組分35",
+  "serial": 78,
+  "signal": [
+    {
+      "pin": "R14",
+      "state": "0>1",
+      "light": "R",
+      "note": "危險",
+      "uuid": "row_1161"
+    },
+    {
+      "pin": "R0",
+      "state": "1>0",
+      "light": "G",
+      "note": "運轉",
+      "uuid": "row_1089"
+    }
+  ],
+  "typeId": null,
+  "updatedAt": 1721545308744,
+  "syncedAt": 1728275987286
+}, {
+  "_id": "09cfe5ec-6774-53af-99cd-8f806795a49d",
+  "areaId": "",
+  "cameras": [
+    "30e4aa4c-4b2a-72e8-ea47-1b76e276d784",
+    "c7fe6f53-215f-db8c-88ef-85c76b108736"
+  ],
+  "category": "mac",
+  "communicationEquipmentId": "8e0c71a3-66bc-5452-9de3-8dcfe15d367c",
+  "connectionProfileId": "1",
+  "createdAt": 1721545315907,
+  "deletedAt": 0,
+  "gatewayId": "501507be-be01-5ab3-8d81-aef3837a410d",
+  "model": "1",
+  "name": "組分36",
+  "serial": 79,
+  "signal": [
+    {
+      "pin": "R15",
+      "state": "0>1",
+      "light": "R",
+      "note": "危險",
+      "uuid": "row_1161"
+    },
+    {
+      "pin": "R0",
+      "state": "1>0",
+      "light": "G",
+      "note": "運轉",
+      "uuid": "row_1089"
+    }
+  ],
+  "typeId": null,
+  "updatedAt": 1721545327425,
+  "syncedAt": 1728275987411
+}, {
+  "_id": "6c75e66e-9d64-59d3-86c9-5ce429e4ed55",
+  "areaId": "",
+  "cameras": [
+    "30e4aa4c-4b2a-72e8-ea47-1b76e276d784",
+    "c7fe6f53-215f-db8c-88ef-85c76b108736"
+  ],
+  "category": "mac",
+  "communicationEquipmentId": "c579874c-9496-5c74-bab6-7b3fea123fd8",
+  "connectionProfileId": "1",
+  "createdAt": 1721545334971,
+  "deletedAt": 0,
+  "gatewayId": "501507be-be01-5ab3-8d81-aef3837a410d",
+  "model": "1",
+  "name": "組分37",
+  "serial": 80,
+  "signal": [
+    {
+      "pin": "R0",
+      "state": "0>1",
+      "light": "R",
+      "note": "危險",
+      "uuid": "row_1161"
+    },
+    {
+      "pin": "R0",
+      "state": "1>0",
+      "light": "G",
+      "note": "運轉",
+      "uuid": "row_1089"
+    }
+  ],
+  "typeId": null,
+  "updatedAt": 1721545374067,
+  "syncedAt": 1728275990926
+}, {
+  "_id": "299b1cff-f8d4-5b1e-b9ee-c1234c3776cf",
+  "areaId": "",
+  "cameras": [
+    "30e4aa4c-4b2a-72e8-ea47-1b76e276d784",
+    "c7fe6f53-215f-db8c-88ef-85c76b108736"
+  ],
+  "category": "mac",
+  "communicationEquipmentId": "c579874c-9496-5c74-bab6-7b3fea123fd8",
+  "connectionProfileId": "1",
+  "createdAt": 1721545380111,
+  "deletedAt": 0,
+  "gatewayId": "501507be-be01-5ab3-8d81-aef3837a410d",
+  "model": "1",
+  "name": "組分38",
+  "serial": 81,
+  "signal": [
+    {
+      "pin": "R1",
+      "state": "0>1",
+      "light": "R",
+      "note": "危險",
+      "uuid": "row_1161"
+    },
+    {
+      "pin": "R0",
+      "state": "1>0",
+      "light": "G",
+      "note": "運轉",
+      "uuid": "row_1089"
+    }
+  ],
+  "typeId": null,
+  "updatedAt": 1721545488301,
+  "syncedAt": 1728275990848
+}, {
+  "_id": "9ad85098-5fd6-53cd-8d35-199f67e86e38",
+  "areaId": "dd627ccf-87d3-4abd-a434-8c13ced42789",
+  "cameras": [
+    "f1bd948d-5e92-d6ce-570e-a6d2901a93b1",
+    ""
+  ],
+  "category": "mac",
+  "communicationEquipmentId": "ddeabf59-0548-5b74-8932-ca76ebd6d22a",
+  "connectionProfileId": "1",
+  "createdAt": 1721545398681,
+  "deletedAt": 0,
+  "gatewayId": "501507be-be01-5ab3-8d81-aef3837a410d",
+  "model": "WD-001 繞線機 GD-268 全尺寸",
+  "name": "WD-001 繞線機 GD-268 全尺寸",
+  "serial": 82,
+  "signal": [
+    {
+      "pin": "R0",
+      "state": "0>1",
+      "light": "R",
+      "note": "危險",
+      "uuid": "row_1161"
+    }
+  ],
+  "typeId": null,
+  "updatedAt": 1727180421547,
+  "coordinates": {
+    "x": 0.49425534845575425,
+    "y": 0.5696276201626003
+  },
+  "syncedAt": 1728275993101,
+  "metrics": {}
+}, {
+  "_id": "175f2633-9998-5558-9b03-b7464083a4c7",
+  "areaId": "dd627ccf-87d3-4abd-a434-8c13ced42789",
+  "cameras": [
+    "f1bd948d-5e92-d6ce-570e-a6d2901a93b1",
+    ""
+  ],
+  "category": "mac",
+  "communicationEquipmentId": "ddeabf59-0548-5b74-8932-ca76ebd6d22a",
+  "connectionProfileId": "1",
+  "createdAt": 1721545501608,
+  "deletedAt": 0,
+  "gatewayId": "501507be-be01-5ab3-8d81-aef3837a410d",
+  "model": "WD-002 繞線機 GD-268 全尺寸",
+  "name": "WD-002 繞線機 GD-268 全尺寸",
+  "serial": 83,
+  "signal": [
+    {
+      "pin": "R1",
+      "state": "0>1",
+      "light": "R",
+      "note": "危險",
+      "uuid": "row_1161"
+    }
+  ],
+  "typeId": null,
+  "updatedAt": 1727180439599,
+  "coordinates": {
+    "x": 0.4942247361092405,
+    "y": 0.5472293864693724
+  },
+  "syncedAt": 1728275992937,
+  "metrics": {}
+}, {
+  "_id": "5ba96f22-f500-5db3-bef7-e8860b49cb4a",
+  "areaId": "dd627ccf-87d3-4abd-a434-8c13ced42789",
+  "cameras": [
+    "f1bd948d-5e92-d6ce-570e-a6d2901a93b1",
+    ""
+  ],
+  "category": "mac",
+  "communicationEquipmentId": "ddeabf59-0548-5b74-8932-ca76ebd6d22a",
+  "connectionProfileId": "1",
+  "createdAt": 1721545517272,
+  "deletedAt": 0,
+  "gatewayId": "501507be-be01-5ab3-8d81-aef3837a410d",
+  "model": "WD-004 繞線機 GD-268 全尺寸",
+  "name": "WD-004 繞線機 GD-268 全尺寸",
+  "serial": 84,
+  "signal": [
+    {
+      "pin": "R2",
+      "state": "0>1",
+      "light": "R",
+      "note": "危險",
+      "uuid": "row_1161"
+    }
+  ],
+  "typeId": null,
+  "updatedAt": 1727180457666,
+  "coordinates": {
+    "x": 0.49438136234664354,
+    "y": 0.521964855477163
+  },
+  "syncedAt": 1728275992980,
+  "metrics": {}
+}, {
+  "_id": "5b703c8d-0cae-5885-ac30-0c40cede0e6e",
+  "areaId": "dd627ccf-87d3-4abd-a434-8c13ced42789",
+  "cameras": [
+    "f1bd948d-5e92-d6ce-570e-a6d2901a93b1",
+    ""
+  ],
+  "category": "mac",
+  "communicationEquipmentId": "ddeabf59-0548-5b74-8932-ca76ebd6d22a",
+  "connectionProfileId": "1",
+  "createdAt": 1721545536896,
+  "deletedAt": 0,
+  "gatewayId": "501507be-be01-5ab3-8d81-aef3837a410d",
+  "model": "WD-005 繞線機 GD-268 全尺寸",
+  "name": "WD-005 繞線機 GD-268 全尺寸",
+  "serial": 85,
+  "signal": [
+    {
+      "pin": "R3",
+      "state": "0>1",
+      "light": "R",
+      "note": "危險",
+      "uuid": "row_1161"
+    }
+  ],
+  "typeId": null,
+  "updatedAt": 1727180473249,
+  "coordinates": {
+    "x": 0.4787973657804641,
+    "y": 0.5222759328405088
+  },
+  "syncedAt": 1728275993022,
+  "metrics": {}
+}, {
+  "_id": "daac8600-f637-595d-a9c6-a0dd2fee3682",
+  "areaId": "dd627ccf-87d3-4abd-a434-8c13ced42789",
+  "cameras": [
+    "f1bd948d-5e92-d6ce-570e-a6d2901a93b1",
+    ""
+  ],
+  "category": "mac",
+  "communicationEquipmentId": "ddeabf59-0548-5b74-8932-ca76ebd6d22a",
+  "connectionProfileId": "1",
+  "createdAt": 1721545555558,
+  "deletedAt": 0,
+  "gatewayId": "501507be-be01-5ab3-8d81-aef3837a410d",
+  "model": "WD-003 繞線機 K-625 (鎢絲用)",
+  "name": "WD-003 繞線機 K-625 (鎢絲用)",
+  "serial": 86,
+  "signal": [
+    {
+      "pin": "R4",
+      "state": "0>1",
+      "light": "R",
+      "note": "危險",
+      "uuid": "row_1161"
+    }
+  ],
+  "typeId": null,
+  "updatedAt": 1727180488660,
+  "coordinates": {
+    "x": 0.46626118593247284,
+    "y": 0.522536840680014
+  },
+  "syncedAt": 1728275993062,
+  "metrics": {}
+}, {
+  "_id": "92ada968-75f3-55cb-83d6-0cc5894488bf",
+  "areaId": "98afe81a-bbfc-4a82-9686-77f8b6641190",
+  "cameras": [
+    "b00dcac2-006a-3c32-6ada-867f817c3184",
+    "de6b5730-ede4-f084-7189-0a035e3bb1be"
+  ],
+  "category": "mac",
+  "communicationEquipmentId": "3c1e0093-123c-537c-b366-0f116370a9f5",
+  "connectionProfileId": "1",
+  "createdAt": 1721545577161,
+  "deletedAt": 0,
+  "gatewayId": "501507be-be01-5ab3-8d81-aef3837a410d",
+  "model": "5-117 切割機 GU186-SC 1.7x5.4",
+  "name": "切割5-117-N",
+  "serial": 87,
+  "signal": [
+    {
+      "pin": "R0",
+      "state": "0>1",
+      "light": "R",
+      "note": "危險",
+      "uuid": "row_1161"
+    }
+  ],
+  "typeId": null,
+  "updatedAt": 1727180622758,
+  "coordinates": {
+    "x": 0.4050498830052723,
+    "y": 0.603845754137212
+  },
+  "syncedAt": 1728275990546,
+  "metrics": {}
+}, {
+  "_id": "bf17fa0f-b323-5b34-8ef9-bd8f0cf9d052",
+  "areaId": "98afe81a-bbfc-4a82-9686-77f8b6641190",
+  "cameras": [
+    "b00dcac2-006a-3c32-6ada-867f817c3184",
+    "de6b5730-ede4-f084-7189-0a035e3bb1be"
+  ],
+  "category": "mac",
+  "communicationEquipmentId": "3c1e0093-123c-537c-b366-0f116370a9f5",
+  "connectionProfileId": "1",
+  "createdAt": 1721545690266,
+  "deletedAt": 0,
+  "gatewayId": "501507be-be01-5ab3-8d81-aef3837a410d",
+  "model": "5-108 切割機 GU186-S 1.7x5.4",
+  "name": "切割5-108-N",
+  "serial": 88,
+  "signal": [
+    {
+      "pin": "R1",
+      "state": "0>1",
+      "light": "R",
+      "note": "危險",
+      "uuid": "row_1161"
+    }
+  ],
+  "typeId": null,
+  "updatedAt": 1727180528276,
+  "coordinates": {
+    "x": 0.39115667092118284,
+    "y": 0.603845754137212
+  },
+  "syncedAt": 1728275989925,
+  "metrics": {}
+}, {
+  "_id": "d6e82a7a-1b63-550c-abe7-4f773d8d217a",
+  "areaId": "98afe81a-bbfc-4a82-9686-77f8b6641190",
+  "cameras": [
+    "b00dcac2-006a-3c32-6ada-867f817c3184",
+    "de6b5730-ede4-f084-7189-0a035e3bb1be"
+  ],
+  "category": "mac",
+  "communicationEquipmentId": "3c1e0093-123c-537c-b366-0f116370a9f5",
+  "connectionProfileId": "1",
+  "createdAt": 1721545726092,
+  "deletedAt": 0,
+  "gatewayId": "501507be-be01-5ab3-8d81-aef3837a410d",
+  "model": "5-116 切割機 GU186-SC 1.7x5.4",
+  "name": "切割5-116-N",
+  "serial": 89,
+  "signal": [
+    {
+      "pin": "R2",
+      "state": "0>1",
+      "light": "R",
+      "note": "危險",
+      "uuid": "row_1161"
+    }
+  ],
+  "typeId": null,
+  "updatedAt": 1727180556460,
+  "coordinates": {
+    "x": 0.3772634588370934,
+    "y": 0.603845754137212
+  },
+  "syncedAt": 1728275989965,
+  "metrics": {}
+}, {
+  "_id": "6681208e-0b44-5ad5-85fc-04b9310f346e",
+  "areaId": "98afe81a-bbfc-4a82-9686-77f8b6641190",
+  "cameras": [
+    "b00dcac2-006a-3c32-6ada-867f817c3184",
+    "de6b5730-ede4-f084-7189-0a035e3bb1be"
+  ],
+  "category": "mac",
+  "communicationEquipmentId": "3c1e0093-123c-537c-b366-0f116370a9f5",
+  "connectionProfileId": "1",
+  "createdAt": 1721545834943,
+  "deletedAt": 0,
+  "gatewayId": "501507be-be01-5ab3-8d81-aef3837a410d",
+  "model": "5-120 切割機 GU186-SC 1.7x5.4",
+  "name": "切割5-120-N",
+  "serial": 90,
+  "signal": [
+    {
+      "pin": "R3",
+      "state": "0>1",
+      "light": "R",
+      "note": "危險",
+      "uuid": "row_1161"
+    }
+  ],
+  "typeId": null,
+  "updatedAt": 1727180576499,
+  "coordinates": {
+    "x": 0.3623392253215657,
+    "y": 0.6039159094685531
+  },
+  "syncedAt": 1728275990007,
+  "metrics": {}
+}, {
+  "_id": "b1847e22-62eb-55d9-8bd5-57989cf986b7",
+  "areaId": "98afe81a-bbfc-4a82-9686-77f8b6641190",
+  "cameras": [
+    "b00dcac2-006a-3c32-6ada-867f817c3184",
+    "de6b5730-ede4-f084-7189-0a035e3bb1be"
+  ],
+  "category": "mac",
+  "communicationEquipmentId": "3c1e0093-123c-537c-b366-0f116370a9f5",
+  "connectionProfileId": "1",
+  "createdAt": 1721545855988,
+  "deletedAt": 0,
+  "gatewayId": "501507be-be01-5ab3-8d81-aef3837a410d",
+  "model": "5-119 切割機 GU186-SC 1.7x5.4",
+  "name": "切割5-119-N",
+  "serial": 91,
+  "signal": [
+    {
+      "pin": "R4",
+      "state": "0>1",
+      "light": "R",
+      "note": "危險",
+      "uuid": "row_1161"
+    }
+  ],
+  "typeId": null,
+  "updatedAt": 1727180593209,
+  "coordinates": {
+    "x": 0.3476489804473236,
+    "y": 0.603172665053257
+  },
+  "syncedAt": 1728275990052,
+  "metrics": {}
+}, {
+  "_id": "a7350c80-dc25-5fc8-9e3d-e0e9a2b53f70",
+  "areaId": "98afe81a-bbfc-4a82-9686-77f8b6641190",
+  "cameras": [
+    "b00dcac2-006a-3c32-6ada-867f817c3184",
+    "de6b5730-ede4-f084-7189-0a035e3bb1be"
+  ],
+  "category": "mac",
+  "communicationEquipmentId": "3c1e0093-123c-537c-b366-0f116370a9f5",
+  "connectionProfileId": "1",
+  "createdAt": 1721545882015,
+  "deletedAt": 0,
+  "gatewayId": "501507be-be01-5ab3-8d81-aef3837a410d",
+  "model": "5-118 切割機 GU186-SC 1.7x5.4",
+  "name": "切割5-118-N",
+  "serial": 92,
+  "signal": [
+    {
+      "pin": "R5",
+      "state": "0>1",
+      "light": "R",
+      "note": "危險",
+      "uuid": "row_1161"
+    }
+  ],
+  "typeId": null,
+  "updatedAt": 1727180610847,
+  "coordinates": {
+    "x": 0.4046842721609542,
+    "y": 0.5506717165047704
+  },
+  "syncedAt": 1728275990094,
+  "metrics": {}
+}, {
+  "_id": "f3dc4cb5-c5a3-5fe6-a145-d027a142e0f3",
+  "areaId": "98afe81a-bbfc-4a82-9686-77f8b6641190",
+  "cameras": [
+    "b00dcac2-006a-3c32-6ada-867f817c3184",
+    "de6b5730-ede4-f084-7189-0a035e3bb1be"
+  ],
+  "category": "mac",
+  "communicationEquipmentId": "3c1e0093-123c-537c-b366-0f116370a9f5",
+  "connectionProfileId": "1",
+  "createdAt": 1721545903277,
+  "deletedAt": 0,
+  "gatewayId": "501507be-be01-5ab3-8d81-aef3837a410d",
+  "model": "5-103 切割機 GU186-SC 1.7x5.4",
+  "name": "切割5-103-N",
+  "serial": 93,
+  "signal": [
+    {
+      "pin": "R6",
+      "state": "0>1",
+      "light": "R",
+      "note": "危險",
+      "uuid": "row_1161"
+    }
+  ],
+  "typeId": null,
+  "updatedAt": 1727180638942,
+  "coordinates": {
+    "x": 0.3904254492325466,
+    "y": 0.5506717165047704
+  },
+  "syncedAt": 1728275990135,
+  "metrics": {}
+}, {
+  "_id": "ba4dc92a-ee96-5c02-8c27-d5dbf24b995b",
+  "areaId": "98afe81a-bbfc-4a82-9686-77f8b6641190",
+  "cameras": [
+    "b00dcac2-006a-3c32-6ada-867f817c3184",
+    "de6b5730-ede4-f084-7189-0a035e3bb1be"
+  ],
+  "category": "mac",
+  "communicationEquipmentId": "3c1e0093-123c-537c-b366-0f116370a9f5",
+  "connectionProfileId": "1",
+  "createdAt": 1721545924530,
+  "deletedAt": 0,
+  "gatewayId": "501507be-be01-5ab3-8d81-aef3837a410d",
+  "model": "5-114 切割機 GU186-C 1.7x5.4",
+  "name": "切割5-114-N",
+  "serial": 94,
+  "signal": [
+    {
+      "pin": "R7",
+      "state": "0>1",
+      "light": "R",
+      "note": "危險",
+      "uuid": "row_1161"
+    }
+  ],
+  "typeId": null,
+  "updatedAt": 1727180655998,
+  "coordinates": {
+    "x": 0.376532237148457,
+    "y": 0.5513448055887253
+  },
+  "syncedAt": 1728275990176,
+  "metrics": {}
+}, {
+  "_id": "295e9808-a102-5907-8134-bf6a5b92a632",
+  "areaId": "98afe81a-bbfc-4a82-9686-77f8b6641190",
+  "cameras": [
+    "b00dcac2-006a-3c32-6ada-867f817c3184",
+    "de6b5730-ede4-f084-7189-0a035e3bb1be"
+  ],
+  "category": "mac",
+  "communicationEquipmentId": "3c1e0093-123c-537c-b366-0f116370a9f5",
+  "connectionProfileId": "1",
+  "createdAt": 1721545937789,
+  "deletedAt": 0,
+  "gatewayId": "501507be-be01-5ab3-8d81-aef3837a410d",
+  "model": "5-113 切割機 GU186-C 1.7x5.4",
+  "name": "切割5-113-N",
+  "serial": 95,
+  "signal": [
+    {
+      "pin": "R8",
+      "state": "0>1",
+      "light": "R",
+      "note": "危險",
+      "uuid": "row_1161"
+    }
+  ],
+  "typeId": null,
+  "updatedAt": 1727180675006,
+  "coordinates": {
+    "x": 0.3622734142200494,
+    "y": 0.5513448055887253
+  },
+  "syncedAt": 1728275990217,
+  "metrics": {}
+}, {
+  "_id": "d721b531-038e-5250-a7c6-5c19ba6f940a",
+  "areaId": "98afe81a-bbfc-4a82-9686-77f8b6641190",
+  "cameras": [
+    "b00dcac2-006a-3c32-6ada-867f817c3184",
+    "de6b5730-ede4-f084-7189-0a035e3bb1be"
+  ],
+  "category": "mac",
+  "communicationEquipmentId": "3c1e0093-123c-537c-b366-0f116370a9f5",
+  "connectionProfileId": "1",
+  "createdAt": 1721545942941,
+  "deletedAt": 0,
+  "gatewayId": "501507be-be01-5ab3-8d81-aef3837a410d",
+  "model": "5-109 切割機 GU186-S 1.7x5.4",
+  "name": "切割5-109-N",
+  "serial": 96,
+  "signal": [
+    {
+      "pin": "R9",
+      "state": "0>1",
+      "light": "R",
+      "note": "危險",
+      "uuid": "row_1161"
+    }
+  ],
+  "typeId": null,
+  "updatedAt": 1727180701426,
+  "coordinates": {
+    "x": 0.4039530504723179,
+    "y": 0.5264405094823921
+  },
+  "syncedAt": 1728275990258,
+  "metrics": {}
+}, {
+  "_id": "1c2c9c67-1955-58f3-931a-fb9dd27d1c3c",
+  "areaId": "98afe81a-bbfc-4a82-9686-77f8b6641190",
+  "cameras": [
+    "b00dcac2-006a-3c32-6ada-867f817c3184",
+    "de6b5730-ede4-f084-7189-0a035e3bb1be"
+  ],
+  "category": "mac",
+  "communicationEquipmentId": "3c1e0093-123c-537c-b366-0f116370a9f5",
+  "connectionProfileId": "1",
+  "createdAt": 1721545980572,
+  "deletedAt": 0,
+  "gatewayId": "501507be-be01-5ab3-8d81-aef3837a410d",
+  "model": "5-115 切割機 GU186-C 1.7x5.4",
+  "name": "切割5-115-N",
+  "serial": 97,
+  "signal": [
+    {
+      "pin": "R10",
+      "state": "0>1",
+      "light": "R",
+      "note": "危險",
+      "uuid": "row_1161"
+    }
+  ],
+  "typeId": null,
+  "updatedAt": 1727180722643,
+  "coordinates": {
+    "x": 0.3896942275439103,
+    "y": 0.5257674203984372
+  },
+  "syncedAt": 1728275990299,
+  "metrics": {}
+}, {
+  "_id": "368dfc12-bdcc-58f5-8219-bdb5df443d68",
+  "areaId": "98afe81a-bbfc-4a82-9686-77f8b6641190",
+  "cameras": [
+    "b00dcac2-006a-3c32-6ada-867f817c3184",
+    "de6b5730-ede4-f084-7189-0a035e3bb1be"
+  ],
+  "category": "mac",
+  "communicationEquipmentId": "3c1e0093-123c-537c-b366-0f116370a9f5",
+  "connectionProfileId": "1",
+  "createdAt": 1721545998202,
+  "deletedAt": 0,
+  "gatewayId": "501507be-be01-5ab3-8d81-aef3837a410d",
+  "model": "5-101 切割機 GU186-SC 1.7x5.4",
+  "name": "切割5-101-N",
+  "serial": 98,
+  "signal": [
+    {
+      "pin": "R11",
+      "state": "0>1",
+      "light": "R",
+      "note": "危險",
+      "uuid": "row_1161"
+    }
+  ],
+  "typeId": null,
+  "updatedAt": 1727180740188,
+  "coordinates": {
+    "x": 0.376532237148457,
+    "y": 0.5257674203984372
+  },
+  "syncedAt": 1728275990340,
+  "metrics": {}
+}, {
+  "_id": "36158d66-220d-5e25-b7e4-532ad3dc2655",
+  "areaId": "98afe81a-bbfc-4a82-9686-77f8b6641190",
+  "cameras": [
+    "b00dcac2-006a-3c32-6ada-867f817c3184",
+    "de6b5730-ede4-f084-7189-0a035e3bb1be"
+  ],
+  "category": "mac",
+  "communicationEquipmentId": "3c1e0093-123c-537c-b366-0f116370a9f5",
+  "connectionProfileId": "1",
+  "createdAt": 1721546010928,
+  "deletedAt": 0,
+  "gatewayId": "501507be-be01-5ab3-8d81-aef3837a410d",
+  "model": "5-102 切割機 GU186-SC 1.7x5.4",
+  "name": "切割5-102-N",
+  "serial": 99,
+  "signal": [
+    {
+      "pin": "R12",
+      "state": "0>1",
+      "light": "R",
+      "note": "危險",
+      "uuid": "row_1161"
+    }
+  ],
+  "typeId": null,
+  "updatedAt": 1727180759797,
+  "coordinates": {
+    "x": 0.3626390250643675,
+    "y": 0.5271135985663471
+  },
+  "syncedAt": 1728275990382,
+  "metrics": {}
+}, {
+  "_id": "8ed17d88-24b9-5ad1-b239-88a5b3303b31",
+  "areaId": "98afe81a-bbfc-4a82-9686-77f8b6641190",
+  "cameras": [
+    "b00dcac2-006a-3c32-6ada-867f817c3184",
+    "de6b5730-ede4-f084-7189-0a035e3bb1be"
+  ],
+  "category": "mac",
+  "communicationEquipmentId": "3c1e0093-123c-537c-b366-0f116370a9f5",
+  "connectionProfileId": "1",
+  "createdAt": 1721546017422,
+  "deletedAt": 0,
+  "gatewayId": "501507be-be01-5ab3-8d81-aef3837a410d",
+  "model": "5-104 切割機 GU186-SC 1.7x5.4",
+  "name": "切割5-104-N",
+  "serial": 100,
+  "signal": [
+    {
+      "pin": "R13",
+      "state": "0>1",
+      "light": "R",
+      "note": "危險",
+      "uuid": "row_1161"
+    }
+  ],
+  "typeId": null,
+  "updatedAt": 1727180779550,
+  "coordinates": {
+    "x": 0.3491114238245962,
+    "y": 0.5271135985663471
+  },
+  "syncedAt": 1728275990425,
+  "metrics": {}
+}, {
+  "_id": "d9c55ebc-e76d-5252-b352-9084e691b09a",
+  "areaId": "98afe81a-bbfc-4a82-9686-77f8b6641190",
+  "cameras": [
+    "b00dcac2-006a-3c32-6ada-867f817c3184",
+    "de6b5730-ede4-f084-7189-0a035e3bb1be"
+  ],
+  "category": "mac",
+  "communicationEquipmentId": "3c1e0093-123c-537c-b366-0f116370a9f5",
+  "connectionProfileId": "1",
+  "createdAt": 1721546055150,
+  "deletedAt": 0,
+  "gatewayId": "501507be-be01-5ab3-8d81-aef3837a410d",
+  "model": "5-107 切割機 GU186-S 1.7x5.4",
+  "name": "切割5-107-N",
+  "serial": 101,
+  "signal": [
+    {
+      "pin": "R14",
+      "state": "0>1",
+      "light": "R",
+      "note": "危險",
+      "uuid": "row_1161"
+    }
+  ],
+  "typeId": null,
+  "updatedAt": 1727180795942,
+  "coordinates": {
+    "x": 0.4032218287836816,
+    "y": 0.46115086833876145
+  },
+  "syncedAt": 1728275990466,
+  "metrics": {}
+}, {
+  "_id": "d8010468-03fb-5179-8501-130fb2233279",
+  "areaId": "98afe81a-bbfc-4a82-9686-77f8b6641190",
+  "cameras": [
+    "b00dcac2-006a-3c32-6ada-867f817c3184",
+    "de6b5730-ede4-f084-7189-0a035e3bb1be"
+  ],
+  "category": "mac",
+  "communicationEquipmentId": "3c1e0093-123c-537c-b366-0f116370a9f5",
+  "connectionProfileId": "1",
+  "createdAt": 1721546070394,
+  "deletedAt": 0,
+  "gatewayId": "501507be-be01-5ab3-8d81-aef3837a410d",
+  "model": "5-106 切割機 GU186-S 1.7x5.4",
+  "name": "切割5-106-N",
+  "serial": 102,
+  "signal": [
+    {
+      "pin": "R15",
+      "state": "0>1",
+      "light": "R",
+      "note": "危險",
+      "uuid": "row_1161"
+    }
+  ],
+  "typeId": null,
+  "updatedAt": 1727180812848,
+  "coordinates": {
+    "x": 0.3893286166995922,
+    "y": 0.4618239574227164
+  },
+  "syncedAt": 1728275990507,
+  "metrics": {}
+}, {
+  "_id": "8f81385c-9068-565c-8a47-6c0b212114a8",
+  "areaId": "98afe81a-bbfc-4a82-9686-77f8b6641190",
+  "cameras": [
+    "b00dcac2-006a-3c32-6ada-867f817c3184",
+    "de6b5730-ede4-f084-7189-0a035e3bb1be"
+  ],
+  "category": "mac",
+  "communicationEquipmentId": "dfaae019-2a8e-5325-9869-09475056ab2f",
+  "connectionProfileId": "1",
+  "createdAt": 1721546094262,
+  "deletedAt": 0,
+  "gatewayId": "501507be-be01-5ab3-8d81-aef3837a410d",
+  "model": "5-105 切割機 GU186-SC 1.7x5.4",
+  "name": "切割5-105-N",
+  "serial": 103,
+  "signal": [
+    {
+      "pin": "R0",
+      "state": "0>1",
+      "light": "R",
+      "note": "危險",
+      "uuid": "row_1161"
+    }
+  ],
+  "typeId": null,
+  "updatedAt": 1727180832805,
+  "coordinates": {
+    "x": 0.37580101545982075,
+    "y": 0.4624970465066714
+  },
+  "syncedAt": 1728275988656,
+  "metrics": {}
+}, {
+  "_id": "ff0cc073-900f-5e1e-ab7a-6f4f80f280ae",
+  "areaId": "98afe81a-bbfc-4a82-9686-77f8b6641190",
+  "cameras": [
+    "b00dcac2-006a-3c32-6ada-867f817c3184",
+    "de6b5730-ede4-f084-7189-0a035e3bb1be"
+  ],
+  "category": "mac",
+  "communicationEquipmentId": "dfaae019-2a8e-5325-9869-09475056ab2f",
+  "connectionProfileId": "1",
+  "createdAt": 1721546128261,
+  "deletedAt": 0,
+  "gatewayId": "501507be-be01-5ab3-8d81-aef3837a410d",
+  "model": "No3 切割機 GU-186SC 5x18",
+  "name": "切割No-3-N",
+  "serial": 104,
+  "signal": [
+    {
+      "pin": "R1",
+      "state": "0>1",
+      "light": "R",
+      "note": "危險",
+      "uuid": "row_1161"
+    }
+  ],
+  "typeId": null,
+  "updatedAt": 1727180867110,
+  "coordinates": {
+    "x": 0.4028562179393635,
+    "y": 0.4308618595607885
+  },
+  "syncedAt": 1728275988028,
+  "metrics": {}
+}, {
+  "_id": "df1f7820-5eac-5911-a7af-198c70814bf0",
+  "areaId": "98afe81a-bbfc-4a82-9686-77f8b6641190",
+  "cameras": [
+    "b00dcac2-006a-3c32-6ada-867f817c3184",
+    "de6b5730-ede4-f084-7189-0a035e3bb1be"
+  ],
+  "category": "mac",
+  "communicationEquipmentId": "dfaae019-2a8e-5325-9869-09475056ab2f",
+  "connectionProfileId": "1",
+  "createdAt": 1721546151857,
+  "deletedAt": 0,
+  "gatewayId": "501507be-be01-5ab3-8d81-aef3837a410d",
+  "model": "No49 GU-180B 4.5x14",
+  "name": "切割No-49-N",
+  "serial": 105,
+  "signal": [
+    {
+      "pin": "R2",
+      "state": "0>1",
+      "light": "R",
+      "note": "危險",
+      "uuid": "row_1161"
+    }
+  ],
+  "typeId": null,
+  "updatedAt": 1727180887766,
+  "coordinates": {
+    "x": 0.38896300585527394,
+    "y": 0.4328811268126534
+  },
+  "syncedAt": 1728275988073,
+  "metrics": {}
+}, {
+  "_id": "b9310289-34db-5fff-b98e-da596f44a282",
+  "areaId": "98afe81a-bbfc-4a82-9686-77f8b6641190",
+  "cameras": [
+    "b00dcac2-006a-3c32-6ada-867f817c3184",
+    "de6b5730-ede4-f084-7189-0a035e3bb1be"
+  ],
+  "category": "mac",
+  "communicationEquipmentId": "dfaae019-2a8e-5325-9869-09475056ab2f",
+  "connectionProfileId": "1",
+  "createdAt": 1721546171939,
+  "deletedAt": 0,
+  "gatewayId": "501507be-be01-5ab3-8d81-aef3837a410d",
+  "model": "Q-101 GU-186S 0.8x1.9",
+  "name": "切割Q-101-N",
+  "serial": 106,
+  "signal": [
+    {
+      "pin": "R3",
+      "state": "0>1",
+      "light": "R",
+      "note": "危險",
+      "uuid": "row_1161"
+    }
+  ],
+  "typeId": null,
+  "updatedAt": 1727180903893,
+  "coordinates": {
+    "x": 0.3754354046155026,
+    "y": 0.4322080377286984
+  },
+  "syncedAt": 1728275988115,
+  "metrics": {}
+}, {
+  "_id": "9feaeffc-e2f6-5237-9327-0d58008e0c1d",
+  "areaId": "98afe81a-bbfc-4a82-9686-77f8b6641190",
+  "cameras": [
+    "b00dcac2-006a-3c32-6ada-867f817c3184",
+    "de6b5730-ede4-f084-7189-0a035e3bb1be"
+  ],
+  "category": "mac",
+  "communicationEquipmentId": "dfaae019-2a8e-5325-9869-09475056ab2f",
+  "connectionProfileId": "1",
+  "createdAt": 1721546191488,
+  "deletedAt": 0,
+  "gatewayId": "501507be-be01-5ab3-8d81-aef3837a410d",
+  "model": "Q-102 GU-186S 0.8x1.9",
+  "name": "切割Q-102-N",
+  "serial": 107,
+  "signal": [
+    {
+      "pin": "R4",
+      "state": "0>1",
+      "light": "R",
+      "note": "危險",
+      "uuid": "row_1161"
+    }
+  ],
+  "typeId": null,
+  "updatedAt": 1727180923881,
+  "coordinates": {
+    "x": 0.361176581687095,
+    "y": 0.4335542158966083
+  },
+  "syncedAt": 1728275988157,
+  "metrics": {}
+}, {
+  "_id": "bb959de4-caaa-5b8f-a0df-2779f61816f3",
+  "areaId": "98afe81a-bbfc-4a82-9686-77f8b6641190",
+  "cameras": [
+    "b00dcac2-006a-3c32-6ada-867f817c3184",
+    "de6b5730-ede4-f084-7189-0a035e3bb1be"
+  ],
+  "category": "mac",
+  "communicationEquipmentId": "dfaae019-2a8e-5325-9869-09475056ab2f",
+  "connectionProfileId": "1",
+  "createdAt": 1721546224008,
+  "deletedAt": 0,
+  "gatewayId": "501507be-be01-5ab3-8d81-aef3837a410d",
+  "model": "Q-103 GU-186S 0.8x1.9",
+  "name": "切割Q-103-N",
+  "serial": 108,
+  "signal": [
+    {
+      "pin": "R5",
+      "state": "0>1",
+      "light": "R",
+      "note": "危險",
+      "uuid": "row_1161"
+    }
+  ],
+  "typeId": null,
+  "updatedAt": 1727180940437,
+  "coordinates": {
+    "x": 0.3469177587586873,
+    "y": 0.43422730498056333
+  },
+  "syncedAt": 1728275988197,
+  "metrics": {}
+}, {
+  "_id": "d5fbf923-5e90-5913-b9ce-f44c9ff96278",
+  "areaId": "98afe81a-bbfc-4a82-9686-77f8b6641190",
+  "cameras": [
+    "b00dcac2-006a-3c32-6ada-867f817c3184",
+    "de6b5730-ede4-f084-7189-0a035e3bb1be"
+  ],
+  "category": "mac",
+  "communicationEquipmentId": "dfaae019-2a8e-5325-9869-09475056ab2f",
+  "connectionProfileId": "1",
+  "createdAt": 1721546241759,
+  "deletedAt": 0,
+  "gatewayId": "501507be-be01-5ab3-8d81-aef3837a410d",
+  "model": "No56 GU-180B 2.5x8",
+  "name": "切割No-56-N",
+  "serial": 109,
+  "signal": [
+    {
+      "pin": "R6",
+      "state": "0>1",
+      "light": "R",
+      "note": "危險",
+      "uuid": "row_1161"
+    }
+  ],
+  "typeId": null,
+  "updatedAt": 1727180962905,
+  "coordinates": {
+    "x": 0.40175938540640904,
+    "y": 0.35749514940969845
+  },
+  "syncedAt": 1728275988243,
+  "metrics": {}
+}, {
+  "_id": "314bc65a-272a-5595-9b25-03e63b928605",
+  "areaId": "98afe81a-bbfc-4a82-9686-77f8b6641190",
+  "cameras": [
+    "b00dcac2-006a-3c32-6ada-867f817c3184",
+    "de6b5730-ede4-f084-7189-0a035e3bb1be"
+  ],
+  "category": "mac",
+  "communicationEquipmentId": "dfaae019-2a8e-5325-9869-09475056ab2f",
+  "connectionProfileId": "1",
+  "createdAt": 1721546267784,
+  "deletedAt": 0,
+  "gatewayId": "501507be-be01-5ab3-8d81-aef3837a410d",
+  "model": "No61 GU-180B 4x12",
+  "name": "切割No-61-N",
+  "serial": 110,
+  "signal": [
+    {
+      "pin": "R7",
+      "state": "0>1",
+      "light": "R",
+      "note": "危險",
+      "uuid": "row_1161"
+    }
+  ],
+  "typeId": null,
+  "updatedAt": 1727180980514,
+  "coordinates": {
+    "x": 0.3885973950109558,
+    "y": 0.3568220603257435
+  },
+  "syncedAt": 1728275988283,
+  "metrics": {}
+}, {
+  "_id": "b550bc93-9355-5910-ad2a-7095b3cdbbba",
+  "areaId": "98afe81a-bbfc-4a82-9686-77f8b6641190",
+  "cameras": [
+    "b00dcac2-006a-3c32-6ada-867f817c3184",
+    "de6b5730-ede4-f084-7189-0a035e3bb1be"
+  ],
+  "category": "mac",
+  "communicationEquipmentId": "dfaae019-2a8e-5325-9869-09475056ab2f",
+  "connectionProfileId": "1",
+  "createdAt": 1721546291593,
+  "deletedAt": 0,
+  "gatewayId": "501507be-be01-5ab3-8d81-aef3837a410d",
+  "model": "No51 切割機 4.5x14",
+  "name": "切割No-51-N",
+  "serial": 111,
+  "signal": [
+    {
+      "pin": "R8",
+      "state": "0>1",
+      "light": "R",
+      "note": "危險",
+      "uuid": "row_1161"
+    }
+  ],
+  "typeId": null,
+  "updatedAt": 1727181020937,
+  "coordinates": {
+    "x": 0.3743385720825481,
+    "y": 0.35749514940969845
+  },
+  "syncedAt": 1728275988325,
+  "metrics": {}
+}, {
+  "_id": "ebeb97c2-811f-5762-880e-0cec74c858fa",
+  "areaId": "98afe81a-bbfc-4a82-9686-77f8b6641190",
+  "cameras": [
+    "b00dcac2-006a-3c32-6ada-867f817c3184",
+    "de6b5730-ede4-f084-7189-0a035e3bb1be"
+  ],
+  "category": "mac",
+  "communicationEquipmentId": "dfaae019-2a8e-5325-9869-09475056ab2f",
+  "connectionProfileId": "1",
+  "createdAt": 1721546310304,
+  "deletedAt": 0,
+  "gatewayId": "501507be-be01-5ab3-8d81-aef3837a410d",
+  "model": "No58 切割機 5x18",
+  "name": "切割No-58-N",
+  "serial": 112,
+  "signal": [
+    {
+      "pin": "R9",
+      "state": "0>1",
+      "light": "R",
+      "note": "危險",
+      "uuid": "row_1161"
+    }
+  ],
+  "typeId": null,
+  "updatedAt": 1727181041407,
+  "coordinates": {
+    "x": 0.3597141383098224,
+    "y": 0.35749514940969845
+  },
+  "syncedAt": 1728275988366,
+  "metrics": {}
+}, {
+  "_id": "b2f4d7fb-5434-58dc-890d-8a32e2638741",
+  "areaId": "98afe81a-bbfc-4a82-9686-77f8b6641190",
+  "cameras": [
+    "b00dcac2-006a-3c32-6ada-867f817c3184",
+    "de6b5730-ede4-f084-7189-0a035e3bb1be"
+  ],
+  "category": "mac",
+  "communicationEquipmentId": "dfaae019-2a8e-5325-9869-09475056ab2f",
+  "connectionProfileId": "1",
+  "createdAt": 1721546327512,
+  "deletedAt": 0,
+  "gatewayId": "501507be-be01-5ab3-8d81-aef3837a410d",
+  "model": "No53 切割機 GU-180G 2.5x8",
+  "name": "切割No-53-N",
+  "serial": 113,
+  "signal": [
+    {
+      "pin": "R10",
+      "state": "0>1",
+      "light": "R",
+      "note": "危險",
+      "uuid": "row_1161"
+    }
+  ],
+  "typeId": null,
+  "updatedAt": 1727181058799,
+  "coordinates": {
+    "x": 0.4028562179393635,
+    "y": 0.3305715860515003
+  },
+  "syncedAt": 1728275988408,
+  "metrics": {}
+}, {
+  "_id": "6675d260-e647-5407-8094-b67081fe421c",
+  "areaId": "98afe81a-bbfc-4a82-9686-77f8b6641190",
+  "cameras": [
+    "b00dcac2-006a-3c32-6ada-867f817c3184",
+    "de6b5730-ede4-f084-7189-0a035e3bb1be"
+  ],
+  "category": "mac",
+  "communicationEquipmentId": "dfaae019-2a8e-5325-9869-09475056ab2f",
+  "connectionProfileId": "1",
+  "createdAt": 1721546350164,
+  "deletedAt": 0,
+  "gatewayId": "501507be-be01-5ab3-8d81-aef3837a410d",
+  "model": "No4 切割機 GU-180SC 2.5x8",
+  "name": "切割No-4-N",
+  "serial": 114,
+  "signal": [
+    {
+      "pin": "R11",
+      "state": "0>1",
+      "light": "R",
+      "note": "危險",
+      "uuid": "row_1161"
+    }
+  ],
+  "typeId": null,
+  "updatedAt": 1727181073928,
+  "coordinates": {
+    "x": 0.3896942275439103,
+    "y": 0.33191776421941016
+  },
+  "syncedAt": 1728275988450,
+  "metrics": {}
+}, {
+  "_id": "f83ca5d3-2790-543f-aa5b-a49c1d02b459",
+  "areaId": "98afe81a-bbfc-4a82-9686-77f8b6641190",
+  "cameras": [
+    "b00dcac2-006a-3c32-6ada-867f817c3184",
+    "de6b5730-ede4-f084-7189-0a035e3bb1be"
+  ],
+  "category": "mac",
+  "communicationEquipmentId": "dfaae019-2a8e-5325-9869-09475056ab2f",
+  "connectionProfileId": "1",
+  "createdAt": 1721546373571,
+  "deletedAt": 0,
+  "gatewayId": "501507be-be01-5ab3-8d81-aef3837a410d",
+  "model": "No63 切割機 GU-180B 3.5x10 G",
+  "name": "切割No-63-N G",
+  "serial": 115,
+  "signal": [
+    {
+      "pin": "R12",
+      "state": "0>1",
+      "light": "R",
+      "note": "危險",
+      "uuid": "row_1161"
+    },
+    {
+      "pin": "R13",
+      "state": "0>1",
+      "light": "G",
+      "note": "運轉"
+    }
+  ],
+  "typeId": null,
+  "updatedAt": 1727403598676,
+  "coordinates": {
+    "x": 0.37580101545982075,
+    "y": 0.33191776421941016
+  },
+  "syncedAt": 1728275988531,
+  "metrics": {}
+}, {
+  "_id": "077fa76c-12a7-562e-90da-623b3d3d6d6b",
+  "areaId": "98afe81a-bbfc-4a82-9686-77f8b6641190",
+  "cameras": [
+    "b00dcac2-006a-3c32-6ada-867f817c3184",
+    "de6b5730-ede4-f084-7189-0a035e3bb1be"
+  ],
+  "category": "mac",
+  "communicationEquipmentId": "dfaae019-2a8e-5325-9869-09475056ab2f",
+  "connectionProfileId": "1",
+  "createdAt": 1721546405987,
+  "deletedAt": 1727247172039,
+  "gatewayId": "501507be-be01-5ab3-8d81-aef3837a410d",
+  "model": "No63 切割機 GU-180B 3.5x10 R",
+  "name": "切割No-63-N R",
+  "serial": 116,
+  "signal": [
+    {
+      "pin": "R13",
+      "state": "0>1",
+      "light": "R",
+      "note": "危險",
+      "uuid": "row_1161"
+    }
+  ],
+  "typeId": null,
+  "updatedAt": 1727181127492,
+  "coordinates": {
+    "x": 0.3615421925314131,
+    "y": 0.33259085330336513
+  },
+  "syncedAt": 1727247166029,
+  "metrics": {}
+}, {
+  "_id": "76fee69d-3712-5fed-b804-14567f035945",
+  "areaId": "98afe81a-bbfc-4a82-9686-77f8b6641190",
+  "cameras": [
+    "b00dcac2-006a-3c32-6ada-867f817c3184",
+    "de6b5730-ede4-f084-7189-0a035e3bb1be"
+  ],
+  "category": "mac",
+  "communicationEquipmentId": "dfaae019-2a8e-5325-9869-09475056ab2f",
+  "connectionProfileId": "1",
+  "createdAt": 1721546418885,
+  "deletedAt": 0,
+  "gatewayId": "501507be-be01-5ab3-8d81-aef3837a410d",
+  "model": "No57 切割機 GU-180B 3.5x10 G",
+  "name": "切割No-57-N G",
+  "serial": 117,
+  "signal": [
+    {
+      "pin": "R14",
+      "state": "0>1",
+      "light": "R",
+      "note": "危險",
+      "uuid": "row_1161"
+    },
+    {
+      "pin": "R15",
+      "state": "0>1",
+      "light": "G",
+      "note": "運轉"
+    }
+  ],
+  "typeId": null,
+  "updatedAt": 1727403625382,
+  "coordinates": {
+    "x": 0.34801459129164175,
+    "y": 0.33259085330336513
+  },
+  "syncedAt": 1728275988614,
+  "metrics": {}
+}, {
+  "_id": "5fca1b66-8b45-5740-991d-d680b54d2431",
+  "areaId": "98afe81a-bbfc-4a82-9686-77f8b6641190",
+  "cameras": [
+    "b00dcac2-006a-3c32-6ada-867f817c3184",
+    "de6b5730-ede4-f084-7189-0a035e3bb1be"
+  ],
+  "category": "mac",
+  "communicationEquipmentId": "dfaae019-2a8e-5325-9869-09475056ab2f",
+  "connectionProfileId": "1",
+  "createdAt": 1721546443680,
+  "deletedAt": 1727247115838,
+  "gatewayId": "501507be-be01-5ab3-8d81-aef3837a410d",
+  "model": "No57 切割機 GU-180B 3.5x10 R",
+  "name": "切割No-57-N R",
+  "serial": 118,
+  "signal": [
+    {
+      "pin": "R15",
+      "state": "0>1",
+      "light": "R",
+      "note": "危險",
+      "uuid": "row_1161"
+    }
+  ],
+  "typeId": null,
+  "updatedAt": 1727181185844,
+  "coordinates": {
+    "x": 0.3344869900518704,
+    "y": 0.3332639423873201
+  },
+  "syncedAt": 1727247111371,
+  "metrics": {}
+}, {
+  "_id": "99034f3f-87f8-5db3-806c-44a925c77615",
+  "areaId": "98afe81a-bbfc-4a82-9686-77f8b6641190",
+  "cameras": [
+    "b00dcac2-006a-3c32-6ada-867f817c3184",
+    "de6b5730-ede4-f084-7189-0a035e3bb1be"
+  ],
+  "category": "mac",
+  "communicationEquipmentId": "5a4f140a-7a16-5eab-98ee-5708b551cecb",
+  "connectionProfileId": "1",
+  "createdAt": 1721546658803,
+  "deletedAt": 0,
+  "gatewayId": "501507be-be01-5ab3-8d81-aef3837a410d",
+  "model": "M-005 GU-186SB 切割機 1x3.15",
+  "name": "切割M-005-N",
+  "serial": 119,
+  "signal": [
+    {
+      "pin": "R0",
+      "state": "0>1",
+      "light": "R",
+      "note": "危險",
+      "uuid": "row_1161"
+    }
+  ],
+  "typeId": null,
+  "updatedAt": 1727181206230,
+  "coordinates": {
+    "x": 0.40249060709504536,
+    "y": 0.28412843925860837
+  },
+  "syncedAt": 1725633479567,
+  "metrics": {}
+}, {
+  "_id": "29c9f4eb-2311-5894-aa3b-41b23f7147f1",
+  "areaId": "98afe81a-bbfc-4a82-9686-77f8b6641190",
+  "cameras": [
+    "b00dcac2-006a-3c32-6ada-867f817c3184",
+    "de6b5730-ede4-f084-7189-0a035e3bb1be"
+  ],
+  "category": "mac",
+  "communicationEquipmentId": "5a4f140a-7a16-5eab-98ee-5708b551cecb",
+  "connectionProfileId": "1",
+  "createdAt": 1721546709229,
+  "deletedAt": 0,
+  "gatewayId": "501507be-be01-5ab3-8d81-aef3837a410d",
+  "model": "M-004 GU-186SB 切割機 1x3.15",
+  "name": "切割M-004-N",
+  "serial": 120,
+  "signal": [
+    {
+      "pin": "R1",
+      "state": "0>1",
+      "light": "R",
+      "note": "危險",
+      "uuid": "row_1161"
+    }
+  ],
+  "typeId": null,
+  "updatedAt": 1727181228325,
+  "coordinates": {
+    "x": 0.3885973950109558,
+    "y": 0.2854746174265183
+  },
+  "syncedAt": 1725633479137,
+  "metrics": {}
+}, {
+  "_id": "904f6eff-4bae-57d1-9066-7894654bc564",
+  "areaId": "98afe81a-bbfc-4a82-9686-77f8b6641190",
+  "cameras": [
+    "b00dcac2-006a-3c32-6ada-867f817c3184",
+    "de6b5730-ede4-f084-7189-0a035e3bb1be"
+  ],
+  "category": "mac",
+  "communicationEquipmentId": "5a4f140a-7a16-5eab-98ee-5708b551cecb",
+  "connectionProfileId": "1",
+  "createdAt": 1721546744780,
+  "deletedAt": 0,
+  "gatewayId": "501507be-be01-5ab3-8d81-aef3837a410d",
+  "model": "M-003 GU-186SB 切割機 1x3.16",
+  "name": "切割M-003-N",
+  "serial": 121,
+  "signal": [
+    {
+      "pin": "R2",
+      "state": "0>1",
+      "light": "R",
+      "note": "危險",
+      "uuid": "row_1161"
+    }
+  ],
+  "typeId": null,
+  "updatedAt": 1727181245382,
+  "coordinates": {
+    "x": 0.37397296123823,
+    "y": 0.2854746174265183
+  },
+  "syncedAt": 1725633479189,
+  "metrics": {}
+}, {
+  "_id": "47ee1c22-8141-5ea1-8970-753e8df23afc",
+  "areaId": "98afe81a-bbfc-4a82-9686-77f8b6641190",
+  "cameras": [
+    "b00dcac2-006a-3c32-6ada-867f817c3184",
+    "de6b5730-ede4-f084-7189-0a035e3bb1be"
+  ],
+  "category": "mac",
+  "communicationEquipmentId": "5a4f140a-7a16-5eab-98ee-5708b551cecb",
+  "connectionProfileId": "1",
+  "createdAt": 1721546766088,
+  "deletedAt": 0,
+  "gatewayId": "501507be-be01-5ab3-8d81-aef3837a410d",
+  "model": "M-002 GU-186SB 切割機 1x3.16",
+  "name": "切割M-002-N",
+  "serial": 122,
+  "signal": [
+    {
+      "pin": "R3",
+      "state": "0>1",
+      "light": "R",
+      "note": "危險",
+      "uuid": "row_1161"
+    }
+  ],
+  "typeId": null,
+  "updatedAt": 1727181264244,
+  "coordinates": {
+    "x": 0.3608109708427768,
+    "y": 0.2861477065104733
+  },
+  "syncedAt": 1725633479256,
+  "metrics": {}
+}, {
+  "_id": "802bd466-0fe3-5acc-8374-1d36c6147e8c",
+  "areaId": "98afe81a-bbfc-4a82-9686-77f8b6641190",
+  "cameras": [
+    "b00dcac2-006a-3c32-6ada-867f817c3184",
+    "de6b5730-ede4-f084-7189-0a035e3bb1be"
+  ],
+  "category": "mac",
+  "communicationEquipmentId": "5a4f140a-7a16-5eab-98ee-5708b551cecb",
+  "connectionProfileId": "1",
+  "createdAt": 1721546788370,
+  "deletedAt": 0,
+  "gatewayId": "501507be-be01-5ab3-8d81-aef3837a410d",
+  "model": "M-001 GU-186SB 切割機 1x3.17",
+  "name": "切割M-001-N",
+  "serial": 123,
+  "signal": [
+    {
+      "pin": "R4",
+      "state": "0>1",
+      "light": "R",
+      "note": "危險",
+      "uuid": "row_1161"
+    }
+  ],
+  "typeId": null,
+  "updatedAt": 1727181284981,
+  "coordinates": {
+    "x": 0.48036571693481006,
+    "y": 0.42345787963728404
+  },
+  "syncedAt": 1725633479345,
+  "metrics": {}
+}, {
+  "_id": "31d245a5-b67a-5f2b-b486-9305737490fc",
+  "areaId": "98afe81a-bbfc-4a82-9686-77f8b6641190",
+  "cameras": [
+    "b00dcac2-006a-3c32-6ada-867f817c3184",
+    "de6b5730-ede4-f084-7189-0a035e3bb1be"
+  ],
+  "category": "mac",
+  "communicationEquipmentId": "5a4f140a-7a16-5eab-98ee-5708b551cecb",
+  "connectionProfileId": "1",
+  "createdAt": 1721546810789,
+  "deletedAt": 0,
+  "gatewayId": "501507be-be01-5ab3-8d81-aef3837a410d",
+  "model": "Q-002 GU-186SB 切割機 0.8x1.9",
+  "name": "切割Q-002-N",
+  "serial": 124,
+  "signal": [
+    {
+      "pin": "R5",
+      "state": "0>1",
+      "light": "R",
+      "note": "危險",
+      "uuid": "row_1161"
+    }
+  ],
+  "typeId": null,
+  "updatedAt": 1727181303906,
+  "coordinates": {
+    "x": 0.4664725048507206,
+    "y": 0.42413096872123895
+  },
+  "syncedAt": 1725633479382,
+  "metrics": {}
+}, {
+  "_id": "9ffaaf16-0000-572c-96da-4673b13ea8d0",
+  "areaId": "98afe81a-bbfc-4a82-9686-77f8b6641190",
+  "cameras": [
+    "b00dcac2-006a-3c32-6ada-867f817c3184",
+    "de6b5730-ede4-f084-7189-0a035e3bb1be"
+  ],
+  "category": "mac",
+  "communicationEquipmentId": "5a4f140a-7a16-5eab-98ee-5708b551cecb",
+  "connectionProfileId": "1",
+  "createdAt": 1721546848017,
+  "deletedAt": 0,
+  "gatewayId": "501507be-be01-5ab3-8d81-aef3837a410d",
+  "model": "M-008 GU-186SB 切割機 1x3.15",
+  "name": "切割M-008-N",
+  "serial": 125,
+  "signal": [
+    {
+      "pin": "R6",
+      "state": "0>1",
+      "light": "R",
+      "note": "危險",
+      "uuid": "row_1161"
+    }
+  ],
+  "typeId": null,
+  "updatedAt": 1727181325091,
+  "coordinates": {
+    "x": 0.452213681922313,
+    "y": 0.42345787963728404
+  },
+  "syncedAt": 1725633479416,
+  "metrics": {}
+}, {
+  "_id": "be1f2f8d-33ee-5dcf-91b5-c69ea7530b58",
+  "areaId": "98afe81a-bbfc-4a82-9686-77f8b6641190",
+  "cameras": [
+    "b00dcac2-006a-3c32-6ada-867f817c3184",
+    "de6b5730-ede4-f084-7189-0a035e3bb1be"
+  ],
+  "category": "mac",
+  "communicationEquipmentId": "5a4f140a-7a16-5eab-98ee-5708b551cecb",
+  "connectionProfileId": "1",
+  "createdAt": 1721546871793,
+  "deletedAt": 0,
+  "gatewayId": "501507be-be01-5ab3-8d81-aef3837a410d",
+  "model": "M-007 GU-186SB 切割機 1x3.15",
+  "name": "切割M-007-N",
+  "serial": 126,
+  "signal": [
+    {
+      "pin": "R7",
+      "state": "0>1",
+      "light": "R",
+      "note": "危險",
+      "uuid": "row_1161"
+    }
+  ],
+  "typeId": null,
+  "updatedAt": 1727181340893,
+  "coordinates": {
+    "x": 0.48000010609049193,
+    "y": 0.39922667261490563
+  },
+  "syncedAt": 1725633479461,
+  "metrics": {}
+}, {
+  "_id": "e15013a4-961f-532f-91ce-7743ec855a32",
+  "areaId": "98afe81a-bbfc-4a82-9686-77f8b6641190",
+  "cameras": [
+    "b00dcac2-006a-3c32-6ada-867f817c3184",
+    "de6b5730-ede4-f084-7189-0a035e3bb1be"
+  ],
+  "category": "mac",
+  "communicationEquipmentId": "5a4f140a-7a16-5eab-98ee-5708b551cecb",
+  "connectionProfileId": "1",
+  "createdAt": 1721546890946,
+  "deletedAt": 0,
+  "gatewayId": "501507be-be01-5ab3-8d81-aef3837a410d",
+  "model": "M-006 GU-186SB 切割機 1x3.15",
+  "name": "切割M-006-N",
+  "serial": 127,
+  "signal": [
+    {
+      "pin": "R8",
+      "state": "0>1",
+      "light": "R",
+      "note": "危險",
+      "uuid": "row_1161"
+    }
+  ],
+  "typeId": null,
+  "updatedAt": 1727181356368,
+  "coordinates": {
+    "x": 0.4664725048507206,
+    "y": 0.39989976169886055
+  },
+  "syncedAt": 1725633479509,
+  "metrics": {}
+}, {
+  "_id": "9b09160d-427d-53d1-a40d-0548572914bd",
+  "areaId": "98afe81a-bbfc-4a82-9686-77f8b6641190",
+  "cameras": [
+    "b00dcac2-006a-3c32-6ada-867f817c3184",
+    "de6b5730-ede4-f084-7189-0a035e3bb1be"
+  ],
+  "category": "mac",
+  "communicationEquipmentId": "5a4f140a-7a16-5eab-98ee-5708b551cecb",
+  "connectionProfileId": "1",
+  "createdAt": 1721546909177,
+  "deletedAt": 0,
+  "gatewayId": "501507be-be01-5ab3-8d81-aef3837a410d",
+  "model": "No05 雷切 Trim",
+  "name": "No05 雷切 Trim",
+  "serial": 128,
+  "signal": [
+    {
+      "pin": "R9",
+      "state": "0>1",
+      "light": "R",
+      "note": "危險",
+      "uuid": "row_1161"
+    }
+  ],
+  "typeId": null,
+  "updatedAt": 1727181372292,
+  "coordinates": {
+    "x": 0.4525792927666311,
+    "y": 0.39922667261490563
+  },
+  "syncedAt": 1725633479558,
+  "metrics": {}
+}, {
+  "_id": "86f57120-e31c-5874-aead-c4abb4dc0865",
+  "areaId": "98afe81a-bbfc-4a82-9686-77f8b6641190",
+  "cameras": [
+    "b00dcac2-006a-3c32-6ada-867f817c3184",
+    "de6b5730-ede4-f084-7189-0a035e3bb1be"
+  ],
+  "category": "mac",
+  "communicationEquipmentId": "6db0ac26-d29c-558b-8dcd-a8d752b19816",
+  "connectionProfileId": "1",
+  "createdAt": 1721546928344,
+  "deletedAt": 0,
+  "gatewayId": "501507be-be01-5ab3-8d81-aef3837a410d",
+  "model": "No04 雷切 Trim",
+  "name": "No04 雷切 Trim",
+  "serial": 129,
+  "signal": [
+    {
+      "pin": "R0",
+      "state": "0>1",
+      "light": "R",
+      "note": "危險",
+      "uuid": "row_1161"
+    }
+  ],
+  "typeId": null,
+  "updatedAt": 1727181387275,
+  "coordinates": {
+    "x": 0.47561277595867424,
+    "y": 0.35614897124178857
+  },
+  "syncedAt": 1725633479036,
+  "metrics": {}
+}, {
+  "_id": "5d297ab5-017d-5b3a-8190-389b11f384e8",
+  "areaId": "",
+  "cameras": [
+    "b00dcac2-006a-3c32-6ada-867f817c3184",
+    "de6b5730-ede4-f084-7189-0a035e3bb1be"
+  ],
+  "category": "mac",
+  "communicationEquipmentId": "5a4f140a-7a16-5eab-98ee-5708b551cecb",
+  "connectionProfileId": "1",
+  "createdAt": 1721546933978,
+  "deletedAt": 1721546936840,
+  "gatewayId": "501507be-be01-5ab3-8d81-aef3837a410d",
+  "model": "1",
+  "name": "切割42_複製_複製",
+  "serial": 130,
+  "signal": [
+    {
+      "pin": "R9",
+      "state": "0>1",
+      "light": "R",
+      "note": "危險",
+      "uuid": "row_1161"
+    },
+    {
+      "pin": "R0",
+      "state": "1>0",
+      "light": "G",
+      "note": "運轉",
+      "uuid": "row_1089"
+    }
+  ],
+  "typeId": null,
+  "updatedAt": 1721546933978
+}, {
+  "_id": "11addb92-90d7-51f6-80c5-0e492c6445bd",
+  "areaId": "98afe81a-bbfc-4a82-9686-77f8b6641190",
+  "cameras": [
+    "b00dcac2-006a-3c32-6ada-867f817c3184",
+    "de6b5730-ede4-f084-7189-0a035e3bb1be"
+  ],
+  "category": "mac",
+  "communicationEquipmentId": "6db0ac26-d29c-558b-8dcd-a8d752b19816",
+  "connectionProfileId": "1",
+  "createdAt": 1721546983743,
+  "deletedAt": 0,
+  "gatewayId": "501507be-be01-5ab3-8d81-aef3837a410d",
+  "model": "No03 雷切 Trim",
+  "name": "No03 雷切 Trim",
+  "serial": 130,
+  "signal": [
+    {
+      "pin": "R1",
+      "state": "0>1",
+      "light": "R",
+      "note": "危險",
+      "uuid": "row_1161"
+    }
+  ],
+  "typeId": null,
+  "updatedAt": 1727181400198,
+  "coordinates": {
+    "x": 0.4628163964075392,
+    "y": 0.3568220603257435
+  },
+  "syncedAt": 1725633478337,
+  "metrics": {}
+}, {
+  "_id": "07dd0a2b-f451-520d-b2bb-0f24f8d44599",
+  "areaId": "98afe81a-bbfc-4a82-9686-77f8b6641190",
+  "cameras": [
+    "b00dcac2-006a-3c32-6ada-867f817c3184",
+    "de6b5730-ede4-f084-7189-0a035e3bb1be"
+  ],
+  "category": "mac",
+  "communicationEquipmentId": "6db0ac26-d29c-558b-8dcd-a8d752b19816",
+  "connectionProfileId": "1",
+  "createdAt": 1721547002549,
+  "deletedAt": 0,
+  "gatewayId": "501507be-be01-5ab3-8d81-aef3837a410d",
+  "model": "No02 雷切 Trim",
+  "name": "No02 雷切 Trim",
+  "serial": 131,
+  "signal": [
+    {
+      "pin": "R2",
+      "state": "0>1",
+      "light": "R",
+      "note": "危險",
+      "uuid": "row_1161"
+    }
+  ],
+  "typeId": null,
+  "updatedAt": 1727181415463,
+  "coordinates": {
+    "x": 0.4492887951677678,
+    "y": 0.35749514940969845
+  },
+  "syncedAt": 1725633478387,
+  "metrics": {}
+}, {
+  "_id": "8cb453b7-9a13-52ec-9433-39ad7379b3a0",
+  "areaId": "98afe81a-bbfc-4a82-9686-77f8b6641190",
+  "cameras": [
+    "b00dcac2-006a-3c32-6ada-867f817c3184",
+    "de6b5730-ede4-f084-7189-0a035e3bb1be"
+  ],
+  "category": "mac",
+  "communicationEquipmentId": "6db0ac26-d29c-558b-8dcd-a8d752b19816",
+  "connectionProfileId": "1",
+  "createdAt": 1721547022439,
+  "deletedAt": 0,
+  "gatewayId": "501507be-be01-5ab3-8d81-aef3837a410d",
+  "model": "No01 雷切 Trim",
+  "name": "No01 雷切 Trim",
+  "serial": 132,
+  "signal": [
+    {
+      "pin": "R3",
+      "state": "0>1",
+      "light": "R",
+      "note": "危險",
+      "uuid": "row_1161"
+    }
+  ],
+  "typeId": null,
+  "updatedAt": 1727181432789,
+  "coordinates": {
+    "x": 0.4353955830836784,
+    "y": 0.3568220603257435
+  },
+  "syncedAt": 1725633478437,
+  "metrics": {}
+}, {
+  "_id": "d77e5851-00b2-533c-9f71-b4794156e746",
+  "areaId": "98afe81a-bbfc-4a82-9686-77f8b6641190",
+  "cameras": [
+    "b00dcac2-006a-3c32-6ada-867f817c3184",
+    "de6b5730-ede4-f084-7189-0a035e3bb1be"
+  ],
+  "category": "mac",
+  "communicationEquipmentId": "6db0ac26-d29c-558b-8dcd-a8d752b19816",
+  "connectionProfileId": "1",
+  "createdAt": 1721547044766,
+  "deletedAt": 0,
+  "gatewayId": "501507be-be01-5ab3-8d81-aef3837a410d",
+  "model": "10 1.7x5.4 No4",
+  "name": "10 1.7x5.4 No4",
+  "serial": 133,
+  "signal": [
+    {
+      "pin": "R4",
+      "state": "0>1",
+      "light": "R",
+      "note": "危險",
+      "uuid": "row_1161"
+    }
+  ],
+  "typeId": null,
+  "updatedAt": 1727181465248,
+  "coordinates": {
+    "x": 0.4752471651143561,
+    "y": 0.33393703147127507
+  },
+  "syncedAt": 1725633478493,
+  "metrics": {}
+}, {
+  "_id": "7432733e-5a0d-566a-bb5a-4b5ff0da7d3c",
+  "areaId": "98afe81a-bbfc-4a82-9686-77f8b6641190",
+  "cameras": [
+    "b00dcac2-006a-3c32-6ada-867f817c3184",
+    "de6b5730-ede4-f084-7189-0a035e3bb1be"
+  ],
+  "category": "mac",
+  "communicationEquipmentId": "6db0ac26-d29c-558b-8dcd-a8d752b19816",
+  "connectionProfileId": "1",
+  "createdAt": 1721547064013,
+  "deletedAt": 0,
+  "gatewayId": "501507be-be01-5ab3-8d81-aef3837a410d",
+  "model": "1.7x5.4 No3",
+  "name": "1.7x5.4 No3",
+  "serial": 134,
+  "signal": [
+    {
+      "pin": "R5",
+      "state": "0>1",
+      "light": "R",
+      "note": "危險",
+      "uuid": "row_1161"
+    }
+  ],
+  "typeId": null,
+  "updatedAt": 1727181486326,
+  "coordinates": {
+    "x": 0.4628163964075392,
+    "y": 0.33393703147127507
+  },
+  "syncedAt": 1725633478545,
+  "metrics": {}
+}, {
+  "_id": "97af9561-295b-54b0-9a42-0075b56a3abd",
+  "areaId": "98afe81a-bbfc-4a82-9686-77f8b6641190",
+  "cameras": [
+    "b00dcac2-006a-3c32-6ada-867f817c3184",
+    "de6b5730-ede4-f084-7189-0a035e3bb1be"
+  ],
+  "category": "mac",
+  "communicationEquipmentId": "6db0ac26-d29c-558b-8dcd-a8d752b19816",
+  "connectionProfileId": "1",
+  "createdAt": 1721547096332,
+  "deletedAt": 0,
+  "gatewayId": "501507be-be01-5ab3-8d81-aef3837a410d",
+  "model": "No07 雷切 Trim",
+  "name": "No07 雷切 Trim",
+  "serial": 135,
+  "signal": [
+    {
+      "pin": "R6",
+      "state": "0>1",
+      "light": "R",
+      "note": "危險",
+      "uuid": "row_1161"
+    }
+  ],
+  "typeId": null,
+  "updatedAt": 1727181505214,
+  "coordinates": {
+    "x": 0.44965440601208595,
+    "y": 0.33461012055523
+  },
+  "syncedAt": 1725633478609,
+  "metrics": {}
+}, {
+  "_id": "1fe364f9-b69c-50a8-8dfc-628375bbddb8",
+  "areaId": "98afe81a-bbfc-4a82-9686-77f8b6641190",
+  "cameras": [
+    "b00dcac2-006a-3c32-6ada-867f817c3184",
+    "de6b5730-ede4-f084-7189-0a035e3bb1be"
+  ],
+  "category": "mac",
+  "communicationEquipmentId": "6db0ac26-d29c-558b-8dcd-a8d752b19816",
+  "connectionProfileId": "1",
+  "createdAt": 1721547115533,
+  "deletedAt": 0,
+  "gatewayId": "501507be-be01-5ab3-8d81-aef3837a410d",
+  "model": "GU186S 1x3.15 M112",
+  "name": "切割M-112-N",
+  "serial": 136,
+  "signal": [
+    {
+      "pin": "R7",
+      "state": "0>1",
+      "light": "R",
+      "note": "危險",
+      "uuid": "row_1161"
+    }
+  ],
+  "typeId": null,
+  "updatedAt": 1727181535330,
+  "coordinates": {
+    "x": 0.43612680477231464,
+    "y": 0.33461012055523
+  },
+  "syncedAt": 1725633478653,
+  "metrics": {}
+}, {
+  "_id": "b77f0ef1-11c3-555d-836c-e66d46334709",
+  "areaId": "98afe81a-bbfc-4a82-9686-77f8b6641190",
+  "cameras": [
+    "b00dcac2-006a-3c32-6ada-867f817c3184",
+    "de6b5730-ede4-f084-7189-0a035e3bb1be"
+  ],
+  "category": "mac",
+  "communicationEquipmentId": "6db0ac26-d29c-558b-8dcd-a8d752b19816",
+  "connectionProfileId": "1",
+  "createdAt": 1721547133288,
+  "deletedAt": 0,
+  "gatewayId": "501507be-be01-5ab3-8d81-aef3837a410d",
+  "model": "GU186S 1x3.15 M111",
+  "name": "切割M-111-N",
+  "serial": 137,
+  "signal": [
+    {
+      "pin": "R8",
+      "state": "0>1",
+      "light": "R",
+      "note": "危險",
+      "uuid": "row_1161"
+    }
+  ],
+  "typeId": null,
+  "updatedAt": 1727181553508,
+  "coordinates": {
+    "x": 0.47561277595867424,
+    "y": 0.29422477551793275
+  },
+  "syncedAt": 1725633478697,
+  "metrics": {}
+}, {
+  "_id": "a4b25a9e-1cb4-509d-8948-0a8487be1bb1",
+  "areaId": "98afe81a-bbfc-4a82-9686-77f8b6641190",
+  "cameras": [
+    "b00dcac2-006a-3c32-6ada-867f817c3184",
+    "de6b5730-ede4-f084-7189-0a035e3bb1be"
+  ],
+  "category": "mac",
+  "communicationEquipmentId": "6db0ac26-d29c-558b-8dcd-a8d752b19816",
+  "connectionProfileId": "1",
+  "createdAt": 1721547156299,
+  "deletedAt": 0,
+  "gatewayId": "501507be-be01-5ab3-8d81-aef3837a410d",
+  "model": "GU186S 1x3.15 M110",
+  "name": "切割M-110-N",
+  "serial": 138,
+  "signal": [
+    {
+      "pin": "R9",
+      "state": "0>1",
+      "light": "R",
+      "note": "危險",
+      "uuid": "row_1161"
+    }
+  ],
+  "typeId": null,
+  "updatedAt": 1727181569919,
+  "coordinates": {
+    "x": 0.462450785563221,
+    "y": 0.29422477551793275
+  },
+  "syncedAt": 1725633478745,
+  "metrics": {}
+}, {
+  "_id": "a29e509c-27e5-5f7d-ad98-52e7e8c6e936",
+  "areaId": "98afe81a-bbfc-4a82-9686-77f8b6641190",
+  "cameras": [
+    "b00dcac2-006a-3c32-6ada-867f817c3184",
+    "de6b5730-ede4-f084-7189-0a035e3bb1be"
+  ],
+  "category": "mac",
+  "communicationEquipmentId": "6db0ac26-d29c-558b-8dcd-a8d752b19816",
+  "connectionProfileId": "1",
+  "createdAt": 1721547179972,
+  "deletedAt": 0,
+  "gatewayId": "501507be-be01-5ab3-8d81-aef3837a410d",
+  "model": "GU186S 1x3.15 M109",
+  "name": "切割M-109-N",
+  "serial": 139,
+  "signal": [
+    {
+      "pin": "R10",
+      "state": "0>1",
+      "light": "R",
+      "note": "危險",
+      "uuid": "row_1161"
+    }
+  ],
+  "typeId": null,
+  "updatedAt": 1727181588909,
+  "coordinates": {
+    "x": 0.4492887951677678,
+    "y": 0.2935516864339778
+  },
+  "syncedAt": 1725633478789,
+  "metrics": {}
+}, {
+  "_id": "c3f258e4-a470-548d-83de-9c49ed1c0e38",
+  "areaId": "98afe81a-bbfc-4a82-9686-77f8b6641190",
+  "cameras": [
+    "b00dcac2-006a-3c32-6ada-867f817c3184",
+    "de6b5730-ede4-f084-7189-0a035e3bb1be"
+  ],
+  "category": "mac",
+  "communicationEquipmentId": "6db0ac26-d29c-558b-8dcd-a8d752b19816",
+  "connectionProfileId": "1",
+  "createdAt": 1721547199305,
+  "deletedAt": 0,
+  "gatewayId": "501507be-be01-5ab3-8d81-aef3837a410d",
+  "model": "GU186S 1x3.15 M108",
+  "name": "切割M-108-N",
+  "serial": 140,
+  "signal": [
+    {
+      "pin": "R11",
+      "state": "0>1",
+      "light": "R",
+      "note": "危險",
+      "uuid": "row_1161"
+    }
+  ],
+  "typeId": null,
+  "updatedAt": 1727181607269,
+  "coordinates": {
+    "x": 0.4357611939279965,
+    "y": 0.2928785973500228
+  },
+  "syncedAt": 1725633478830,
+  "metrics": {}
+}, {
+  "_id": "7d78de92-1c53-516a-9688-a5787b7adb67",
+  "areaId": "98afe81a-bbfc-4a82-9686-77f8b6641190",
+  "cameras": [
+    "b00dcac2-006a-3c32-6ada-867f817c3184",
+    "de6b5730-ede4-f084-7189-0a035e3bb1be"
+  ],
+  "category": "mac",
+  "communicationEquipmentId": "6db0ac26-d29c-558b-8dcd-a8d752b19816",
+  "connectionProfileId": "1",
+  "createdAt": 1721547216428,
+  "deletedAt": 0,
+  "gatewayId": "501507be-be01-5ab3-8d81-aef3837a410d",
+  "model": "GU186S 1x3.15 M116",
+  "name": "切割M-116-N",
+  "serial": 141,
+  "signal": [
+    {
+      "pin": "R12",
+      "state": "0>1",
+      "light": "R",
+      "note": "危險",
+      "uuid": "row_1161"
+    }
+  ],
+  "typeId": null,
+  "updatedAt": 1727181623693,
+  "coordinates": {
+    "x": 0.47597838680299237,
+    "y": 0.2686473903276444
+  },
+  "syncedAt": 1725633478874,
+  "metrics": {}
+}, {
+  "_id": "fb85871f-5074-58d2-9a42-7091f768a267",
+  "areaId": "98afe81a-bbfc-4a82-9686-77f8b6641190",
+  "cameras": [
+    "b00dcac2-006a-3c32-6ada-867f817c3184",
+    "de6b5730-ede4-f084-7189-0a035e3bb1be"
+  ],
+  "category": "mac",
+  "communicationEquipmentId": "6db0ac26-d29c-558b-8dcd-a8d752b19816",
+  "connectionProfileId": "1",
+  "createdAt": 1721547236631,
+  "deletedAt": 0,
+  "gatewayId": "501507be-be01-5ab3-8d81-aef3837a410d",
+  "model": "GU186S 1x3.15 M115",
+  "name": "切割M-115-N",
+  "serial": 142,
+  "signal": [
+    {
+      "pin": "R13",
+      "state": "0>1",
+      "light": "R",
+      "note": "危險",
+      "uuid": "row_1161"
+    }
+  ],
+  "typeId": null,
+  "updatedAt": 1727181642624,
+  "coordinates": {
+    "x": 0.4631820072518573,
+    "y": 0.2693204794115994
+  },
+  "syncedAt": 1725633478916,
+  "metrics": {}
+}, {
+  "_id": "b5897443-9d02-55ea-aeb0-d4674d3f658f",
+  "areaId": "98afe81a-bbfc-4a82-9686-77f8b6641190",
+  "cameras": [
+    "b00dcac2-006a-3c32-6ada-867f817c3184",
+    "de6b5730-ede4-f084-7189-0a035e3bb1be"
+  ],
+  "category": "mac",
+  "communicationEquipmentId": "6db0ac26-d29c-558b-8dcd-a8d752b19816",
+  "connectionProfileId": "1",
+  "createdAt": 1721547254875,
+  "deletedAt": 0,
+  "gatewayId": "501507be-be01-5ab3-8d81-aef3837a410d",
+  "model": "GU186S 1x3.15 M114",
+  "name": "切割M-114-N",
+  "serial": 143,
+  "signal": [
+    {
+      "pin": "R14",
+      "state": "0>1",
+      "light": "R",
+      "note": "危險",
+      "uuid": "row_1161"
+    }
+  ],
+  "typeId": null,
+  "updatedAt": 1727181662142,
+  "coordinates": {
+    "x": 0.4492887951677678,
+    "y": 0.2686473903276444
+  },
+  "syncedAt": 1725633478960,
+  "metrics": {}
+}, {
+  "_id": "0cdad892-2dfd-544c-9e23-087dc99ff50e",
+  "areaId": "98afe81a-bbfc-4a82-9686-77f8b6641190",
+  "cameras": [
+    "b00dcac2-006a-3c32-6ada-867f817c3184",
+    "de6b5730-ede4-f084-7189-0a035e3bb1be"
+  ],
+  "category": "mac",
+  "communicationEquipmentId": "6db0ac26-d29c-558b-8dcd-a8d752b19816",
+  "connectionProfileId": "1",
+  "createdAt": 1721547284475,
+  "deletedAt": 0,
+  "gatewayId": "501507be-be01-5ab3-8d81-aef3837a410d",
+  "model": "GU186S 1x3.15 M113",
+  "name": "切割M-113-N",
+  "serial": 144,
+  "signal": [
+    {
+      "pin": "R15",
+      "state": "0>1",
+      "light": "R",
+      "note": "危險",
+      "uuid": "row_1161"
+    }
+  ],
+  "typeId": null,
+  "updatedAt": 1727181680859,
+  "coordinates": {
+    "x": 0.43612680477231464,
+    "y": 0.2673012121597345
+  },
+  "syncedAt": 1725633479028,
+  "metrics": {}
+}, {
+  "_id": "d6603b1c-aade-55bd-b0fd-1afa98e3d872",
+  "areaId": "98afe81a-bbfc-4a82-9686-77f8b6641190",
+  "cameras": [
+    "b00dcac2-006a-3c32-6ada-867f817c3184",
+    "de6b5730-ede4-f084-7189-0a035e3bb1be"
+  ],
+  "category": "mac",
+  "communicationEquipmentId": "c41b007b-2243-5ce3-af71-d418372f3b73",
+  "connectionProfileId": "1",
+  "createdAt": 1721547304305,
+  "deletedAt": 0,
+  "gatewayId": "501507be-be01-5ab3-8d81-aef3837a410d",
+  "model": "GU186SC 1x3.15 122",
+  "name": "切割M-122-N",
+  "serial": 145,
+  "signal": [
+    {
+      "pin": "R0",
+      "state": "0>1",
+      "light": "R",
+      "note": "危險",
+      "uuid": "row_1161"
+    }
+  ],
+  "typeId": null,
+  "updatedAt": 1727181695713,
+  "coordinates": {
+    "x": 0.47378472173708347,
+    "y": 0.23903147063362642
+  },
+  "syncedAt": 1725633478414,
+  "metrics": {}
+}, {
+  "_id": "63511969-24d1-5c08-9011-e67f865b2af2",
+  "areaId": "98afe81a-bbfc-4a82-9686-77f8b6641190",
+  "cameras": [
+    "b00dcac2-006a-3c32-6ada-867f817c3184",
+    "de6b5730-ede4-f084-7189-0a035e3bb1be"
+  ],
+  "category": "mac",
+  "communicationEquipmentId": "c41b007b-2243-5ce3-af71-d418372f3b73",
+  "connectionProfileId": "1",
+  "createdAt": 1721547353243,
+  "deletedAt": 0,
+  "gatewayId": "501507be-be01-5ab3-8d81-aef3837a410d",
+  "model": "GU186SC 1x3.15 121",
+  "name": "切割M-121-N",
+  "serial": 146,
+  "signal": [
+    {
+      "pin": "R1",
+      "state": "0>1",
+      "light": "R",
+      "note": "危險",
+      "uuid": "row_1161"
+    }
+  ],
+  "typeId": null,
+  "updatedAt": 1727181709399,
+  "coordinates": {
+    "x": 0.4609883421859485,
+    "y": 0.23903147063362642
+  },
+  "syncedAt": 1725633478006,
+  "metrics": {}
+}, {
+  "_id": "a862f45e-92ca-5ec4-98aa-9ffdef51ac0f",
+  "areaId": "98afe81a-bbfc-4a82-9686-77f8b6641190",
+  "cameras": [
+    "b00dcac2-006a-3c32-6ada-867f817c3184",
+    "de6b5730-ede4-f084-7189-0a035e3bb1be"
+  ],
+  "category": "mac",
+  "communicationEquipmentId": "c41b007b-2243-5ce3-af71-d418372f3b73",
+  "connectionProfileId": "1",
+  "createdAt": 1721547381594,
+  "deletedAt": 0,
+  "gatewayId": "501507be-be01-5ab3-8d81-aef3837a410d",
+  "model": "GU186SC 1x3.15 120",
+  "name": "切割M-120-N",
+  "serial": 147,
+  "signal": [
+    {
+      "pin": "R2",
+      "state": "0>1",
+      "light": "R",
+      "note": "危險",
+      "uuid": "row_1161"
+    }
+  ],
+  "typeId": null,
+  "updatedAt": 1727181724754,
+  "coordinates": {
+    "x": 0.44855757347913155,
+    "y": 0.23835838154967148
+  },
+  "syncedAt": 1725633478065,
+  "metrics": {}
+}, {
+  "_id": "81a2cfa0-2a76-54d0-8628-6ab34b9d0ac2",
+  "areaId": "98afe81a-bbfc-4a82-9686-77f8b6641190",
+  "cameras": [
+    "b00dcac2-006a-3c32-6ada-867f817c3184",
+    "de6b5730-ede4-f084-7189-0a035e3bb1be"
+  ],
+  "category": "mac",
+  "communicationEquipmentId": "c41b007b-2243-5ce3-af71-d418372f3b73",
+  "connectionProfileId": "1",
+  "createdAt": 1721547401648,
+  "deletedAt": 0,
+  "gatewayId": "501507be-be01-5ab3-8d81-aef3837a410d",
+  "model": "GU186SC 1x3.15 119",
+  "name": "切割M-119-N",
+  "serial": 148,
+  "signal": [
+    {
+      "pin": "R3",
+      "state": "0>1",
+      "light": "R",
+      "note": "危險",
+      "uuid": "row_1161"
+    }
+  ],
+  "typeId": null,
+  "updatedAt": 1727181739502,
+  "coordinates": {
+    "x": 0.4357611939279965,
+    "y": 0.23835838154967148
+  },
+  "syncedAt": 1725633478106,
+  "metrics": {}
+}, {
+  "_id": "06bcf252-3873-5bc7-b228-196ffc95d7e4",
+  "areaId": "98afe81a-bbfc-4a82-9686-77f8b6641190",
+  "cameras": [
+    "b00dcac2-006a-3c32-6ada-867f817c3184",
+    "de6b5730-ede4-f084-7189-0a035e3bb1be"
+  ],
+  "category": "mac",
+  "communicationEquipmentId": "c41b007b-2243-5ce3-af71-d418372f3b73",
+  "connectionProfileId": "1",
+  "createdAt": 1721547417653,
+  "deletedAt": 0,
+  "gatewayId": "501507be-be01-5ab3-8d81-aef3837a410d",
+  "model": "GU186SC 1x3.15 118",
+  "name": "切割M-118-N R",
+  "serial": 149,
+  "signal": [
+    {
+      "pin": "R4",
+      "state": "0>1",
+      "light": "R",
+      "note": "危險",
+      "uuid": "row_1161"
+    },
+    {
+      "pin": "R5",
+      "state": "0>1",
+      "light": "G",
+      "note": "運轉"
+    }
+  ],
+  "typeId": null,
+  "updatedAt": 1727403674316,
+  "coordinates": {
+    "x": 0.4865811012882185,
+    "y": 0.21412717452729313
+  },
+  "syncedAt": 1725633478153,
+  "metrics": {}
+}, {
+  "_id": "46796e45-6aea-5040-b7e1-cc701c0890fc",
+  "areaId": "98afe81a-bbfc-4a82-9686-77f8b6641190",
+  "cameras": [
+    "b00dcac2-006a-3c32-6ada-867f817c3184",
+    "de6b5730-ede4-f084-7189-0a035e3bb1be"
+  ],
+  "category": "mac",
+  "communicationEquipmentId": "c41b007b-2243-5ce3-af71-d418372f3b73",
+  "connectionProfileId": "1",
+  "createdAt": 1721547435519,
+  "deletedAt": 1727257811931,
+  "gatewayId": "501507be-be01-5ab3-8d81-aef3837a410d",
+  "model": "GU186SC 1x3.15 118",
+  "name": "切割M-118-N G",
+  "serial": 150,
+  "signal": [
+    {
+      "pin": "R5",
+      "state": "0>1",
+      "light": "R",
+      "note": "危險",
+      "uuid": "row_1161"
+    }
+  ],
+  "typeId": null,
+  "updatedAt": 1727181775168,
+  "coordinates": {
+    "x": 0.4745159434257198,
+    "y": 0.21412717452729313
+  },
+  "syncedAt": 1725633478227,
+  "metrics": {}
+}, {
+  "_id": "f15fe365-1278-50d3-af46-2d6a40cb4c84",
+  "areaId": "98afe81a-bbfc-4a82-9686-77f8b6641190",
+  "cameras": [
+    "b00dcac2-006a-3c32-6ada-867f817c3184",
+    "de6b5730-ede4-f084-7189-0a035e3bb1be"
+  ],
+  "category": "mac",
+  "communicationEquipmentId": "c41b007b-2243-5ce3-af71-d418372f3b73",
+  "connectionProfileId": "1",
+  "createdAt": 1721547453283,
+  "deletedAt": 0,
+  "gatewayId": "501507be-be01-5ab3-8d81-aef3837a410d",
+  "model": "GU186SC 1x3.15 124",
+  "name": "切割M-124-N",
+  "serial": 151,
+  "signal": [
+    {
+      "pin": "R6",
+      "state": "0>1",
+      "light": "R",
+      "note": "危險",
+      "uuid": "row_1161"
+    }
+  ],
+  "typeId": null,
+  "updatedAt": 1727181791971,
+  "coordinates": {
+    "x": 0.4613539530302666,
+    "y": 0.21547335269520304
+  },
+  "syncedAt": 1725633478270,
+  "metrics": {}
+}, {
+  "_id": "8da35dac-54e3-5145-ad76-68a3d3d9e917",
+  "areaId": "98afe81a-bbfc-4a82-9686-77f8b6641190",
+  "cameras": [
+    "b00dcac2-006a-3c32-6ada-867f817c3184",
+    "de6b5730-ede4-f084-7189-0a035e3bb1be"
+  ],
+  "category": "mac",
+  "communicationEquipmentId": "c41b007b-2243-5ce3-af71-d418372f3b73",
+  "connectionProfileId": "1",
+  "createdAt": 1721547464256,
+  "deletedAt": 0,
+  "gatewayId": "501507be-be01-5ab3-8d81-aef3837a410d",
+  "model": "GU186SC 1x3.15 123",
+  "name": "切割M-123-N",
+  "serial": 152,
+  "signal": [
+    {
+      "pin": "R7",
+      "state": "0>1",
+      "light": "R",
+      "note": "危險",
+      "uuid": "row_1161"
+    }
+  ],
+  "typeId": null,
+  "updatedAt": 1727181807585,
+  "coordinates": {
+    "x": 0.44855757347913155,
+    "y": 0.21480026361124807
+  },
+  "syncedAt": 1725633478314,
+  "metrics": {}
+}, {
+  "_id": "d8bea5f8-3a2b-5604-92a1-c05103ae02be",
+  "areaId": "98afe81a-bbfc-4a82-9686-77f8b6641190",
+  "cameras": [
+    "b00dcac2-006a-3c32-6ada-867f817c3184",
+    "de6b5730-ede4-f084-7189-0a035e3bb1be"
+  ],
+  "category": "mac",
+  "communicationEquipmentId": "c41b007b-2243-5ce3-af71-d418372f3b73",
+  "connectionProfileId": "1",
+  "createdAt": 1721547487877,
+  "deletedAt": 0,
+  "gatewayId": "501507be-be01-5ab3-8d81-aef3837a410d",
+  "model": "1",
+  "name": "切割67",
+  "serial": 153,
+  "signal": [
+    {
+      "pin": "R8",
+      "state": "0>1",
+      "light": "R",
+      "note": "危險",
+      "uuid": "row_1161"
+    }
+  ],
+  "typeId": null,
+  "updatedAt": 1727015391601,
+  "coordinates": {
+    "x": 0.4353955830836784,
+    "y": 0.21480026361124807
+  },
+  "syncedAt": 1725633478355,
+  "metrics": {}
+}, {
+  "_id": "2d85e01d-4d3e-551c-8e66-a5bae74a3485",
+  "areaId": "98afe81a-bbfc-4a82-9686-77f8b6641190",
+  "cameras": [
+    "b00dcac2-006a-3c32-6ada-867f817c3184",
+    "de6b5730-ede4-f084-7189-0a035e3bb1be"
+  ],
+  "category": "mac",
+  "communicationEquipmentId": "c41b007b-2243-5ce3-af71-d418372f3b73",
+  "connectionProfileId": "1",
+  "createdAt": 1721547516420,
+  "deletedAt": 0,
+  "gatewayId": "501507be-be01-5ab3-8d81-aef3837a410d",
+  "model": "1",
+  "name": "切割68",
+  "serial": 154,
+  "signal": [
+    {
+      "pin": "R9",
+      "state": "0>1",
+      "light": "R",
+      "note": "危險",
+      "uuid": "row_1161"
+    }
+  ],
+  "typeId": null,
+  "updatedAt": 1727015405381,
+  "coordinates": {
+    "x": 0.4222335926882251,
+    "y": 0.21547335269520304
+  },
+  "syncedAt": 1725633478402,
+  "metrics": {}
+}, {
+  "_id": "ae351c75-bf55-57de-ae2a-0082ca0bc754",
+  "areaId": "9f8e568b-0124-4d07-9f27-26b970f65642",
+  "cameras": [
+    "072c91a8-1b02-c26f-3c5f-c291553048f6",
+    ""
+  ],
+  "category": "mac",
+  "communicationEquipmentId": "127342b0-7db4-5f44-a6d6-0ae06e08af0a",
+  "connectionProfileId": "1",
+  "createdAt": 1721547537339,
+  "deletedAt": 0,
+  "gatewayId": "501507be-be01-5ab3-8d81-aef3837a410d",
+  "model": "No19 焊接機 HL-960 3x10",
+  "name": "有腳焊接No.19",
+  "serial": 155,
+  "signal": [
+    {
+      "pin": "R0",
+      "state": "0>1",
+      "light": "R",
+      "note": "危險",
+      "uuid": "row_1161"
+    }
+  ],
+  "typeId": null,
+  "updatedAt": 1727181901897,
+  "coordinates": {
+    "x": 0.3283682850622618,
+    "y": 0.8980630296717947
+  },
+  "syncedAt": 1728275987774,
+  "metrics": {}
+}, {
+  "_id": "ad486024-0167-51cc-8d7e-2f34d8aea388",
+  "areaId": "9f8e568b-0124-4d07-9f27-26b970f65642",
+  "cameras": [
+    "072c91a8-1b02-c26f-3c5f-c291553048f6",
+    ""
+  ],
+  "category": "mac",
+  "communicationEquipmentId": "127342b0-7db4-5f44-a6d6-0ae06e08af0a",
+  "connectionProfileId": "1",
+  "createdAt": 1721547596730,
+  "deletedAt": 0,
+  "gatewayId": "501507be-be01-5ab3-8d81-aef3837a410d",
+  "model": "No20 焊接機 HL-960 4x12-4.5x14",
+  "name": "有腳焊接No.20",
+  "serial": 156,
+  "signal": [
+    {
+      "pin": "R1",
+      "state": "0>1",
+      "light": "R",
+      "note": "危險",
+      "uuid": "row_1161"
+    }
+  ],
+  "typeId": null,
+  "updatedAt": 1727181917188,
+  "coordinates": {
+    "x": 0.32808314263822,
+    "y": 0.8282451015522558
+  },
+  "syncedAt": 1728275987440,
+  "metrics": {}
+}, {
+  "_id": "2b7457e0-41e2-5ef3-a7e2-a8f6d09afac8",
+  "areaId": "9f8e568b-0124-4d07-9f27-26b970f65642",
+  "cameras": [
+    "072c91a8-1b02-c26f-3c5f-c291553048f6",
+    ""
+  ],
+  "category": "mac",
+  "communicationEquipmentId": "127342b0-7db4-5f44-a6d6-0ae06e08af0a",
+  "connectionProfileId": "1",
+  "createdAt": 1721547619494,
+  "deletedAt": 0,
+  "gatewayId": "501507be-be01-5ab3-8d81-aef3837a410d",
+  "model": "No4 焊接機 TWA-840 1.7x5.2",
+  "name": "有腳焊接No.4",
+  "serial": 157,
+  "signal": [
+    {
+      "pin": "R2",
+      "state": "0>1",
+      "light": "R",
+      "note": "危險",
+      "uuid": "row_1161"
+    }
+  ],
+  "typeId": null,
+  "updatedAt": 1727181930237,
+  "coordinates": {
+    "x": 0.35203510625772594,
+    "y": 0.8975380828438283
+  },
+  "syncedAt": 1728275987482,
+  "metrics": {}
+}, {
+  "_id": "7244257d-1b9c-51fc-892e-21f7075cfb84",
+  "areaId": "9f8e568b-0124-4d07-9f27-26b970f65642",
+  "cameras": [
+    "072c91a8-1b02-c26f-3c5f-c291553048f6",
+    ""
+  ],
+  "category": "mac",
+  "communicationEquipmentId": "127342b0-7db4-5f44-a6d6-0ae06e08af0a",
+  "connectionProfileId": "1",
+  "createdAt": 1721547632762,
+  "deletedAt": 0,
+  "gatewayId": "501507be-be01-5ab3-8d81-aef3837a410d",
+  "model": "No3 焊接機 TWA-840 1.7x5.2",
+  "name": "有腳焊接No.3",
+  "serial": 158,
+  "signal": [
+    {
+      "pin": "R3",
+      "state": "0>1",
+      "light": "R",
+      "note": "危險",
+      "uuid": "row_1161"
+    }
+  ],
+  "typeId": null,
+  "updatedAt": 1727181943838,
+  "coordinates": {
+    "x": 0.35117967898560076,
+    "y": 0.8282451015522558
+  },
+  "syncedAt": 1728275987524,
+  "metrics": {}
+}, {
+  "_id": "43ad800f-cd42-5e9e-b2f0-f074b486671f",
+  "areaId": "9f8e568b-0124-4d07-9f27-26b970f65642",
+  "cameras": [
+    "072c91a8-1b02-c26f-3c5f-c291553048f6",
+    ""
+  ],
+  "category": "mac",
+  "communicationEquipmentId": "127342b0-7db4-5f44-a6d6-0ae06e08af0a",
+  "connectionProfileId": "1",
+  "createdAt": 1721547648498,
+  "deletedAt": 0,
+  "gatewayId": "501507be-be01-5ab3-8d81-aef3837a410d",
+  "model": "No3 貼帶機 1.7x5.2",
+  "name": "貼帶3 - 1.7x5.4",
+  "serial": 159,
+  "signal": [
+    {
+      "pin": "R4",
+      "state": "0>1",
+      "light": "R",
+      "note": "危險",
+      "uuid": "row_1161"
+    }
+  ],
+  "typeId": null,
+  "updatedAt": 1727181957819,
+  "coordinates": {
+    "x": 0.37684249714935714,
+    "y": 0.8975380828438283
+  },
+  "syncedAt": 1728275987567,
+  "metrics": {}
+}, {
+  "_id": "1cee6e44-e1c2-5a0a-b2e6-494bff21c950",
+  "areaId": "9f8e568b-0124-4d07-9f27-26b970f65642",
+  "cameras": [
+    "072c91a8-1b02-c26f-3c5f-c291553048f6",
+    ""
+  ],
+  "category": "mac",
+  "communicationEquipmentId": "127342b0-7db4-5f44-a6d6-0ae06e08af0a",
+  "connectionProfileId": "1",
+  "createdAt": 1721547665570,
+  "deletedAt": 0,
+  "gatewayId": "501507be-be01-5ab3-8d81-aef3837a410d",
+  "model": "No5 貼帶機 1.3x2.7",
+  "name": "貼帶5 - 3.5x10",
+  "serial": 160,
+  "signal": [
+    {
+      "pin": "R5",
+      "state": "0>1",
+      "light": "R",
+      "note": "危險",
+      "uuid": "row_1161"
+    }
+  ],
+  "typeId": null,
+  "updatedAt": 1727181972537,
+  "coordinates": {
+    "x": 0.3759870698772319,
+    "y": 0.8277201547242894
+  },
+  "syncedAt": 1728275987608,
+  "metrics": {}
+}, {
+  "_id": "88f4a033-9d8b-56fd-8ae0-70f0b25f1e55",
+  "areaId": "9f8e568b-0124-4d07-9f27-26b970f65642",
+  "cameras": [
+    "072c91a8-1b02-c26f-3c5f-c291553048f6",
+    ""
+  ],
+  "category": "mac",
+  "communicationEquipmentId": "127342b0-7db4-5f44-a6d6-0ae06e08af0a",
+  "connectionProfileId": "1",
+  "createdAt": 1721547681858,
+  "deletedAt": 0,
+  "gatewayId": "501507be-be01-5ab3-8d81-aef3837a410d",
+  "model": "No1 貼帶機 2x5.2",
+  "name": "貼帶1 - 1.7x5.4",
+  "serial": 161,
+  "signal": [
+    {
+      "pin": "R6",
+      "state": "0>1",
+      "light": "R",
+      "note": "危險",
+      "uuid": "row_1161"
+    }
+  ],
+  "typeId": null,
+  "updatedAt": 1727181986801,
+  "coordinates": {
+    "x": 0.4059270244016144,
+    "y": 0.8975380828438283
+  },
+  "syncedAt": 1728275987650,
+  "metrics": {}
+}, {
+  "_id": "2fe4984f-860c-56ab-afe3-78573979b95a",
+  "areaId": "9f8e568b-0124-4d07-9f27-26b970f65642",
+  "cameras": [
+    "072c91a8-1b02-c26f-3c5f-c291553048f6",
+    ""
+  ],
+  "category": "mac",
+  "communicationEquipmentId": "127342b0-7db4-5f44-a6d6-0ae06e08af0a",
+  "connectionProfileId": "1",
+  "createdAt": 1721547699959,
+  "deletedAt": 0,
+  "gatewayId": "501507be-be01-5ab3-8d81-aef3837a410d",
+  "model": "No2 貼帶機 1.7x5.2",
+  "name": "貼帶2 - 1x3.15",
+  "serial": 162,
+  "signal": [
+    {
+      "pin": "R7",
+      "state": "0>1",
+      "light": "R",
+      "note": "危險",
+      "uuid": "row_1161"
+    }
+  ],
+  "typeId": null,
+  "updatedAt": 1727182000791,
+  "coordinates": {
+    "x": 0.40393102743332215,
+    "y": 0.8261453142403901
+  },
+  "syncedAt": 1728275987692,
+  "metrics": {}
+}, {
+  "_id": "8a8fd714-f41b-5496-a89a-c1aabecd3bd7",
+  "areaId": "9f8e568b-0124-4d07-9f27-26b970f65642",
+  "cameras": [
+    "072c91a8-1b02-c26f-3c5f-c291553048f6",
+    ""
+  ],
+  "category": "mac",
+  "communicationEquipmentId": "127342b0-7db4-5f44-a6d6-0ae06e08af0a",
+  "connectionProfileId": "1",
+  "createdAt": 1721547717223,
+  "deletedAt": 0,
+  "gatewayId": "501507be-be01-5ab3-8d81-aef3837a410d",
+  "model": "No19 焊接機 HL-960 2.5x8",
+  "name": "No19 焊接機 HL-960 2.5x8",
+  "serial": 163,
+  "signal": [
+    {
+      "pin": "R8",
+      "state": "0>1",
+      "light": "R",
+      "note": "危險",
+      "uuid": "row_1161"
+    }
+  ],
+  "typeId": null,
+  "updatedAt": 1727182014590,
+  "coordinates": {
+    "x": 0.32808314263822,
+    "y": 0.7500280241852538
+  },
+  "syncedAt": 1728275987735,
+  "metrics": {}
+}]

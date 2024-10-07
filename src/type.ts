@@ -28,3 +28,51 @@ export interface Payload {
   }
   timestamp: number
 }
+
+export interface ProcessedResult {
+  signals: ProcessedSignal[]
+  startTime: number
+  endTime: number
+}
+
+export interface ProcessedSignal {
+  gatewayId: string
+  communicationEquipmentId: string
+  channel: string
+  diResults: string[]
+  lastUpdateTime: number
+}
+
+export interface ConnectMap {
+  _id: string
+  areasMap: {
+    [key: string]: {
+      name: string
+    }
+  }
+}
+
+export interface Device {
+  _id: string
+  areaId: string
+  communicationEquipmentId: string
+  gatewayId: string
+  model: string
+  name: string
+  signal: Signal[]
+}
+
+export interface Signal {
+  pin: string
+  state: string
+  light: Lights
+  note: string
+  uuid: string
+}
+
+export enum Lights {
+  R = 'R', // 停機
+  G = 'G', // 運作
+  O = 'O', // 異常
+  B = 'B', // 查無指定燈號
+}

@@ -1,9 +1,11 @@
+import { execSync as exec } from 'node:child_process'
 import fs from 'node:fs/promises'
 import process from 'node:process'
 import { consola } from 'consola'
 import dotenv from 'dotenv'
-import { exit, performanceUtils, prompt } from './utils'
-import type { Payload } from './type'
+import { exit, formatDate, performanceUtils, prompt, readFileContent, readFolderNames } from './utils'
+import type { serializableData } from './preprocess'
+import type { Device, Payload, ProcessedResult, ProcessedSignal } from './type'
 
 dotenv.config()
 
@@ -11,40 +13,68 @@ async function main(): Promise<void> {
   consola.start('開始分析資料')
   const cost = performanceUtils()
 
-  consola.info('檢查檔案是否存在')
+  consola.info('檢查檔案中')
 
-  const jsonFilePrefix = process.env.JSON_FILE_NAME_PREFIX
-  if (!jsonFilePrefix) {
-    consola.error('請設定 JSON_FILE_NAME_PREFIX 環境變數')
+  const nameMapPrefix = process.env.Name_Map || 'airaConnect.maps'
+  const nameDevicePrefix = process.env.Name_Device || 'airaConnect.devices'
+  const nameMessagePrefix = process.env.Name_Message || 'airaConnect.machineryMessages.test'
+
+  const files = await readFolderNames()
+
+  const isMapFileExist = files.some(file => file.startsWith(nameMapPrefix))
+  if (!isMapFileExist) {
+    consola.error('地圖檔案不存在')
     exit()
   }
 
-  const files = await readFiles()
-  const filterFiles = files.filter(file => file.startsWith(jsonFilePrefix!) && file.endsWith('.json'))
-  if (filterFiles.length === 0) {
-    consola.error('檔案不存在')
+  const isDeviceFileExist = files.some(file => file.startsWith(nameDevicePrefix))
+  if (!isDeviceFileExist) {
+    consola.error('機具檔案不存在')
+    exit()
+  }
+
+  const filterMessageFiles = files
+    .filter(file => file.startsWith(nameMessagePrefix!) && file.endsWith('.json'))
+    .map(file => file.replace('.json', ''))
+  if (filterMessageFiles.length === 0) {
+    consola.error('解析檔案不存在')
     exit()
   }
 
   const selectedFiles = await prompt('請選擇分析的檔案（可多選）：', {
     type: 'multiselect',
-    options: filterFiles,
+    options: filterMessageFiles,
   })
 
   let payload: Payload[] = []
 
+  consola.info('讀取檔案中')
   for (const selectFile of selectedFiles) {
-    const filePath = new URL(`../data/${selectFile}`, import.meta.url)
-    const fileContent = JSON.parse(await fs.readFile(filePath, 'utf-8')) as Payload[]
+    const fileContent = await readFileContent<Payload>(selectFile)
     payload = payload.concat(fileContent)
   }
   consola.info(`共有 ${payload.length} 筆資料，共花費 ${(cost() / 1000).toFixed(2)} 秒`)
 
-  const diResults = processSignals(payload)
+  let preprocessedData: serializableData
+  try {
+    await fs.access('preprocessed_data.json')
+  }
+  catch {
+    consola.info('預處理數據不存在，將重新生成')
 
-  const resultString = Object.entries(diResults)
-    .map(([channel, diKeys]) => `${channel}: ${diKeys.join(', ')}`)
-    .join('\n')
+    exec('nr preprocess', { stdio: 'inherit' })
+  }
+  finally {
+    const data = await fs.readFile('preprocessed_data.json', 'utf-8')
+    preprocessedData = JSON.parse(data)
+  }
+
+  const { signals: transformedPayloads, startTime, endTime } = processPayload(payload)
+  payload.length = 0
+
+  const { areaMap, devicesMap } = preprocessedData
+
+  const resultString = formatOutput(areaMap, devicesMap, transformedPayloads, startTime, endTime)
 
   consola.info(`已處理完畢，正在寫入檔案，共花費 ${(cost() / 1000).toFixed(2)} 秒`)
 
@@ -53,40 +83,100 @@ async function main(): Promise<void> {
   consola.success('已寫入檔案，共花費')
 }
 
-/**
- * 讀取檔案
- */
-async function readFiles(): Promise<string[]> {
-  const files = await fs
-    .readdir(new URL('../data', import.meta.url))
+function processPayload(payload: Payload[]): ProcessedResult {
+  let startTime = Infinity
+  let endTime = -Infinity
 
-  return files
+  const groupedPayload = payload.reduce((acc, item) => {
+    const key = `${item.source.gatewayId}/${item.source.communicationEquipmentId}`
+
+    if (!acc.has(key)) {
+      const allDias = new Set<string>()
+      for (let i = 0; i <= 15; i++) {
+        allDias.add(`DI${i}`)
+      }
+
+      acc.set(key, {
+        gatewayId: item.source.gatewayId,
+        communicationEquipmentId: item.source.communicationEquipmentId,
+        channel: item.source.channel,
+        diResults: allDias,
+        lastUpdateTime: item.timestamp,
+      })
+    }
+
+    const entry = acc.get(key)!
+
+    for (let i = 0; i <= 15; i++) {
+      const diKey = `DI${i}`
+
+      if (item.data[diKey as keyof typeof item.data] === 1) {
+        entry.diResults.delete(diKey)
+      }
+    }
+
+    // 更新時間範圍
+    entry.lastUpdateTime = Math.max(entry.lastUpdateTime, item.timestamp)
+    startTime = Math.min(startTime, item.timestamp)
+    endTime = Math.max(endTime, item.timestamp)
+
+    return acc
+  }, new Map<string, Omit<ProcessedSignal, 'diResults'> & { diResults: Set<string> }>())
+
+  // 過濾並轉換結果
+  const signals = Array.from(groupedPayload.values())
+    .map(({ diResults, ...rest }) => ({
+      ...rest,
+      diResults: Array.from(diResults),
+    }))
+    .filter(signal => signal.diResults.length > 0)
+
+  return { signals, startTime, endTime }
 }
 
 /**
- * 處理來自 `gateway` 和 `communication device` 的訊號
+ * 格式化輸出資料
  */
-function processSignals(payload: Payload[]): Record<string, string[]> {
-  const channels = [...new Set(payload.map(item => item.source.channel))]
+function formatOutput(
+  areaMap: Record<string, string>,
+  devicesMap: Record<string, Device>,
+  processedSignals: ProcessedSignal[],
+  startTime: number,
+  endTime: number,
+): string {
+  const startDate = new Date(startTime)
+  const endDate = new Date(endTime)
+  const formattedDate = `${startDate.getMonth() + 1}/${startDate.getDate()} - ${endDate.getMonth() + 1}/${endDate.getDate()}`
 
-  const groupedPayload = channels.reduce((acc, channel) => {
-    acc[channel] = payload.filter(item => item.source.channel === channel)
-    return acc
-  }, {} as Record<string, Payload[]>)
+  const header = `日期\t${formattedDate}\nGateway\t通訊設備\tDI\t區域\t名稱\t燈號\t最後更新時間\n`
+  const lines: string[] = []
 
-  const diResults: Record<string, string[]> = {}
+  processedSignals.forEach((signal) => {
+    const [gateway, communicationEquipment] = signal.channel.split('/')
+    const deviceKey = `${signal.gatewayId}/${signal.communicationEquipmentId}`
 
-  for (const [channel, items] of Object.entries(groupedPayload)) {
-    diResults[channel] = []
-    for (let i = 0; i <= 16; i++) {
-      const diKey = `DI${i}` as keyof Payload['data']
-      if (items.every(item => item.data[diKey] === 0)) {
-        diResults[channel].push(diKey)
-      }
-    }
-  }
+    const matchingDevices = Object.entries(devicesMap)
+      .filter(([key]) => {
+        return key.startsWith(deviceKey)
+      })
+      .map(([_, device]) => device)
 
-  return diResults
+    matchingDevices.forEach((device) => {
+      const areaName = areaMap[device.areaId] || '--'
+      const formattedLastUpdateTime = formatDate(signal.lastUpdateTime)
+
+      signal.diResults.forEach((diKey) => {
+        const diNumber = diKey.replace('DI', '')
+        const matchingSignal = device.signal.find(s => s.pin.replace('R', '') === diNumber)
+
+        if (matchingSignal) {
+          lines.push(`${gateway}\t${communicationEquipment}\t${diKey}\t${areaName}\t${device.name}\t${matchingSignal.light}\t${formattedLastUpdateTime}`)
+        }
+      })
+    })
+  })
+
+  return header + lines.join('\n')
 }
 
 /**
@@ -95,8 +185,7 @@ function processSignals(payload: Payload[]): Record<string, string[]> {
 async function writeOutput(resultString: string): Promise<void> {
   const date = new Date()
   const formattedDate = `${date.getFullYear()}-${(date.getMonth() + 1).toString().padStart(2, '0')}-${date.getDate().toString().padStart(2, '0')}`
-  const formattedTime = `${date.getHours().toString().padStart(2, '0')}-${date.getMinutes().toString().padStart(2, '0')}`
-  const outputFileName = `../output/${formattedDate}_${formattedTime}.txt`
+  const outputFileName = `../output/${formattedDate}.txt`
 
   await fs.writeFile(new URL(outputFileName, import.meta.url), resultString, 'utf-8')
 }

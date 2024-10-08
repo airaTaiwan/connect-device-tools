@@ -1,10 +1,11 @@
 import fs from 'node:fs/promises'
 import process from 'node:process'
 import consola from 'consola'
-import { preprocessData, type serializableData } from '~/modules/reportNotWorking/prepare'
+import { preprocessData, type SerializableData } from '~/modules/reportNotWorking/prepare'
 import type { Device } from '~/types'
-import { exit, formatDate, performanceUtils, prompt, readFileContent, readFolderNames, writeFile } from '~/utils'
-import type { Payload, ProcessedResult } from './dtos'
+import type { Payload } from '~/types/module'
+import { exit, formatDate, formatDateRange, performanceUtils, prompt, readFileContent, readFolderNames, writeFile } from '~/utils'
+import type { ProcessedResult } from './dtos'
 
 export async function generateReportLastTimeWork(): Promise<void> {
   consola.start('開始產生機具最後運作時間報表')
@@ -38,7 +39,7 @@ export async function generateReportLastTimeWork(): Promise<void> {
   }
   consola.info(`共有 ${payload.length} 筆資料，共花費 ${(cost() / 1000).toFixed(2)} 秒`)
 
-  let preprocessedData: serializableData
+  let preprocessedData: SerializableData
   try {
     await fs.access('./data/preprocessed_data.json')
   }
@@ -48,15 +49,15 @@ export async function generateReportLastTimeWork(): Promise<void> {
     preprocessData()
   }
   finally {
-    preprocessedData = await readFileContent<serializableData>('preprocessed_data')
+    preprocessedData = await readFileContent<SerializableData>('preprocessed_data')
   }
 
-  const { lastWorkTimes, startTime, endTime } = processPayloadForLastWork(payload)
+  const { recordMap, startTime, endTime } = processPayload(payload)
   payload.length = 0
 
   const { areaMap, devicesMap } = preprocessedData
 
-  const result = formatOutputForLastWork(areaMap, devicesMap, lastWorkTimes, startTime, endTime)
+  const result = formatOutput(areaMap, devicesMap, recordMap, startTime, endTime)
 
   consola.info(`已處理完畢，正在寫入檔案，共花費 ${(cost() / 1000).toFixed(2)} 秒`)
 
@@ -65,12 +66,8 @@ export async function generateReportLastTimeWork(): Promise<void> {
   consola.success('已完成！')
 }
 
-function processPayloadForLastWork(payload: Payload[]): {
-  lastWorkTimes: Record<string, ProcessedResult>
-  startTime: number
-  endTime: number
-} {
-  const lastWorkTimes: Record<string, ProcessedResult> = {}
+function processPayload(payload: Payload[]): ProcessedResult {
+  const recordMap: ProcessedResult['recordMap'] = new Map()
   let startTime = Infinity
   let endTime = -Infinity
 
@@ -81,8 +78,8 @@ function processPayloadForLastWork(payload: Payload[]): {
       const diKey = `DI${i}` as keyof typeof data
       if (data[diKey] === 1) {
         const key = `${gatewayId}/${communicationEquipmentId}/${diKey}`
-        if (!lastWorkTimes[key] || timestamp > lastWorkTimes[key].lastUpdateTime) {
-          lastWorkTimes[key] = { lastUpdateTime: timestamp, channel }
+        if (!recordMap.has(key) || timestamp > recordMap.get(key)!.lastUpdateTime) {
+          recordMap.set(key, { lastUpdateTime: timestamp, channel })
         }
       }
     }
@@ -95,13 +92,17 @@ function processPayloadForLastWork(payload: Payload[]): {
     }
   }
 
-  return { lastWorkTimes, startTime, endTime }
+  return { recordMap, startTime, endTime }
 }
 
-function formatOutputForLastWork(areaMap: Record<string, string>, devicesMap: Record<string, Device>, lastWorkTimes: Record<string, ProcessedResult>, startTime: number, endTime: number): string {
-  const startDate = new Date(startTime)
-  const endDate = new Date(endTime)
-  const dateRange = `${startDate.getMonth() + 1}/${startDate.getDate()} - ${endDate.getMonth() + 1}/${endDate.getDate()}`
+function formatOutput(
+  areaMap: Record<string, string>,
+  devicesMap: Record<string, Device>,
+  recordMap: ProcessedResult['recordMap'],
+  startTime: number,
+  endTime: number,
+): string {
+  const dateRange = formatDateRange(startTime, endTime)
   const header = `\t${dateRange}\n#\tGateway\t通訊設備\tDI\t區域\t名稱\t燈號\t最後更新時間\n`
 
   const lines: string[] = []
@@ -112,7 +113,7 @@ function formatOutputForLastWork(areaMap: Record<string, string>, devicesMap: Re
     signal.forEach(({ pin, light }) => {
       const di = pin.replace('R', 'DI')
       const key = `${gatewayId}/${communicationEquipmentId}/${di}`
-      const matchingSignal = lastWorkTimes[key]
+      const matchingSignal = recordMap.get(key)
 
       if (!matchingSignal)
         return
@@ -127,9 +128,6 @@ function formatOutputForLastWork(areaMap: Record<string, string>, devicesMap: Re
   return header + lines.join('\n')
 }
 
-/**
- * 寫入結果到檔案
- */
 async function writeOutput(resultString: string): Promise<void> {
   const date = new Date()
   const formattedDate = `${date.getFullYear()}-${(date.getMonth() + 1).toString().padStart(2, '0')}-${date.getDate().toString().padStart(2, '0')}`

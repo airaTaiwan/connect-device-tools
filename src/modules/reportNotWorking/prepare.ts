@@ -10,7 +10,7 @@ export interface PreprocessedData {
   areaMap: Map<string, string>
 }
 
-export interface serializableData {
+export interface SerializableData {
   areaMap: Record<string, string>
   devicesMap: Record<string, Device>
 }
@@ -52,7 +52,7 @@ export async function preprocessData(): Promise<PreprocessedData> {
 
   const result: PreprocessedData = { devicesMap, areaMap }
 
-  const serializableData: serializableData = {
+  const serializableData: SerializableData = {
     areaMap: Object.fromEntries(areaMap),
     devicesMap: Object.fromEntries(devicesMap),
   }

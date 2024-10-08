@@ -1,6 +1,6 @@
 import { execSync as exec } from 'node:child_process'
 import { Command } from '~/types'
-import { prompt } from '~/utils'
+import { prompt } from '~/utils/tools'
 
 async function cli(): Promise<void> {
   const selectReport = await prompt('請選擇要產生的報表：', {

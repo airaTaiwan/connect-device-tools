@@ -1,6 +1,8 @@
 import { consola } from 'consola'
-import type { Device } from '~/types'
-import { performanceUtils, readFileContent, writeFile } from '~/utils'
+import type { SerializableData } from '~/prepare'
+import type { CommunicationEquipment, Device } from '~/types'
+import { readFileContent, writeFile } from '~/utils/fs'
+import { performanceUtils } from '~/utils/tools'
 import type { RecordRepeatSignal } from './dtos'
 
 export async function generateReportRepeatSignal(): Promise<void> {
@@ -15,7 +17,8 @@ export async function generateReportRepeatSignal(): Promise<void> {
   consola.info('處理資料中...')
   const recordMap = processDevices(devices)
 
-  const result = formatOutput(recordMap)
+  const { communicationEquipmentMap } = await readFileContent<SerializableData>('preprocessed_data')
+  const result = formatOutput(communicationEquipmentMap, recordMap)
 
   consola.info(`已處理完畢，正在寫入檔案，共花費 ${(cost() / 1000).toFixed(2)} 秒`)
 
@@ -66,13 +69,16 @@ function processDevices(devices: Device[]): RecordRepeatSignal[] {
   return recordMap
 }
 
-function formatOutput(recordMap: RecordRepeatSignal[]): string {
+function formatOutput(communicationEquipmentMap: Record<string, CommunicationEquipment>, recordMap: RecordRepeatSignal[]): string {
   const header = `#\tGateway\t通訊設備\tDI\t重複機具\n`
 
   const lines: string[] = []
 
   for (const [_, record] of Object.entries(recordMap)) {
-    lines.push(`${lines.length + 1}\t${record.gatewayId}\t${record.communicationEquipmentId}\t${record.pin}\t${record.duplicateDeviceNames}`)
+    const gatewayName = communicationEquipmentMap[record.gatewayId]?.name || '--'
+    const communicationEquipmentName = communicationEquipmentMap[record.communicationEquipmentId]?.name || '--'
+
+    lines.push(`${lines.length + 1}\t${gatewayName}\t${communicationEquipmentName}\t${record.pin}\t${record.duplicateDeviceNames}`)
   }
 
   return header + lines.join('\n')
@@ -81,7 +87,6 @@ function formatOutput(recordMap: RecordRepeatSignal[]): string {
 async function writeOutput(resultString: string): Promise<void> {
   const date = new Date()
   const formattedDate = `${date.getFullYear()}-${(date.getMonth() + 1).toString().padStart(2, '0')}-${date.getDate().toString().padStart(2, '0')}`
-  const outputFileName = `./output/${formattedDate}-report-repeat-signal.txt`
 
-  await writeFile(outputFileName, resultString)
+  await writeFile(`${formattedDate}-report-repeat-signal`, resultString)
 }

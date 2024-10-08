@@ -40,6 +40,7 @@
     "lint": "eslint .",
     "release": "bumpp",
     "start": "esno src/cli.ts",
+    "prepare": "esno src/index.ts prepare",
     "test": "vitest",
     "typecheck": "tsc --noEmit",
     "clean": "find output -type f ! -name 'README.md' -delete"

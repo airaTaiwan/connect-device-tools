@@ -1,10 +1,11 @@
-import fs from 'node:fs/promises'
 import process from 'node:process'
 import consola from 'consola'
-import { preprocessData, type SerializableData } from '~/modules/reportNotWorking/prepare'
-import type { Device } from '~/types'
+import type { SerializableData } from '~/prepare'
+import type { CommunicationEquipment, Device } from '~/types'
 import type { Payload } from '~/types/module'
-import { exit, formatDate, formatDateRange, performanceUtils, prompt, readFileContent, readFolderNames, writeFile } from '~/utils'
+import { readFileContent, readFolderNames, writeFile } from '~/utils/fs'
+import { formatDate, formatDateRange } from '~/utils/time'
+import { exit, performanceUtils, prompt } from '~/utils/tools'
 import type { ProcessedResult } from './dtos'
 
 export async function generateReportLastTimeWork(): Promise<void> {
@@ -39,25 +40,11 @@ export async function generateReportLastTimeWork(): Promise<void> {
   }
   consola.info(`共有 ${payload.length} 筆資料，共花費 ${(cost() / 1000).toFixed(2)} 秒`)
 
-  let preprocessedData: SerializableData
-  try {
-    await fs.access('./data/preprocessed_data.json')
-  }
-  catch {
-    consola.info('預處理數據不存在，將重新生成')
-
-    preprocessData()
-  }
-  finally {
-    preprocessedData = await readFileContent<SerializableData>('preprocessed_data')
-  }
-
   const { recordMap, startTime, endTime } = processPayload(payload)
   payload.length = 0
 
-  const { areaMap, devicesMap } = preprocessedData
-
-  const result = formatOutput(areaMap, devicesMap, recordMap, startTime, endTime)
+  const { areaMap, devicesMap, communicationEquipmentMap } = await readFileContent<SerializableData>('preprocessed_data')
+  const result = formatOutput(areaMap, devicesMap, communicationEquipmentMap, recordMap, startTime, endTime)
 
   consola.info(`已處理完畢，正在寫入檔案，共花費 ${(cost() / 1000).toFixed(2)} 秒`)
 
@@ -72,14 +59,14 @@ function processPayload(payload: Payload[]): ProcessedResult {
   let endTime = -Infinity
 
   for (const item of payload) {
-    const { source: { channel, gatewayId, communicationEquipmentId }, data, timestamp } = item
+    const { source: { gatewayId, communicationEquipmentId }, data, timestamp } = item
 
     for (let i = 0; i <= 15; i++) {
       const diKey = `DI${i}` as keyof typeof data
       if (data[diKey] === 1) {
         const key = `${gatewayId}/${communicationEquipmentId}/${diKey}`
-        if (!recordMap.has(key) || timestamp > recordMap.get(key)!.lastUpdateTime) {
-          recordMap.set(key, { lastUpdateTime: timestamp, channel })
+        if (!recordMap.has(key) || timestamp > recordMap.get(key)!) {
+          recordMap.set(key, timestamp)
         }
       }
     }
@@ -98,6 +85,7 @@ function processPayload(payload: Payload[]): ProcessedResult {
 function formatOutput(
   areaMap: Record<string, string>,
   devicesMap: Record<string, Device>,
+  communicationEquipmentMap: Record<string, CommunicationEquipment>,
   recordMap: ProcessedResult['recordMap'],
   startTime: number,
   endTime: number,
@@ -113,12 +101,13 @@ function formatOutput(
     signal.forEach(({ pin, light }) => {
       const di = pin.replace('R', 'DI')
       const key = `${gatewayId}/${communicationEquipmentId}/${di}`
-      const matchingSignal = recordMap.get(key)
+      const lastUpdateTime = recordMap.has(key) ? formatDate(recordMap.get(key)!) : '--'
 
-      const lastUpdateTime = matchingSignal?.lastUpdateTime ? formatDate(matchingSignal?.lastUpdateTime) : '--'
-      const [gateway, communicationEquipment] = matchingSignal?.channel.split('/') ?? ['--', '--']
+      const [gateway, communicationEquipment] = key.split('/')
+      const gatewayName = communicationEquipmentMap[gateway]?.name || '--'
+      const communicationEquipmentName = communicationEquipmentMap[communicationEquipment]?.name || '--'
 
-      lines.push(`${lines.length + 1}\t${gateway}\t${communicationEquipment}\t${di}\t${areaName}\t${name}\t${light}\t${lastUpdateTime}`)
+      lines.push(`${lines.length + 1}\t${gatewayName}\t${communicationEquipmentName}\t${di}\t${areaName}\t${name}\t${light}\t${lastUpdateTime}`)
     })
   }
 
@@ -128,7 +117,6 @@ function formatOutput(
 async function writeOutput(resultString: string): Promise<void> {
   const date = new Date()
   const formattedDate = `${date.getFullYear()}-${(date.getMonth() + 1).toString().padStart(2, '0')}-${date.getDate().toString().padStart(2, '0')}`
-  const outputFileName = `./output/${formattedDate}-report-last-time-work.txt`
 
-  await writeFile(outputFileName, resultString)
+  await writeFile(`${formattedDate}-report-last-time-work`, resultString)
 }

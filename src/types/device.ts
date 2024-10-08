@@ -7,6 +7,17 @@ export interface ConnectMap {
   }
 }
 
+export interface CommunicationEquipment {
+  _id: string
+  ip: string
+  model: string
+  name: string
+  pass: string
+  port: number
+  type: string
+  user: string
+}
+
 export interface Device {
   _id: string
   areaId: string

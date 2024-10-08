@@ -1,14 +1,12 @@
-import fs from 'node:fs/promises'
 import process from 'node:process'
 import { consola } from 'consola'
-import dotenv from 'dotenv'
-import type { Device } from '~/types'
+import type { SerializableData } from '~/prepare'
+import type { CommunicationEquipment, Device } from '~/types'
 import type { Payload } from '~/types/module'
-import { exit, formatDate, formatDateRange, performanceUtils, prompt, readFileContent, readFolderNames, writeFile } from '~/utils'
-import { preprocessData, type SerializableData } from './prepare'
+import { readFileContent, readFolderNames, writeFile } from '~/utils/fs'
+import { formatDate, formatDateRange } from '~/utils/time'
+import { exit, performanceUtils, prompt } from '~/utils/tools'
 import type { ProcessedResult } from './dtos'
-
-dotenv.config()
 
 export async function generateReportNotWorking(): Promise<void> {
   consola.start('開始產生未正常運作機具報表')
@@ -42,25 +40,11 @@ export async function generateReportNotWorking(): Promise<void> {
   }
   consola.info(`共有 ${payload.length} 筆資料，共花費 ${(cost() / 1000).toFixed(2)} 秒`)
 
-  let preprocessedData: SerializableData
-  try {
-    await fs.access('./data/preprocessed_data.json')
-  }
-  catch {
-    consola.info('預處理數據不存在，將重新生成')
-
-    preprocessData()
-  }
-  finally {
-    preprocessedData = await readFileContent<SerializableData>('preprocessed_data')
-  }
-
   const { recordMap, startTime, endTime } = processPayload(payload)
   payload.length = 0
 
-  const { areaMap, devicesMap } = preprocessedData
-
-  const result = formatOutput(areaMap, devicesMap, recordMap, startTime, endTime)
+  const { areaMap, devicesMap, communicationEquipmentMap } = await readFileContent<SerializableData>('preprocessed_data')
+  const result = formatOutput(areaMap, devicesMap, communicationEquipmentMap, recordMap, startTime, endTime)
 
   consola.info(`已處理完畢，正在寫入檔案，共花費 ${(cost() / 1000).toFixed(2)} 秒`)
 
@@ -71,7 +55,7 @@ export async function generateReportNotWorking(): Promise<void> {
 
 export function processPayload(payload: Payload[]): ProcessedResult {
   const diHistory: Record<string, boolean> = {}
-  const recordMap: ProcessedResult['recordMap'] = new Map()
+  const recordMap: ProcessedResult['recordMap'] = new Set()
   let startTime = Infinity
   let endTime = -Infinity
 
@@ -87,22 +71,12 @@ export function processPayload(payload: Payload[]): ProcessedResult {
       }
 
       if (!diHistory[key]) {
-        recordMap.set(key, {
-          channel: item.source.channel,
-          lastUpdateTime: timestamp,
-        })
-      }
-      else if (recordMap.has(key)) {
-        recordMap.delete(key)
+        recordMap.add(key)
       }
     }
 
-    if (timestamp < startTime) {
-      startTime = timestamp
-    }
-    if (timestamp > endTime) {
-      endTime = timestamp
-    }
+    startTime = Math.min(startTime, timestamp)
+    endTime = Math.max(endTime, timestamp)
   }
 
   return { recordMap, startTime, endTime }
@@ -114,13 +88,14 @@ export function processPayload(payload: Payload[]): ProcessedResult {
 function formatOutput(
   areaMap: Record<string, string>,
   devicesMap: Record<string, Device>,
+  communicationEquipmentMap: Record<string, CommunicationEquipment>,
   recordMap: ProcessedResult['recordMap'],
   startTime: number,
   endTime: number,
 ): string {
   const dateRange = formatDateRange(startTime, endTime)
 
-  const header = `\t${dateRange}\n#\tGateway\t通訊設備\tDI\t區域\t名稱\t燈號\t最後更新時間\n`
+  const header = `\t${dateRange}\n#\tGateway\t通訊設備\tDI\t區域\t名稱\t燈號\n`
   const lines: string[] = []
 
   for (const [_key, { name, areaId, gatewayId, communicationEquipmentId, signal }] of Object.entries(devicesMap)) {
@@ -129,15 +104,16 @@ function formatOutput(
     signal.forEach(({ pin, light }) => {
       const di = pin.replace('R', 'DI')
       const key = `${gatewayId}/${communicationEquipmentId}/${di}`
-      const matchingSignal = recordMap.get(key)
 
-      if (!matchingSignal)
+      if (!recordMap.has(key)) {
         return
+      }
 
-      const lastUpdateTime = formatDate(matchingSignal.lastUpdateTime)
-      const [gateway, communicationEquipment] = matchingSignal.channel.split('/')
+      const [gateway, communicationEquipment] = key.split('/')
+      const gatewayName = communicationEquipmentMap[gateway]?.name || '--'
+      const communicationEquipmentName = communicationEquipmentMap[communicationEquipment]?.name || '--'
 
-      lines.push(`${lines.length + 1}\t${gateway}\t${communicationEquipment}\t${di}\t${areaName}\t${name}\t${light}\t${lastUpdateTime}`)
+      lines.push(`${lines.length + 1}\t${gatewayName}\t${communicationEquipmentName}\t${di}\t${areaName}\t${name}\t${light}}`)
     })
   }
 
@@ -150,7 +126,6 @@ function formatOutput(
 async function writeOutput(resultString: string): Promise<void> {
   const date = new Date()
   const formattedDate = `${date.getFullYear()}-${(date.getMonth() + 1).toString().padStart(2, '0')}-${date.getDate().toString().padStart(2, '0')}`
-  const outputFileName = `./output/${formattedDate}-report-not-working.txt`
 
-  await writeFile(outputFileName, resultString)
+  await writeFile(`${formattedDate}-report-not-working`, resultString)
 }

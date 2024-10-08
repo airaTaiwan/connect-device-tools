@@ -36,7 +36,7 @@
     "dist"
   ],
   "scripts": {
-    "build": "unbuild",
+    "build": "unbuild --verbose",
     "lint": "eslint .",
     "release": "bumpp",
     "start": "esno src/cli.ts",

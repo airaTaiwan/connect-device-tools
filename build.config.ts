@@ -1,3 +1,4 @@
+import { fileURLToPath } from 'node:url'
 import { defineBuildConfig } from 'unbuild'
 
 export default defineBuildConfig({
@@ -8,6 +9,10 @@ export default defineBuildConfig({
   clean: true,
   rollup: {
     emitCJS: true,
+    inlineDependencies: true,
   },
-  externals: ['consola'],
+  alias: {
+    '~': fileURLToPath(new URL('./src', import.meta.url)),
+  },
+  externals: ['consola', 'cac'],
 })

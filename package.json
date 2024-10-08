@@ -40,8 +40,6 @@
     "lint": "eslint .",
     "release": "bumpp",
     "start": "esno src/cli.ts",
-    "report:not-working": "esno src/index.ts not-working",
-    "report:last-time-work": "esno src/index.ts last-time-work",
     "test": "vitest",
     "typecheck": "tsc --noEmit",
     "clean": "find output -type f ! -name 'README.md' -delete"

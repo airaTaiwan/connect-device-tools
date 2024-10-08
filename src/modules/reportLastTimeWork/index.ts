@@ -115,11 +115,8 @@ function formatOutput(
       const key = `${gatewayId}/${communicationEquipmentId}/${di}`
       const matchingSignal = recordMap.get(key)
 
-      if (!matchingSignal)
-        return
-
-      const lastUpdateTime = formatDate(matchingSignal.lastUpdateTime)
-      const [gateway, communicationEquipment] = matchingSignal.channel.split('/')
+      const lastUpdateTime = matchingSignal?.lastUpdateTime ? formatDate(matchingSignal?.lastUpdateTime) : '--'
+      const [gateway, communicationEquipment] = matchingSignal?.channel.split('/') ?? ['--', '--']
 
       lines.push(`${lines.length + 1}\t${gateway}\t${communicationEquipment}\t${di}\t${areaName}\t${name}\t${light}\t${lastUpdateTime}`)
     })

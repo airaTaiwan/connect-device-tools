@@ -2,7 +2,7 @@ import fs from 'node:fs/promises'
 import process from 'node:process'
 import consola from 'consola'
 import { preprocessData, type serializableData } from '~/modules/reportNotWorking/prepare'
-import type { Device } from '~/type'
+import type { Device } from '~/types'
 import { exit, formatDate, performanceUtils, prompt, readFileContent, readFolderNames, writeFile } from '~/utils'
 import type { Payload, ProcessedResult } from './dtos'
 

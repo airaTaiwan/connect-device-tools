@@ -2,8 +2,8 @@ import fs from 'node:fs/promises'
 import process from 'node:process'
 import { consola } from 'consola'
 import dotenv from 'dotenv'
+import type { ConnectMap, Device } from '~/types'
 import { readFileContent } from '../../utils'
-import type { ConnectMap, Device } from '../../type'
 
 export interface PreprocessedData {
   devicesMap: Map<string, Device>

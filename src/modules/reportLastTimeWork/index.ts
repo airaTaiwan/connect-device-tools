@@ -1,7 +1,7 @@
 import process from 'node:process'
 import consola from 'consola'
 import type { SerializableData } from '~/prepare'
-import type { CommunicationEquipment, Device } from '~/types'
+import { type CommunicationEquipment, type Device, Lights } from '~/types'
 import type { Payload } from '~/types/module'
 import { readFileContent, readFolderNames, writeFile } from '~/utils/fs'
 import { formatDate, formatDateRange } from '~/utils/time'
@@ -101,13 +101,15 @@ function formatOutput(
     signal.forEach(({ pin, light }) => {
       const di = pin.replace('R', 'DI')
       const key = `${gatewayId}/${communicationEquipmentId}/${di}`
-      const lastUpdateTime = recordMap.has(key) ? formatDate(recordMap.get(key)!) : '--'
+      const hasRecord = recordMap.has(key)
+      const lastUpdateTime = hasRecord ? formatDate(recordMap.get(key)!) : '--'
+      const lastLight = hasRecord ? light : Lights.B
 
       const [gateway, communicationEquipment] = key.split('/')
       const gatewayName = communicationEquipmentMap[gateway]?.name || '--'
       const communicationEquipmentName = communicationEquipmentMap[communicationEquipment]?.name || '--'
 
-      lines.push(`${lines.length + 1}\t${gatewayName}\t${communicationEquipmentName}\t${di}\t${areaName}\t${name}\t${light}\t${lastUpdateTime}`)
+      lines.push(`${lines.length + 1}\t${gatewayName}\t${communicationEquipmentName}\t${di}\t${areaName}\t${name}\t${lastLight}\t${lastUpdateTime}`)
     })
   }
 

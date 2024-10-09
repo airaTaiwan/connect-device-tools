@@ -4,7 +4,7 @@ import type { SerializableData } from '~/prepare'
 import type { CommunicationEquipment, Device } from '~/types'
 import type { Payload } from '~/types/module'
 import { readFileContent, readFolderNames, writeFile } from '~/utils/fs'
-import { formatDate, formatDateRange } from '~/utils/time'
+import { formatDateRange } from '~/utils/time'
 import { exit, performanceUtils, prompt } from '~/utils/tools'
 import type { ProcessedResult } from './dtos'
 
@@ -73,10 +73,17 @@ export function processPayload(payload: Payload[]): ProcessedResult {
       if (!diHistory[key]) {
         recordMap.add(key)
       }
+      else if (recordMap.has(key)) {
+        recordMap.delete(key)
+      }
     }
 
-    startTime = Math.min(startTime, timestamp)
-    endTime = Math.max(endTime, timestamp)
+    if (timestamp < startTime) {
+      startTime = timestamp
+    }
+    if (timestamp > endTime) {
+      endTime = timestamp
+    }
   }
 
   return { recordMap, startTime, endTime }
@@ -113,7 +120,7 @@ function formatOutput(
       const gatewayName = communicationEquipmentMap[gateway]?.name || '--'
       const communicationEquipmentName = communicationEquipmentMap[communicationEquipment]?.name || '--'
 
-      lines.push(`${lines.length + 1}\t${gatewayName}\t${communicationEquipmentName}\t${di}\t${areaName}\t${name}\t${light}}`)
+      lines.push(`${lines.length + 1}\t${gatewayName}\t${communicationEquipmentName}\t${di}\t${areaName}\t${name}\t${light}`)
     })
   }
 

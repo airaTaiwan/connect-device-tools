@@ -6,5 +6,6 @@ export function formatDate(timestamp: number): string {
 export function formatDateRange(startTime: number, endTime: number): string {
   const startDate = new Date(startTime)
   const endDate = new Date(endTime)
-  return `${startDate.getMonth() + 1}/${startDate.getDate()} - ${endDate.getMonth() + 1}/${endDate.getDate()}`
+
+  return `${startDate.getMonth() + 1}/${startDate.getDate()} ${startDate.getHours().toString().padStart(2, '0')}:${startDate.getMinutes().toString().padStart(2, '0')} - ${endDate.getMonth() + 1}/${endDate.getDate()} ${endDate.getHours().toString().padStart(2, '0')}:${endDate.getMinutes().toString().padStart(2, '0')}`
 }
